@@ -1,0 +1,65 @@
+# ================================================================
+#  FACELESS REELS AUTOPILOT  -  settings
+#  Edit the words after the ":"  Keep the spaces at the start of lines.
+# ================================================================
+
+page:
+  handle: "@dhruviverse.official"      # shown small at the bottom of every reel
+  niche: "beauty tips, beauty facts, aesthetic quotes and budget finds"
+  base_hashtags: ["#makeuptips", "#beautytips", "#makeuphacks", "#indianmakeup", "#budgetmakeup", "#skincare", "#reels", "#beautyhacks"]
+  follow_line: "Follow {handle} for daily beauty tips, facts and finds!"
+
+posting:
+  instagram: true            # post to Instagram Reels
+  youtube: true              # post to YouTube Shorts
+  youtube_privacy: "public"  # public / unlisted / private
+  youtube_category: "26"     # 26 = Howto & Style
+  share_to_feed: true        # reel also shows in your Instagram grid
+  # How the video reaches Instagram (Instagram downloads it from a link):
+  #   auto      = recommended. Facebook-login token: direct upload, no link needed.
+  #               Instagram-login token: GitHub Release link (repo must be PUBLIC),
+  #               then a free temporary host (litterbox) as backup.
+  #   github    = only the GitHub Release link
+  #   litterbox = only the free temporary host (auto-deletes after 24 h)
+  video_host: "auto"
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  hook_seconds: 3.2
+  tip_seconds: 3.6
+  cta_seconds: 3.0
+  transition: "fade"          # fade / smoothleft / smoothup / circleopen / dissolve
+  transition_seconds: 0.45
+  max_tips: 4
+  # Where background clips come from:
+  #   pexels    = free stock videos (needs free PEXELS_API_KEY), falls back to photos
+  #   my_clips  = YOUR OWN videos/photos you put in assets/my_clips
+  #   mixed     = your clips first, then Pexels
+  background_source: "pexels"
+  theme:
+    accent: "#F7C6D0"         # soft pink
+    text: "#FFFFFF"
+    card: "#1A1018"           # card colour behind tip text
+    card_opacity: 0.55
+    darken: 0.28              # 0 = no darkening of background, 0.5 = dark
+
+audio:
+  music: true                 # random track from assets/music
+  music_volume: 0.55          # when there is NO voice
+  music_volume_with_voice: 0.16
+  voiceover: false            # true = free AI voice reads the text (edge-tts)
+  voice: "en-IN-NeerjaNeural" # Indian English female. Hindi: hi-IN-SwaraNeural
+  voice_rate: "+6%"
+
+captions:
+  # Optional free AI captions with Google Gemini (needs GEMINI_API_KEY secret).
+  use_gemini: false
+  max_hashtags: 15
+  emoji_bullets: ["✨", "💄", "💖", "🌸", "💋", "🌷"]
+
+topics:
+  # Which kinds of reels to post. Remove a word to stop that kind.
+  content_types: ["tip", "fact", "quote", "find"]
+  when_finished: "repeat"     # repeat = start the list again, stop = post nothing

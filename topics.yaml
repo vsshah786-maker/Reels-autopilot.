@@ -1,0 +1,370 @@
+# ================================================================
+#  YOUR CONTENT LIST  -  one reel per entry, posted from top to bottom.
+#
+#  type    = tip / fact / quote / find   (each type has its own look)
+#            Don't want a type? Delete those entries, or turn the type off
+#            in config.yaml -> content_types.
+#  id      = any unique number (never reuse a number)
+#  hook    = the big first line (stops the scroll). Keep it short!
+#            For a quote, this is the quote itself.
+#  tips    = 3 or 4 short lines (max ~12 words each). Quotes: leave as []
+#  cta     = last screen ("Save this", "Comment ...", "Follow ...")
+#  search  = English words used to find matching free background videos
+#  hashtags= extra hashtags for this reel only
+#
+#  To add a reel: copy one block (from "- id:" down to "hashtags:"),
+#  paste it at the bottom and change the words. Spaces at the start matter!
+#  Meesho finds are generic ideas - no prices or fake product claims.
+# ================================================================
+
+- id: 1
+  type: tip
+  hook: "Kajal smudges by noon? Try this"
+  tips:
+    - "Apply a thin layer of loose powder under your eyes first"
+    - "Line with kajal, then set it with matching eyeshadow"
+    - "Keep it off the lower waterline if your eyes water"
+    - "Clean the edge with a cotton bud dipped in moisturiser"
+  cta: "Save this for your next long day"
+  search: ["eye makeup", "eyeliner", "makeup closeup"]
+  hashtags: ["#kajal", "#eyemakeup", "#smudgeproof"]
+
+- id: 2
+  type: fact
+  hook: "Beauty facts nobody told you"
+  tips:
+    - "Your lips have no oil glands, that is why they dry fast"
+    - "Mascara should be replaced every 3 months"
+    - "Skin renews itself roughly every 28 days"
+    - "Sleeping on your back can mean fewer face creases"
+  cta: "Which one surprised you?"
+  search: ["skincare", "lips closeup", "mascara"]
+  hashtags: ["#beautyfacts", "#didyouknow"]
+
+- id: 3
+  type: quote
+  hook: "Glow is not makeup. Glow is how you treat yourself."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["aesthetic flowers", "soft light", "pink aesthetic"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 4
+  type: find
+  hook: "Meesho finds: jewellery that looks expensive"
+  tips:
+    - "Oxidised jhumkas for kurtis and sarees"
+    - "Pearl drop earrings for office looks"
+    - "Layered gold-tone necklaces"
+    - "Tip: check real customer photos before buying"
+  cta: "Comment JEWEL for more finds"
+  search: ["earrings", "jewellery", "gold necklace"]
+  hashtags: ["#meeshofinds", "#jewellery", "#budgetfinds"]
+
+- id: 5
+  type: tip
+  hook: "Make your lipstick last all day"
+  tips:
+    - "Exfoliate lips with sugar and a drop of honey"
+    - "Line and fill the whole lip with lip liner"
+    - "Apply lipstick, blot with tissue, apply again"
+    - "Press a little translucent powder through the tissue"
+  cta: "Which lipstick shade are you wearing today?"
+  search: ["lipstick", "red lips", "lip makeup"]
+  hashtags: ["#lipstick", "#longlastinglipstick", "#liphacks"]
+
+- id: 6
+  type: fact
+  hook: "Did you know this about sunscreen?"
+  tips:
+    - "UVA rays pass through window glass"
+    - "SPF only measures UVB protection"
+    - "Most people apply less than half the amount needed"
+    - "Sunscreen needs reapplying after sweating"
+  cta: "Save this and wear your SPF"
+  search: ["sunscreen", "sunlight skin", "skincare"]
+  hashtags: ["#sunscreenfacts", "#spf"]
+
+- id: 7
+  type: quote
+  hook: "Be the girl who decided to go for it."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["sunset aesthetic", "city lights", "girl walking"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 8
+  type: find
+  hook: "Meesho finds: hair accessories under budget"
+  tips:
+    - "Claw clips in neutral shades"
+    - "Satin scrunchies, gentler on hair"
+    - "Pearl hair pins for festive looks"
+    - "Tip: sort by ratings, not just price"
+  cta: "Save this for your next order"
+  search: ["hair clip", "hair accessories", "hairstyle"]
+  hashtags: ["#meeshofinds", "#hairaccessories"]
+
+- id: 9
+  type: tip
+  hook: "Foundation looking cakey? Here is why"
+  tips:
+    - "Moisturise and wait 2 minutes before foundation"
+    - "Use less product, build only where you need it"
+    - "Use a damp sponge, press, never drag"
+    - "Mist face with rose water to melt everything in"
+  cta: "Save it and thank me later"
+  search: ["foundation makeup", "makeup sponge", "skin glow"]
+  hashtags: ["#foundation", "#cakeyfoundation", "#baseMakeup"]
+
+- id: 10
+  type: fact
+  hook: "Facts about your hair you will love"
+  tips:
+    - "Hair grows about 1 to 1.5 cm a month"
+    - "Wet hair is weaker, comb it gently"
+    - "Heat styling without protection damages the cuticle"
+    - "Silk or satin pillowcases reduce friction"
+  cta: "Send this to your hair-care bestie"
+  search: ["hair care", "long hair", "hair brush"]
+  hashtags: ["#haircare", "#hairfacts"]
+
+- id: 11
+  type: quote
+  hook: "Soft heart, strong mind, golden skin."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["golden hour", "sunlight", "aesthetic"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 12
+  type: find
+  hook: "Meesho finds: everyday kurtis worth a look"
+  tips:
+    - "Cotton straight kurtis for daily wear"
+    - "Kurti sets with dupatta for functions"
+    - "Short kurtis to pair with jeans"
+    - "Tip: always check the size chart in inches"
+  cta: "Which style is your favourite?"
+  search: ["indian fashion", "kurti", "ethnic wear"]
+  hashtags: ["#meeshofinds", "#kurti", "#ethnicwear"]
+
+- id: 13
+  type: tip
+  hook: "Dark circles? Hide them the right way"
+  tips:
+    - "Use a peach or orange corrector first"
+    - "Concealer only one shade lighter, not more"
+    - "Tap it in with your ring finger"
+    - "Set with a tiny bit of powder"
+  cta: "Save this for those no-sleep days"
+  search: ["concealer", "under eye", "makeup application"]
+  hashtags: ["#darkcircles", "#concealer", "#colorcorrecting"]
+
+- id: 14
+  type: fact
+  hook: "Makeup expiry dates you are ignoring"
+  tips:
+    - "Mascara: about 3 months after opening"
+    - "Liquid foundation: around 6 to 12 months"
+    - "Lipstick: roughly 1 to 2 years"
+    - "Look for the open-jar symbol on the pack"
+  cta: "Go check your makeup bag now"
+  search: ["makeup products", "cosmetics", "makeup bag"]
+  hashtags: ["#makeupexpiry", "#makeupfacts"]
+
+- id: 15
+  type: quote
+  hook: "Your only competition is who you were yesterday."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["morning coffee", "journal aesthetic", "sunrise"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 16
+  type: find
+  hook: "Meesho finds: makeup organisers"
+  tips:
+    - "Acrylic organisers for your dressing table"
+    - "Brush holders to keep bristles clean"
+    - "Small pouches for your daily bag"
+    - "Tip: measure your shelf before ordering"
+  cta: "Save it for your vanity glow-up"
+  search: ["makeup organizer", "vanity", "makeup table"]
+  hashtags: ["#meeshofinds", "#vanity", "#organisation"]
+
+- id: 17
+  type: tip
+  hook: "Make small eyes look bigger instantly"
+  tips:
+    - "Use a nude or white liner on the waterline"
+    - "Curl your lashes, then mascara on top lashes"
+    - "Wing your liner slightly upwards, keep it thin"
+    - "Add a little shimmer in the inner corner"
+  cta: "Save this before your next function"
+  search: ["eye makeup", "mascara", "eyelashes"]
+  hashtags: ["#smalleyes", "#eyemakeuptips", "#bigeyes"]
+
+- id: 18
+  type: fact
+  hook: "Skin facts for oily skin girls"
+  tips:
+    - "Over-washing can make skin oilier"
+    - "Oily skin still needs moisturiser"
+    - "Gel textures feel lighter on oily skin"
+    - "Blotting removes oil without adding powder"
+  cta: "Tag your oily skin friend"
+  search: ["skincare routine", "face wash", "fresh face"]
+  hashtags: ["#oilyskin", "#skinfacts"]
+
+- id: 19
+  type: quote
+  hook: "Bloom where you are planted."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["flowers bloom", "pink flowers", "garden"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 20
+  type: find
+  hook: "Meesho finds: bags for college and office"
+  tips:
+    - "Big tote bags that fit a laptop"
+    - "Mini sling bags for outings"
+    - "Clutches for weddings and parties"
+    - "Tip: zoom into photos to check stitching"
+  cta: "Comment BAG and tell me your style"
+  search: ["handbag", "tote bag", "fashion accessories"]
+  hashtags: ["#meeshofinds", "#bags", "#budgetfashion"]
+
+- id: 21
+  type: tip
+  hook: "Make your kajal look like eyeliner"
+  tips:
+    - "Warm the kajal tip for 2 seconds with your palm"
+    - "Draw a thin line close to the lashes"
+    - "Pull it out into a small wing"
+    - "Sharpen the wing with concealer on a flat brush"
+  cta: "Save it, one product, two looks"
+  search: ["eyeliner", "winged eyeliner", "eye makeup"]
+  hashtags: ["#kajalhack", "#wingedliner", "#eyelinerhacks"]
+
+- id: 22
+  type: fact
+  hook: "Why your makeup looks different in photos"
+  tips:
+    - "Flash can bounce off some SPF and shimmer"
+    - "Cameras flatten blush, so wear a bit more"
+    - "Warm indoor light makes base look orange"
+    - "Daylight is the most honest light"
+  cta: "Save this before your next photoshoot"
+  search: ["photoshoot makeup", "camera beauty", "makeup artist"]
+  hashtags: ["#makeupfacts", "#photomakeup"]
+
+- id: 23
+  type: quote
+  hook: "Confidence is the best thing you can wear."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["fashion aesthetic", "mirror", "perfume bottle"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 24
+  type: find
+  hook: "Meesho finds: festive wear on a budget"
+  tips:
+    - "Lightweight sarees for long functions"
+    - "Lehenga sets for sangeet nights"
+    - "Embroidered dupattas to restyle old suits"
+    - "Tip: read reviews for real colour"
+  cta: "Save this for wedding season"
+  search: ["saree", "lehenga", "indian wedding"]
+  hashtags: ["#meeshofinds", "#festivewear", "#saree"]
+
+- id: 25
+  type: tip
+  hook: "Make cheap eyeshadow look expensive"
+  tips:
+    - "Use a primer or concealer as a base"
+    - "Apply with a damp brush for more colour"
+    - "Pat shimmer with your finger, do not swipe"
+    - "Blend the edges, always blend the edges"
+  cta: "Save it and try with your old palette"
+  search: ["eyeshadow palette", "eyeshadow", "eye makeup"]
+  hashtags: ["#eyeshadow", "#eyeshadowhacks", "#budgetmakeup"]
+
+- id: 26
+  type: fact
+  hook: "Little nail facts"
+  tips:
+    - "Nails grow faster in summer"
+    - "White spots are usually from small knocks"
+    - "Cuticles protect nails, push them, do not cut"
+    - "Base coat helps stop polish staining"
+  cta: "Which colour are your nails today?"
+  search: ["nail polish", "manicure", "nails"]
+  hashtags: ["#nailfacts", "#nailcare"]
+
+- id: 27
+  type: quote
+  hook: "Slow mornings, clear skin, peaceful mind."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["morning routine", "coffee aesthetic", "soft light"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 28
+  type: find
+  hook: "Meesho finds: skincare tools"
+  tips:
+    - "Jade or ice rollers for a morning de-puff"
+    - "Reusable cotton pads for makeup removal"
+    - "Silicone face scrubber for gentle cleansing"
+    - "Tip: wash tools after every use"
+  cta: "Which one would you try first?"
+  search: ["skincare tools", "face roller", "skincare"]
+  hashtags: ["#meeshofinds", "#skincaretools"]
+
+- id: 29
+  type: tip
+  hook: "Stop applying concealer like this"
+  tips:
+    - "Do not draw a full triangle under the eyes"
+    - "Dot it only on the inner and outer corners"
+    - "Blend with a damp sponge, not your fingers pulling"
+    - "Less product equals fewer creases"
+  cta: "Did you know this? Yes or no"
+  search: ["concealer", "makeup sponge", "makeup application"]
+  hashtags: ["#concealerhack", "#undereyeconcealer", "#makeuptips"]
+
+- id: 30
+  type: fact
+  hook: "Facts about your face you did not know"
+  tips:
+    - "Most faces are not perfectly symmetrical"
+    - "Under-eye skin is the thinnest on the face"
+    - "Your nose and chin keep subtly changing with age"
+    - "Smiling uses fewer muscles than you think"
+  cta: "Follow for daily beauty facts"
+  search: ["beauty portrait", "skin glow", "face cream"]
+  hashtags: ["#funfacts", "#beautyfacts"]
+
+- id: 31
+  type: quote
+  hook: "Invest in yourself. It pays the best interest."
+  tips: []
+  cta: "Save this for a slow day"
+  search: ["aesthetic desk", "books", "candle"]
+  hashtags: ["#aestheticquotes", "#selflove", "#quotes"]
+
+- id: 32
+  type: find
+  hook: "Meesho finds: everyday footwear"
+  tips:
+    - "Comfortable flat sandals for daily use"
+    - "Block heels you can actually walk in"
+    - "Kolhapuri style flats for ethnic looks"
+    - "Tip: check the size chart, sizes vary"
+  cta: "Follow for more budget finds"
+  search: ["sandals", "footwear", "fashion shoes"]
+  hashtags: ["#meeshofinds", "#footwear", "#budgetfashion"]
