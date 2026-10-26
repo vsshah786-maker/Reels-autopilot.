@@ -1,0 +1,94 @@
+name: Daily reel
+
+on:
+  schedule:
+    - cron: "30 13 * * *"     # every day 13:30 UTC = 7:00 PM India time (GitHub may start it a little late)
+  workflow_dispatch:            # the "Run workflow" button = post now
+    inputs:
+      post:
+        description: "Post to Instagram/YouTube? (no = only make the video)"
+        type: choice
+        options: ["yes", "no"]
+        default: "yes"
+      topic_id:
+        description: "Topic id to use (leave empty = next one in the list)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write               # to save posted.json (so topics never repeat)
+
+concurrency:
+  group: daily-reel
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install ffmpeg + Python packages
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q -r requirements.txt
+
+      - name: Refresh Instagram token (keeps it alive past 60 days)
+        continue-on-error: true
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python -m autopilot refresh-token
+
+      - name: Save refreshed token back into Secrets (only if GH_PAT secret exists)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -n "$GH_TOKEN" ] && [ -s .ig_token_new ]; then
+            gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" < .ig_token_new && echo "Token saved."
+          else
+            echo "No GH_PAT secret - remember to renew the Instagram token every ~55 days (see guide)."
+          fi
+          rm -f .ig_token_new
+
+      - name: Make and post today's reel
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.post }}" = "no" ]; then ARGS="$ARGS --no-post"; fi
+          if [ -n "${{ github.event.inputs.topic_id }}" ]; then ARGS="$ARGS --topic ${{ github.event.inputs.topic_id }}"; fi
+          python -m autopilot run $ARGS
+
+      - name: Keep the video + caption for 7 days (Actions > this run > Artifacts)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel
+          path: |
+            output/*.mp4
+            output/caption.txt
+            logs/autopilot.log
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Remember what was posted
+        if: always()
+        run: |
+          git config user.name "reels-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add posted.json || true
+          git diff --cached --quiet || (git commit -m "Posted reel $(date -u +%F)" && git push)
