@@ -7,6 +7,7 @@ Order of preference depends on config video.background_source:
 import hashlib
 import os
 import random
+import re
 from pathlib import Path
 
 import requests
@@ -48,7 +49,7 @@ def _dl(url, suffix):
 
 # ---------------- Pexels (free key from pexels.com/api) ----------------
 def pexels_videos(query, n, used):
-    key = secret("PEXELS_API_KEY")
+    key = pexels_key()
     if not key:
         return []
     r = requests.get("https://api.pexels.com/videos/search", headers={"Authorization": key},
@@ -79,7 +80,7 @@ def pexels_videos(query, n, used):
 
 
 def pexels_photos(query, n, used):
-    key = secret("PEXELS_API_KEY")
+    key = pexels_key()
     if not key:
         return []
     r = requests.get("https://api.pexels.com/v1/search", headers={"Authorization": key},
@@ -95,6 +96,96 @@ def pexels_photos(query, n, used):
             continue
         used.add(ph["id"])
         out.append(Background(p, "image", f"Photo by {ph.get('photographer', 'Pexels')} on Pexels"))
+        if len(out) >= n:
+            break
+    return out
+
+
+# ---------------- Pixabay (free key from pixabay.com/api/docs) ----------------
+_PIXABAY_RE = re.compile(r"^\d+-[0-9a-f]{16,}$")
+
+
+def pixabay_key():
+    """PIXABAY_API_KEY, or a Pixabay-style key saved under PEXELS_API_KEY (both work)."""
+    k = secret("PIXABAY_API_KEY")
+    if k:
+        return k
+    k = secret("PEXELS_API_KEY")
+    if k and _PIXABAY_RE.match(k):
+        return k
+    return None
+
+
+def pexels_key():
+    k = secret("PEXELS_API_KEY")
+    if k and not _PIXABAY_RE.match(k):
+        return k
+    return None
+
+
+def pixabay_videos(query, n, used):
+    key = pixabay_key()
+    if not key:
+        return []
+    r = requests.get("https://pixabay.com/api/videos/", headers=UA, timeout=30,
+                     params={"key": key, "q": query[:100], "per_page": 30, "safesearch": "true"})
+    r.raise_for_status()
+    hits = r.json().get("hits", [])
+    random.shuffle(hits)
+    # prefer vertical clips, landscape ones get centre-cropped
+    hits.sort(key=lambda h: 0 if any((v or {}).get("height", 0) > (v or {}).get("width", 1)
+                                     for v in (h.get("videos") or {}).values()) else 1)
+    out = []
+    for h in hits:
+        hid = f"pxb{h.get('id')}"
+        if hid in used or h.get("duration", 0) < 4:
+            continue
+        vids = h.get("videos") or {}
+        pick = None
+        for size in ("large", "medium", "small"):
+            v = vids.get(size) or {}
+            if v.get("url") and max(v.get("width", 0), v.get("height", 0)) >= 1280:
+                pick = v
+                break
+        if not pick:
+            v = vids.get("medium") or vids.get("small") or {}
+            pick = v if v.get("url") else None
+        if not pick:
+            continue
+        try:
+            p = _dl(pick["url"], ".mp4")
+        except Exception as e:
+            log.warning(f"Pixabay download failed: {e}")
+            continue
+        used.add(hid)
+        out.append(Background(p, "video", f"Video by {h.get('user', 'Pixabay')} on Pixabay"))
+        if len(out) >= n:
+            break
+    return out
+
+
+def pixabay_photos(query, n, used):
+    key = pixabay_key()
+    if not key:
+        return []
+    r = requests.get("https://pixabay.com/api/", headers=UA, timeout=30,
+                     params={"key": key, "q": query[:100], "orientation": "vertical", "image_type": "photo",
+                             "per_page": 30, "safesearch": "true"})
+    r.raise_for_status()
+    out = []
+    for h in r.json().get("hits", []):
+        hid = f"pxbi{h.get('id')}"
+        if hid in used:
+            continue
+        url = h.get("largeImageURL") or h.get("webformatURL")
+        if not url:
+            continue
+        try:
+            p = _dl(url, ".jpg")
+        except Exception:
+            continue
+        used.add(hid)
+        out.append(Background(p, "image", f"Image by {h.get('user', 'Pixabay')} on Pixabay"))
         if len(out) >= n:
             break
     return out
@@ -189,12 +280,17 @@ def get_backgrounds(topic, n, cfg):
 
     if source in ("my_clips", "mixed"):
         out += my_clips(n, used, repeat=(source == "my_clips"))
-    if source in ("pexels", "mixed"):
-        if secret("PEXELS_API_KEY"):
+    if source in ("pexels", "pixabay", "mixed"):
+        if pexels_key():
             fill(pexels_videos, "Pexels videos")
+        if pixabay_key():
+            fill(pixabay_videos, "Pixabay videos")
+        if pexels_key():
             fill(pexels_photos, "Pexels photos")
-        else:
-            log.warning("No PEXELS_API_KEY - using free Creative Commons photos from Openverse instead")
+        if pixabay_key():
+            fill(pixabay_photos, "Pixabay photos")
+        if not pexels_key() and not pixabay_key():
+            log.warning("No Pexels/Pixabay key - using free Creative Commons photos from Openverse instead")
         fill(openverse_photos, "Openverse photos")
     i = 0
     while len(out) < n:

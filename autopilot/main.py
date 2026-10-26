@@ -74,7 +74,7 @@ def cmd_check(args):
     ok = True
     cfg = load_config()
     print("Topics:", len(load_topics()), "| content types:", cfg.get("topics", {}).get("content_types"))
-    print("Pexels key:", "found" if secret("PEXELS_API_KEY") else "MISSING (free Openverse photos will be used)")
+    print("Stock video key (Pexels or Pixabay):", "found" if (secret("PEXELS_API_KEY") or secret("PIXABAY_API_KEY")) else "MISSING (free Openverse photos will be used)")
     if cfg["posting"].get("instagram", True):
         try:
             from .instagram import Instagram
