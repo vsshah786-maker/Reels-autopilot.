@@ -11,6 +11,19 @@
         "youtube: Missing secrets: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261027",
+      "type": "illustrated",
+      "lang": "en",
+      "hook": "Saying 'I have nothing to wear' while staring at a full wardrobe.",
+      "date": "2026-10-27T21:42+05:30",
+      "instagram": null,
+      "youtube": "skipped",
+      "errors": [
+        "instagram: Instagram said: API access blocked."
+      ],
+      "success": false
     }
   ]
 }
