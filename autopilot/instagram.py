@@ -74,6 +74,13 @@ class Instagram:
             time.sleep(10)
         raise InstagramError("Instagram took too long to process the video")
 
+    @staticmethod
+    def _thumb():
+        """Cover frame: IG_THUMB_OFFSET_MS (set by illustrated mode) picks the frame where the text is fully shown."""
+        import os
+        ms = os.environ.get("IG_THUMB_OFFSET_MS", "").strip()
+        return {"thumb_offset": ms} if ms.isdigit() else {}
+
     def publish_reel(self, video_path, caption, share_to_feed=True, video_host="auto", tag="reel"):
         me = self.whoami()
         log.info(f"    Posting to Instagram as @{me.get('username')}")
@@ -84,7 +91,8 @@ class Instagram:
             else:
                 url, cleanup = public_url(video_path, "auto" if video_host in ("auto", "direct") else video_host, tag)
                 container = self.post(f"{self.user_id}/media", media_type="REELS", video_url=url,
-                                      caption=caption, share_to_feed=str(bool(share_to_feed)).lower())["id"]
+                                      caption=caption, share_to_feed=str(bool(share_to_feed)).lower(),
+                                      **self._thumb())["id"]
             self.wait_ready(container)
             media = self.post(f"{self.user_id}/media_publish", creation_id=container)
             log.info(f"    Instagram reel published, id {media['id']}")
@@ -99,7 +107,7 @@ class Instagram:
     def _resumable(self, video_path, caption, share_to_feed):
         import os
         c = self.post(f"{self.user_id}/media", media_type="REELS", upload_type="resumable",
-                      caption=caption, share_to_feed=str(bool(share_to_feed)).lower())
+                      caption=caption, share_to_feed=str(bool(share_to_feed)).lower(), **self._thumb())
         size = os.path.getsize(video_path)
         with open(video_path, "rb") as f:
             r = self.http.post(f"https://rupload.facebook.com/ig-api-upload/{self.version}/{c['id']}",

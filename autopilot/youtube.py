@@ -26,12 +26,12 @@ def channel_name(yt=None):
     return items[0]["snippet"]["title"] if items else None
 
 
-def upload_short(video_path, title, description, tags, privacy="public", category="26", yt=None):
+def upload_short(video_path, title, description, tags, privacy="public", category="26", yt=None, made_for_kids=False):
     from googleapiclient.http import MediaFileUpload
     yt = yt or service()
     body = {
         "snippet": {"title": title, "description": description, "tags": tags, "categoryId": str(category)},
-        "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
+        "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": bool(made_for_kids), "containsSyntheticMedia": False},
     }
     media = MediaFileUpload(str(video_path), mimetype="video/mp4", chunksize=-1, resumable=True)
     req = yt.videos().insert(part="snippet,status", body=body, media_body=media)
