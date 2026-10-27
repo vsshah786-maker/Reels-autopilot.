@@ -17,6 +17,27 @@ from .common import (OUTPUT, ROOT, load_config, load_env_file, load_posted, load
 
 def cmd_run(args):
     cfg = load_config()
+    mode = str(cfg.get("content_mode", "tips")).strip().lower()
+    if mode == "illustrated":
+        # backup pictures uploaded from a phone can be named x.jpg.jpeg: make a .jpg copy for this run
+        import shutil
+        _ill = ROOT / "assets" / "illustrated"
+        if _ill.exists():
+            for _p in list(_ill.glob("*.jpeg")) + list(_ill.glob("*.JPEG")):
+                _t = _ill / (_p.name.split(".")[0] + ".jpg")
+                if not _t.exists():
+                    shutil.copy(_p, _t)
+        from .illustrated import run_illustrated
+        return run_illustrated(args, cfg, load_posted(), save_posted)
+    if mode == "quotes":
+        from .quotes import run_quotes
+        return run_quotes(args, cfg, load_posted(), save_posted)
+    if mode == "beauty":
+        from .beauty import run_beauty
+        return run_beauty(args, cfg, load_posted(), save_posted)
+    if mode == "story":
+        from .story import run_story
+        return run_story(args, cfg, load_posted(), save_posted)
     topics = load_topics()
     posted = load_posted()
     from .content import pick_topic
