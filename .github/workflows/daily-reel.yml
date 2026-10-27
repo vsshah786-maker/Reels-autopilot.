@@ -2,7 +2,7 @@ name: Daily reel
 
 on:
   schedule:
-    - cron: "30 13 * * *"     # every day 13:30 UTC = 7:00 PM India time (GitHub may start it a little late)
+    - cron: "30 15 * * *"     # every day 15:30 UTC = 9:00 PM India time (GitHub may start it a little late)
   workflow_dispatch:            # the "Run workflow" button = post now
     inputs:
       post:
@@ -11,7 +11,7 @@ on:
         options: ["yes", "no"]
         default: "yes"
       topic_id:
-        description: "Topic id to use (leave empty = next one in the list)"
+        description: "Line/topic id to use (leave empty = automatic). Illustrated mode: a number from quotes_multi.yaml"
         required: false
         default: ""
 
@@ -25,7 +25,7 @@ concurrency:
 jobs:
   reel:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -36,7 +36,7 @@ jobs:
 
       - name: Install ffmpeg + Python packages
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libharfbuzz0b > /dev/null
           pip install -q -r requirements.txt
 
       - name: Refresh Instagram token (keeps it alive past 60 days)
@@ -60,12 +60,17 @@ jobs:
       - name: Make and post today's reel
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PEXELS_REAL_KEY: ${{ secrets.PEXELS_REAL_KEY }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ARGS=""
@@ -81,6 +86,7 @@ jobs:
           path: |
             output/*.mp4
             output/caption.txt
+            output/youtube.json
             logs/autopilot.log
           retention-days: 7
           if-no-files-found: ignore
