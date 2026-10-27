@@ -3,14 +3,98 @@
 #  Edit the words after the ":"  Keep the spaces at the start of lines.
 # ================================================================
 
+# What kind of reel to make every day (change ONE word):
+#   illustrated = illustrated quote reel: one pretty illustration (made fresh daily, free) + a viral line in
+#            bold text with orange key words + soft music. Language rotates daily: English, Hinglish, Hindi, Gujarati
+#            -> settings in "illustrated:" just below, lines in quotes_multi.yaml
+#   quotes = aesthetic quote reel: one calm pretty video clip + your line in elegant text + soft music
+#            -> settings in "quotes:" just below, lines in quotes.yaml
+#   beauty = makeup reel: real makeup video clip per step + English voice + small karaoke captions
+#            -> settings in "beauty:" just below, scripts in beauty_scripts.yaml
+#   story  = kids story reel (Nanha Sitara Stories)  -> settings in "story:" at the bottom
+#   tips   = the old tips reel (stock clips + text)  -> uses topics.yaml
+content_mode: illustrated
+
+# ================================================================
+#  ILLUSTRATED MODE  (used when content_mode: illustrated)
+# ================================================================
+illustrated:
+  language: auto                  # auto = a different language every day, in this order:
+  languages: [en, hinglish, hi, gu]   # en = English, hinglish = Hindi in English letters, hi = Hindi, gu = Gujarati
+                                  # (put only the ones you want, e.g. [hi, gu]; or set language: gu to always use one)
+  use_gemini_line: true           # true = a NEW line every day by free Gemini (needs GEMINI_API_KEY)
+                                  # without a key it uses quotes_multi.yaml, in order
+  check_art_with_gemini: true     # Gemini looks at the picture and throws away ones with text/broken faces
+  font_max: 84                    # biggest text size: 70 = smaller, 100 = bigger
+  seconds: 9                      # reel length (7-10 is best)
+  accent_pop: false               # true = the orange word pops in a moment after its line
+  particles: true                 # soft floating dust
+  music_volume: 0.6
+  channel_name: "@dhruviverse.official"
+  follow_line: "Follow @dhruviverse.official for daily vibes ✨"
+  # picture makers, tried in order: hf_router + hf_space = free FLUX on Hugging Face (HF_TOKEN),
+  # pollinations = free backup, bundled = the pictures in assets/illustrated/ (always works)
+  art_providers: [hf_router, hf_space, pollinations, bundled]
+
+
+# ================================================================
+#  QUOTES MODE  (used when content_mode: quotes)
+# ================================================================
+quotes:
+  use_gemini_quote: true          # true = a NEW line every day by free Gemini (needs GEMINI_API_KEY)
+                                  # without a key it uses quotes.yaml, in order
+  voice: off                      # on = a soft voice also reads the line aloud
+  font_size: 74                   # text size: 64 = smaller, 84 = bigger
+  text_y: 0.44                    # where the text sits: 0.5 = middle of the screen
+  min_seconds: 8                  # reel length is set by how long the line is (8-14 s)
+  max_seconds: 14
+  music_volume: 0.55
+  follow_line: "Follow @dhruviverse.official for daily self-love 💗"
+  # Posting: Instagram on, YouTube is skipped until it is connected (uses the beauty: settings below)
+
+# ================================================================
+#  BEAUTY MODE  (used when content_mode: beauty)
+# ================================================================
+beauty:
+  channel_name: "@dhruviverse.official"   # small handle at the top of the whole reel
+  # Picture look - change ONE word:  realistic / 3d_cartoon
+  #   realistic  = soft, aesthetic beauty photography (products, hands, mirror, side profile)
+  #   3d_cartoon = cute Pixar-like 3D pictures (like the kids story sample)
+  image_style: realistic
+  # What you SEE - change ONE word:  video / pictures
+  #   video    = real makeup video clips from free Pixabay (your PEXELS_API_KEY secret), one per step
+  #   pictures = AI beauty photos (needs HF_TOKEN)
+  visuals: video
+  # Voice + captions language - change ONE word:  english / hinglish / hindi
+  #   english  = Indian-English voice (Neerja), English captions = exactly the spoken words
+  #   hinglish = Hindi voice (Swara), captions in Roman Hinglish ("Kajal phail jaata hai?")
+  language: english
+  voice_rate: "+6%"               # speed: "-5%" slower ... "+12%" faster
+  use_gemini_script: true         # true = a NEW script every day by free Gemini (needs GEMINI_API_KEY)
+                                  # without a key it uses beauty_scripts.yaml, in order
+  # Picture makers, tried in order: hf_flux (best, add the free HF_TOKEN secret!), cloudflare (free backup,
+  # needs CF_ACCOUNT_ID + CF_API_TOKEN), gemini, gradient (soft colour, last resort).
+  # "pollinations" is left out on purpose: its free pictures ignore the prompt (random people) - not safe for your page.
+  image_providers: ["hf_flux", "cloudflare", "gemini", "gradient"]
+  caption_font_size: 60           # karaoke words: 52 = smaller, 70 = bigger
+  caption_max_words: 3
+  caption_y: 0.70
+  highlight_color: "#7B2FF7"      # purple box behind the word being spoken
+  show_title: true                # the hook line at the top for the first 3 seconds
+  music_volume: 0.18              # soft lofi music from assets/music (0 = no music)
+  glitch: false
+  # Where to post (a YouTube problem never fails the run if Instagram worked)
+  instagram: true
+  youtube: true                   # skipped automatically until YouTube secrets are added
+
 page:
   handle: "@dhruviverse.official"      # shown small at the bottom of every reel
   niche: "beauty tips, beauty facts, aesthetic quotes and budget finds"
   base_hashtags: ["#makeuptips", "#beautytips", "#makeuphacks", "#indianmakeup", "#budgetmakeup", "#skincare", "#reels", "#beautyhacks"]
   follow_line: "Follow {handle} for daily beauty tips, facts and finds!"
 
-posting:
-  instagram: true            # post to Instagram Reels
+posting:                     # (these two are for tips mode; beauty/story have their own above/below)
+  instagram: true            # post to Instagram Reels (true / false)
   youtube: true              # post to YouTube Shorts
   youtube_privacy: "public"  # public / unlisted / private
   youtube_category: "26"     # 26 = Howto & Style
@@ -63,3 +147,41 @@ topics:
   # Which kinds of reels to post. Remove a word to stop that kind.
   content_types: ["tip", "fact", "quote", "find"]
   when_finished: "repeat"     # repeat = start the list again, stop = post nothing
+
+# ================================================================
+#  KIDS STORY MODE  (used when content_mode: story)
+# ================================================================
+story:
+  channel_name: "Nanha Sitara Stories"
+  # Story language - change ONE word:  hinglish / hindi / english
+  #   hinglish = Hindi voice, captions in Roman letters ("Ek chhota kauwa...")
+  #   hindi    = Hindi voice, captions in Hindi letters (देवनागरी)
+  #   english  = Indian-English voice, English captions
+  language: hinglish
+  # voice: "hi-IN-MadhurNeural"   # optional: a male storyteller instead (remove the # to use)
+  voice_rate: "+0%"               # speed: "-10%" slower ... "+10%" faster
+  use_gemini_story: true          # true = a NEW story every day written by free Gemini (needs GEMINI_API_KEY)
+                                  # without a key it uses the stories in stories.yaml, in order
+  # Picture makers, tried in this order (all free):
+  #   hf_flux      = best free cartoon pictures (FLUX AI), no account needed (optional free HF_TOKEN = more per day)
+  #   cloudflare   = also FLUX, backup (needs free CF_ACCOUNT_ID + CF_API_TOKEN secrets, no card)
+  #   pollinations = no account, but lower quality pictures, ~1 picture per 45 s
+  #   gemini       = only works if Google gives your key free pictures (today it does not)
+  #   gradient     = soft colour background, always works (last resort)
+  image_providers: ["hf_flux", "cloudflare", "pollinations", "gemini", "gradient"]
+  art_style: "bright colorful 3D cartoon, Pixar Disney animation style, cute chubby character with big expressive eyes, cheerful sunny daylight, vibrant saturated colors, kids animated movie, clean detailed render"
+  # Karaoke captions
+  caption_font_size: 64           # 56 = smaller, 72 = bigger
+  caption_max_words: 3            # words shown at a time (1-3)
+  caption_y: 0.68                 # 0.5 = middle of screen, 0.75 = lower
+  highlight_color: "#7B2FF7"      # purple box behind the word being spoken
+  show_title: true                # story title + channel name at the top for the first 3 seconds
+  transition: "fade"              # fade / dissolve / smoothleft / circleopen
+  music_volume: 0.22              # soft music under the voice (0 = no music)
+  glitch: false                   # true = tiny glitch flash at each scene change
+  # Where to post story reels
+  youtube: true
+  instagram: false
+  made_for_kids: true             # YouTube rule for kids channels - keep true
+  youtube_category: "1"           # 1 = Film & Animation
+  hashtags: ["#kidsstory", "#moralstory", "#hindikahani", "#storytime", "#kidsvideo", "#bedtimestory", "#cartoon", "#shorts"]

@@ -1,0 +1,2382 @@
+# BEAUTY REEL SCRIPTS (used when content_mode: beauty and there is no GEMINI_API_KEY, or Gemini is busy)
+# One reel per day, in order. Each scene:
+#   en       = what the English voice says AND the captions (language: english)
+#   queries  = words to find the real makeup video clip for this step ("pixabay:123456" = one exact clip)
+#   image    = what the AI picture shows (faceless-friendly: products, hands, mirror, side profile)
+#   hi       = what the Hindi voice says (Devanagari)
+#   hinglish = the karaoke captions (Roman Hinglish, SAME number of words as hi)
+# To add your own: copy one block, give it a new id, keep 6 scenes.
+- id: 1
+  title: Kajal smudge-proof hacks
+  hook: Kajal phail jaata hai?
+  hook_en: Kajal smudges by afternoon?
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Does your kajal smudge by afternoon? Try these four simple tricks.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: close-up side profile of a young Indian woman looking down, only her eye and cheek visible, black kajal slightly smudged under the lower lash line, a strand of hair across, warm afternoon sunlight,
+      face partly out of frame
+    hi: दोपहर तक काजल फैल जाता है? ये चार ट्रिक्स ट्राई करो।
+    hinglish: Dopahar tak kajal phail jaata hai? Ye chaar tricks try karo.
+  - en: First, pat a little compact powder under your eyes to soak up oil.
+    queries:
+    - eye makeup
+    - makeup products
+    image: a woman's hand with nude manicured nails gently pressing a fluffy beige powder puff into an open round pressed compact powder, on a white marble vanity with pink roses
+    hi: पहला, आँखों के नीचे हल्का सा कॉम्पैक्ट पाउडर लगाओ, ऑयल सोख लेगा।
+    hinglish: Pehla, aankhon ke neeche halka sa compact powder lagao, oil sokh lega.
+  - en: Second, apply kajal only on the outer half of your lash line, not the whole line.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an Indian woman's eye with a neat sharp black kajal line on the outer half of the upper lash line, long lashes, dewy glowing skin, face partly out of frame
+    hi: दूसरा, काजल सिर्फ़ बाहर के कोने से बीच तक लगाओ, पूरी लाइन पर नहीं।
+    hinglish: Doosra, kajal sirf bahar ke kone se beech tak lagao, poori line par nahin.
+  - en: Third, set that kajal with black eyeshadow on top, and it will lock in place.
+    queries:
+    - eyeshadow
+    - eye makeup
+    image: a small angled makeup brush dipping into matte black eyeshadow in an open eyeshadow palette of nude, pink and black shades, held by a hand with nude nails, close-up
+    hi: तीसरा, उसी काजल के ऊपर ब्लैक आईशैडो से सेट करो, ये लॉक हो जाएगा।
+    hinglish: Teesra, usi kajal ke upar black eyeshadow se set karo, ye lock ho jaayega.
+  - en: Fourth, budget tip, pick a waterproof kajal, good ones cost very little.
+    queries:
+    - makeup products
+    - cosmetics
+    image: three plain unlabeled black kajal pencils lying on blush pink silk fabric with small gold jhumka earrings and rose petals, flat-lay from directly above
+    hi: 'चौथा, बजट टिप: वॉटरप्रूफ़ काजल लो, सौ रुपये में भी अच्छे मिलते हैं।'
+    hinglish: 'Chautha, budget tip: waterproof kajal lo, sau rupaye mein bhi achhe milte hain.'
+  - en: Now your kajal will last all day! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - beauty products
+    image: 'aesthetic makeup vanity flat-lay from above: black kajal pencil, nude lipstick, small round mirror, gold earrings, pink roses and a cup of chai, soft morning light'
+    hi: अब काजल पूरा दिन टिकेगा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab kajal poora din tikega! Save karo aur follow karo @dhruviverse.official
+  caption: 'Kajal dopahar tak phail jaata hai? 😩 Ye 4 hacks try karo 👇
+
+    1. Aankhon ke neeche compact powder
+
+    2. Kajal sirf outer half pe
+
+    3. Black eyeshadow se set karo
+
+    4. Budget waterproof kajal (₹100 mein bhi milta hai)
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Kajal smudging by afternoon? 😩 Try these 4 easy steps 👇
+
+    1. Compact powder under eyes
+
+    2. Kajal only on outer half
+
+    3. Set with black eyeshadow
+
+    4. Budget waterproof kajal pick
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#kajal'
+  - '#makeuptips'
+  - '#makeuphacks'
+  - '#affordablemakeup'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 2
+  title: Winged liner for beginners
+  hook: Winged liner tedha banta hai?
+  hook_en: Winged liner looks messy?
+  palette: dusty rose, mauve and champagne gold color palette
+  scenes:
+  - en: Does your winged liner come out crooked every time? Try this simple method.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of a young Indian woman's eye looking down, slightly uneven black winged eyeliner, long lashes, soft window light, face partly out of frame
+    hi: विंग्ड लाइनर हर बार टेढ़ा बनता है? ये आसान तरीका ट्राई करो।
+    hinglish: Winged liner har baar tedha banta hai? Ye aasaan tareeka try karo.
+  - en: First, draw a short line going outward from your lower lash line.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an Indian woman's closed eye with a short thin black flick drawn at the outer corner, extending the lower lash line, face partly out of frame
+    hi: स्टेप वन, निचली लैश लाइन की सीध में बाहर की तरफ़ छोटी लाइन खींचो।
+    hinglish: Step one, nichli lash line ki seedh mein bahar ki taraf chhoti line kheencho.
+  - en: Second, connect the tip of the wing to the middle of your eyelid with a straight line.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an Indian woman's eye with an outlined black triangle wing joining the flick to the middle of the upper lid, face partly out of frame
+    hi: स्टेप टू, विंग की नोक से पलक के बीच तक एक सीधी लाइन जोड़ो।
+    hinglish: Step two, wing ki nok se palak ke beech tak ek seedhi line jodo.
+  - en: Third, fill in the gap and check it in the mirror with your eye open.
+    queries:
+    - woman mirror
+    - eye makeup
+    image: side profile of an Indian woman looking into a round vanity mirror with fairy lights, holding a plain black liquid eyeliner pen, only her eye and cheek visible
+    hi: स्टेप थ्री, खाली जगह भर दो, आँख खुली रखकर शीशे में देखो।
+    hinglish: Step three, khaali jagah bhar do, aankh khuli rakhkar sheeshe mein dekho.
+  - en: Fourth, if you make a mistake, clean it with a cotton bud dipped in micellar water.
+    queries:
+    - makeup products
+    - cosmetics
+    image: close-up of a plain cotton bud and a small clear unlabeled bottle of micellar water on a mauve silk cloth beside a black eyeliner pen, soft light
+    hi: स्टेप फ़ोर, गलती हो तो माइसेलर वॉटर में डूबी कॉटन बड से साफ़ करो।
+    hinglish: Step four, galti ho to micellar water mein doobi cotton bud se saaf karo.
+  - en: Your perfect wing is ready! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - beauty products
+    image: extreme close-up side profile of an Indian woman's eye with a sharp clean black winged eyeliner and long lashes, small gold jhumka visible, champagne glow, face partly out of frame
+    hi: बस, परफ़ेक्ट विंग तैयार! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Bas, perfect wing taiyaar! Save karo aur follow karo @dhruviverse.official
+  caption: 'Winged liner tedha banta hai? 😩 Beginners ke liye easy method 👇
+
+    1. Lower lash line ki seedh mein flick
+
+    2. Nok se lid ke beech tak line
+
+    3. Gap bharo, aankh khuli rakho
+
+    4. Galti? Micellar water + cotton bud
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Winged liner coming out messy? 😩 Try these 4 easy steps 👇
+
+    1. Short line from lower lash
+
+    2. Connect tip to middle
+
+    3. Fill in the gap
+
+    4. Fix mistakes with micellar water
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#wingedliner'
+  - '#eyeliner'
+  - '#eyelinertutorial'
+  - '#makeupforbeginners'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 3
+  title: Lipstick that lasts all day
+  hook: Lipstick chai ke saath gayab?
+  hook_en: Lipstick gone by lunch?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Want your lipstick to stay fresh all day? Try these four easy steps.
+    queries:
+    - pixabay:306150
+    - lip gloss
+    image: close-up of a white ceramic cup of masala chai with a faint peach lipstick mark on the rim, on a cream table with rose gold spoon, warm morning light
+    hi: लिपस्टिक चाय पीते ही गायब हो जाती है? ये चार स्टेप्स अपनाओ।
+    hinglish: Lipstick chai peete hi gayab ho jaati hai? Ye chaar steps apnao.
+  - en: First, pick a matte lipstick. Matte formulas stay on much longer than glossy ones.
+    queries:
+    - pixabay:189018
+    - lipstick
+    image: extreme close-up of soft glossy lips with a thin layer of clear lip balm, chin and nose out of frame, peach background, soft light
+    hi: पहला, होंठों पर हल्का लिप बाम लगाओ, फिर टिशू से एक्स्ट्रा पोंछ दो।
+    hinglish: Pehla, honthon par halka lip balm lagao, phir tissue se extra ponchh do.
+  - en: Second, apply one thin coat, using a small mirror to follow your lip line.
+    queries:
+    - pixabay:46450
+    - applying lipstick
+    image: extreme close-up of lips being filled in with a plain unlabeled peach-brown lip liner pencil held in one hand, face out of frame
+    hi: दूसरा, लिप लाइनर से पूरे होंठ भर दो, ये बेस का काम करेगा।
+    hinglish: Doosra, lip liner se poore honth bhar do, ye base ka kaam karega.
+  - en: Third, wait one minute, then add a second thin coat. Two thin coats last longer.
+    queries:
+    - pixabay:351570
+    - applying lipstick
+    image: extreme close-up of lips with fresh peach-coral lipstick next to a plain white tissue with a lip blot print, face out of frame
+    hi: तीसरा, लिपस्टिक लगाओ, टिशू से ब्लॉट करो और दोबारा एक कोट लगाओ।
+    hinglish: Teesra, lipstick lagao, tissue se blot karo aur dobara ek coat lagao.
+  - en: Fourth, dust a little powder on your face with a fluffy brush, so oil cannot melt your makeup.
+    queries:
+    - pixabay:270065
+    - makeup brush
+    image: close-up of a fluffy brush with translucent powder held over a thin white tissue placed on peach lips, face out of frame, cream background
+    hi: चौथा, टिशू ऊपर रखकर हल्का सा ट्रांसलूसेंट पाउडर थपथपाओ, कलर लॉक हो जाएगा।
+    hinglish: Chautha, tissue upar rakhkar halka sa translucent powder thapthapao, color lock ho jaayega.
+  - en: Now smile, your colour will stay put! Save this and follow @dhruviverse.official for more.
+    queries:
+    - pixabay:109470
+    - lips
+    image: 'flat-lay from above: plain unlabeled peach lipstick bullet, a lip liner, a cup of chai, rose gold earrings and cream roses on a peach linen cloth'
+    hi: अब चाय भी पियो, लिपस्टिक टिकेगी! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab chai bhi piyo, lipstick tikegi! Save karo aur follow karo @dhruviverse.official
+  caption: 'Chai pi aur lipstick gayab? ☕💄 Ye 4 steps 👇
+
+    1. Lip balm, extra ponchh do
+
+    2. Liner se poore lips fill
+
+    3. Lipstick, blot, ek aur coat
+
+    4. Tissue ke upar se translucent powder
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Lipstick gone by lunch? 💄 Try these 4 steps 👇
+
+    1. Pick a matte lipstick
+
+    2. One thin coat, use a small mirror
+
+    3. Wait a minute, add a second thin coat
+
+    4. Dust powder on your face to keep oil away
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#lipstick'
+  - '#longlastinglipstick'
+  - '#liphacks'
+  - '#makeuphacks'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#lipsticklover'
+  - '#dhruviverse'
+- id: 4
+  title: Lipstick shades for wheatish and dusky skin
+  hook: Kaunsa shade jachega?
+  hook_en: Which lipstick shade suits you?
+  palette: warm terracotta, nude and gold color palette
+  scenes:
+  - en: Which lipstick shade suits wheatish or dusky skin the best? Listen closely.
+    queries:
+    - lipstick
+    - lips
+    image: row of five plain unlabeled lipstick bullets in brownish nude, mauve, brick red, wine and berry on warm terracotta fabric, close-up, soft side light
+    hi: गेहुँआ या डस्की स्किन पर कौन सा लिपस्टिक शेड जंचेगा? सुनो।
+    hinglish: Gehuan ya dusky skin par kaun sa lipstick shade jachega? Suno.
+  - en: First, avoid very light pink nude shades, they can make lips look grey and pale.
+    queries:
+    - lipstick
+    - lips
+    image: extreme close-up of full lips on warm dusky Indian skin wearing a very pale pastel pink lipstick that looks washed out, face out of frame
+    hi: पहला, बहुत लाइट पिंक न्यूड से बचो, होंठ ग्रे और फीके दिखेंगे।
+    hinglish: Pehla, bahut light pink nude se bacho, honth grey aur pheeke dikhenge.
+  - en: Second, pick a brownish nude or mauve for everyday wear, it looks very natural.
+    queries:
+    - lipstick
+    - applying lipstick
+    image: extreme close-up of lips on warm wheatish Indian skin wearing a soft brownish nude lipstick, natural glow, face out of frame
+    hi: दूसरा, रोज़ के लिए ब्राउनिश न्यूड या मोव चुनो, बहुत नैचुरल लगता है।
+    hinglish: Doosra, roz ke liye brownish nude ya mauve chuno, bahut natural lagta hai.
+  - en: Third, for parties try brick red, wine, or deep berry shades.
+    queries:
+    - lipstick
+    - applying lipstick
+    image: side profile close-up of an Indian woman's lips in rich brick red lipstick with a gold nose pin and gold jhumka, eyes out of frame, warm evening light
+    hi: तीसरा, पार्टी के लिए ब्रिक रेड, वाइन या डीप बेरी शेड ट्राई करो।
+    hinglish: Teesra, party ke liye brick red, wine ya deep berry shade try karo.
+  - en: Fourth, always test the shade on your fingertip, not the back of your hand.
+    queries:
+    - lipstick
+    - woman mirror
+    image: close-up of a hand with warm brown skin showing three small lipstick swatches on the fingertips, terracotta and nude, soft daylight
+    hi: चौथा, शेड हमेशा उंगली के पोर पर टेस्ट करो, हाथ के पीछे नहीं।
+    hinglish: Chautha, shade hamesha ungli ke por par test karo, haath ke peeche nahin.
+  - en: The right shade changes your whole look! Save this and follow @dhruviverse.official for more.
+    queries:
+    - lipstick
+    - beauty products
+    image: 'flat-lay from above: plain unlabeled terracotta and wine lipsticks, gold jhumkas, dried rose petals and a small round mirror on nude linen'
+    hi: सही शेड, पूरा लुक बदल देगा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Sahi shade, poora look badal dega! Save karo aur follow karo @dhruviverse.official
+  caption: 'Wheatish ya dusky skin? Ye shades try karo 💄✨
+
+    1. Bahut light pink nude avoid
+
+    2. Daily: brownish nude ya mauve
+
+    3. Party: brick red, wine, berry
+
+    4. Fingertip pe test karo
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Which lipstick shade suits you? 💄 Here are 4 quick tips 👇
+
+    1. Skip very light nudes
+
+    2. Brownish nude or mauve daily
+
+    3. Brick red or berry for parties
+
+    4. Always test on your fingertip
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#lipstickshades'
+  - '#duskyskin'
+  - '#wheatishskin'
+  - '#indianskintone'
+  - '#lipstick'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#dhruviverse'
+- id: 5
+  title: Blush placement for your face shape
+  hook: Blush galat jagah?
+  hook_en: Blush in the wrong spot?
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Putting blush in the wrong spot can make your face look heavy. Match it to your shape.
+    queries:
+    - blush
+    - smiling woman
+    image: side profile of a young Indian woman's cheek with soft pink blush, eyes looking away, hair tucked behind ear, face partly out of frame, soft window light
+    hi: ब्लश गलत जगह लगाओ तो चेहरा भारी दिखता है। फ़ेस शेप से लगाओ!
+    hinglish: Blush galat jagah lagao to chehra bhaari dikhta hai. Face shape se lagao!
+  - en: For a round face, sweep blush upward from your cheeks toward your ears.
+    queries:
+    - blush
+    - smiling woman
+    image: close-up of a fluffy angled brush sweeping pink blush upward along the cheekbone toward the ear, side profile, face partly out of frame
+    hi: गोल चेहरा? ब्लश गालों के ऊपर से कान की तरफ़ तिरछा लगाओ।
+    hinglish: Gol chehra? Blush gaalon ke upar se kaan ki taraf tircha lagao.
+  - en: For a long face, spread blush straight across the apples of your cheeks to shorten it.
+    queries:
+    - blush
+    - contour
+    image: close-up side profile of a cheek with soft pink blush blended horizontally across the apple of the cheek, face partly out of frame
+    hi: लंबा चेहरा? ब्लश गालों के एप्पल्स पर सीधा आड़ा फैलाओ, इससे चेहरा छोटा लगेगा।
+    hinglish: Lamba chehra? Blush gaalon ke apples par seedha aada phailao, isse chehra chhota lagega.
+  - en: For a heart shaped face, dab light circles of blush just below the apples of your cheeks.
+    queries:
+    - blush
+    - contour
+    image: close-up of a soft round brush dabbing blush just below the apple of the cheek in a small circle, side profile, face partly out of frame
+    hi: दिल जैसा चेहरा? ब्लश गालों के एप्पल्स के नीचे हल्का गोल-गोल लगाओ।
+    hinglish: Dil jaisa chehra? Blush gaalon ke apples ke neeche halka gol-gol lagao.
+  - en: Always start light, and tap your brush on your hand first to remove extra powder.
+    queries:
+    - makeup brush
+    - blush
+    image: close-up of a fluffy blush brush being tapped on the back of a hand to remove excess pink powder, plain unlabeled blush compact nearby, marble vanity
+    hi: और हमेशा कम से शुरू करो, ब्रश पहले हाथ पर झाड़ लो।
+    hinglish: Aur hamesha kam se shuru karo, brush pehle haath par jhaad lo.
+  - en: Your natural flush is ready! Save this and follow @dhruviverse.official for more.
+    queries:
+    - blush
+    - beauty products
+    image: 'flat-lay from above: plain unlabeled pink blush compact, fluffy brush, gold hoop earrings and pink roses on nude beige silk'
+    hi: बस, नैचुरल फ़्लश तैयार! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Bas, natural flush taiyaar! Save karo aur follow karo @dhruviverse.official
+  caption: 'Blush ko face shape ke hisaab se lagao 🌸👇
+
+    1. Gol chehra: upar ki taraf tircha
+
+    2. Lamba chehra: apples pe aada
+
+    3. Heart shape: apples ke neeche
+
+    4. Hamesha kam se shuru karo
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Blush in the wrong spot? 😩 Match it to your face shape 👇
+
+    1. Round face, sweep upward
+
+    2. Long face, straight across
+
+    3. Heart face, light circles below
+
+    4. Always start light
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#blush'
+  - '#blushplacement'
+  - '#faceshape'
+  - '#makeuptips'
+  - '#makeuphacks'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 6
+  title: Cakey foundation fix
+  hook: Foundation cakey dikhta hai?
+  hook_en: Foundation looking cakey?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Does your foundation look cakey and patchy right after applying it? Here is the mistake.
+    queries:
+    - applying foundation
+    - makeup
+    image: extreme close-up of a cheek with dry cakey foundation settling into texture, side profile, face partly out of frame, harsh daylight
+    hi: फ़ाउंडेशन लगाते ही केकी और पैची दिखता है? गलती यहाँ है।
+    hinglish: Foundation lagate hi cakey aur patchy dikhta hai? Galti yahan hai.
+  - en: First, apply moisturizer and let it sit for a couple of minutes to absorb.
+    queries:
+    - moisturizer
+    - face cream
+    image: close-up of a hand holding a plain unlabeled white jar of moisturiser with a dollop on the fingertip, peach background, soft light
+    hi: नंबर एक, पहले मॉइस्चराइज़र लगाओ और दो मिनट सूखने दो।
+    hinglish: Number ek, pehle moisturiser lagao aur do minute sookhne do.
+  - en: Second, use less foundation, just a few drops are more than enough.
+    queries:
+    - applying foundation
+    - makeup brush
+    image: close-up of three small drops of liquid foundation on the back of a hand beside a plain unlabeled glass dropper bottle, cream background
+    hi: नंबर दो, फ़ाउंडेशन कम लो, सिर्फ़ दो तीन बूँदें काफ़ी हैं।
+    hinglish: Number do, foundation kam lo, sirf do teen boondein kaafi hain.
+  - en: Third, dab it on with a damp beauty sponge, never rub it in.
+    queries:
+    - applying foundation
+    - makeup brush
+    image: close-up of a damp peach beauty sponge pressing foundation onto a cheek, side profile, face partly out of frame, soft light
+    hi: नंबर तीन, गीले ब्यूटी स्पंज से थपथपाओ, रगड़ो मत।
+    hinglish: Number teen, geele beauty sponge se thapthapao, ragdo mat.
+  - en: Fourth, if it looks cakey, spray face mist and press it in with your sponge.
+    queries:
+    - applying foundation
+    - glowing skin
+    image: side profile of an Indian woman with eyes closed being misted by a plain unlabeled spray bottle, fine water mist in the light, face partly out of frame
+    hi: नंबर चार, केकी हो गया? ऊपर फ़ेस मिस्ट स्प्रे करो और स्पंज से दबाओ।
+    hinglish: Number chaar, cakey ho gaya? Upar face mist spray karo aur sponge se dabao.
+  - en: Now your base looks like real skin! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - glowing skin
+    image: extreme close-up of smooth natural-looking skin on a cheek with a soft dewy finish and a small rose gold earring, side profile, face partly out of frame
+    hi: अब बेस दिखेगा स्किन जैसा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab base dikhega skin jaisa! Save karo aur follow karo @dhruviverse.official
+  caption: 'Cakey foundation se pareshaan? 😩 Fix 👇
+
+    1. Pehle moisturiser
+
+    2. Sirf 2-3 drops foundation
+
+    3. Geela sponge, ragdo mat
+
+    4. Cakey ho gaya? Face mist + sponge
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Foundation looking cakey and patchy? 😩 Fix it with these 4 steps 👇
+
+    1. Moisturize first
+
+    2. Use less foundation
+
+    3. Dab with a damp sponge
+
+    4. Mist and press if cakey
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#cakeyfoundation'
+  - '#foundation'
+  - '#basemakeup'
+  - '#makeuptips'
+  - '#makeupmistakes'
+  - '#indianmakeup'
+  - '#makeuphacks'
+  - '#dhruviverse'
+- id: 7
+  title: Concealer mistakes to stop
+  hook: Concealer ke baad bhi thaki aankhein?
+  hook_en: Still look tired under eyes?
+  palette: dusty rose, mauve and champagne gold color palette
+  scenes:
+  - en: Do your eyes still look tired even after concealer? Stop making these four mistakes.
+    queries:
+    - dark circles
+    - eye makeup
+    image: extreme close-up side profile of an Indian woman's under-eye with too much pale concealer settling into creases, face partly out of frame
+    hi: कंसीलर लगाकर भी आँखें थकी दिखती हैं? ये चार गलतियाँ मत करो।
+    hinglish: Concealer lagakar bhi aankhein thaki dikhti hain? Ye chaar galtiyan mat karo.
+  - en: First, picking a shade too light, go only one shade lighter than your skin.
+    queries:
+    - dark circles
+    - makeup products
+    image: close-up of two concealer swatches on a wrist, one far too light and one just slightly lighter than the warm skin, plain unlabeled wands beside
+    hi: गलती एक, स्किन से बहुत लाइट शेड लेना, बस एक शेड लाइट लो।
+    hinglish: Galti ek, skin se bahut light shade lena, bas ek shade light lo.
+  - en: Second, using too much product, dab a small amount only in the inner corner.
+    queries:
+    - dark circles
+    - eye makeup
+    image: extreme close-up of a tiny dot of concealer at the inner corner of an eye, side profile, face partly out of frame, soft light
+    hi: गलती दो, बहुत ज़्यादा प्रोडक्ट, सिर्फ़ अंदर के कोने में थोड़ा सा लगाओ।
+    hinglish: Galti do, bahut zyada product, sirf andar ke kone mein thoda sa lagao.
+  - en: Third, blending too late, pat it in with your finger right away before it dries.
+    queries:
+    - dark circles
+    - woman mirror
+    image: close-up of a ring finger gently tapping concealer under an eye, side profile, face partly out of frame, mauve background
+    hi: गलती तीन, सूखने के बाद ब्लेंड करना, तुरंत उंगली से थपथपाओ।
+    hinglish: Galti teen, sookhne ke baad blend karna, turant ungli se thapthapao.
+  - en: Fourth, skipping powder, set it with a very light layer or it will crease.
+    queries:
+    - dark circles
+    - makeup brush
+    image: close-up of a small fluffy brush with a whisper of translucent powder pressed under an eye, side profile, face partly out of frame
+    hi: गलती चार, सेट न करना, बहुत हल्का पाउडर लगाओ वरना क्रीज़ बनेगी।
+    hinglish: Galti chaar, set na karna, bahut halka powder lagao warna crease banegi.
+  - en: Your eyes will look fresh now! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - glowing skin
+    image: 'flat-lay from above: plain unlabeled concealer wand, small fluffy brush, champagne gold earrings and dusty rose petals on mauve silk'
+    hi: अब आँखें फ़्रेश दिखेंगी! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab aankhein fresh dikhengi! Save karo aur follow karo @dhruviverse.official
+  caption: 'Concealer ke baad bhi tired eyes? 🙈 Ye mistakes stop karo 👇
+
+    1. Sirf 1 shade light lo
+
+    2. Kam product, inner corner pe
+
+    3. Turant ungli se blend
+
+    4. Halka powder se set
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Still look tired under your eyes? 😩 Stop these 4 concealer mistakes 👇
+
+    1. Shade too light
+
+    2. Too much product
+
+    3. Blending too late
+
+    4. Skipping powder
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#concealer'
+  - '#concealerhacks'
+  - '#makeupmistakes'
+  - '#undereye'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 8
+  title: Dark circles colour correcting
+  hook: Dark circles chhupte nahin?
+  hook_en: Dark circles wont hide?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Can dark circles not hide, even with concealer? See the magic of color correcting.
+    queries:
+    - dark circles
+    - eye makeup
+    image: extreme close-up side profile of an Indian woman's under-eye with visible dark circles, natural skin texture, face partly out of frame, soft daylight
+    hi: डार्क सर्कल्स कंसीलर से भी नहीं छुपते? कलर करेक्टर का जादू देखो।
+    hinglish: Dark circles concealer se bhi nahin chhupte? Color corrector ka jaadu dekho.
+  - en: First, if you have wheatish or dusky skin, choose an orange or peach corrector.
+    queries:
+    - dark circles
+    - makeup products
+    image: close-up of a plain unlabeled peach-orange colour corrector pot and a small brush on cream fabric, soft light
+    hi: पहला, गेहुँई या डस्की स्किन पर ऑरेंज या पीच करेक्टर लो।
+    hinglish: Pehla, gehuin ya dusky skin par orange ya peach corrector lo.
+  - en: Second, tap a thin layer only on the dark part, not the whole eye.
+    queries:
+    - dark circles
+    - eye makeup
+    image: extreme close-up of a thin layer of peach colour corrector tapped only on the dark area under an eye, side profile, face partly out of frame
+    hi: दूसरा, सिर्फ़ डार्क हिस्से पर हल्की सी परत थपथपाओ, पूरी आँख पर नहीं।
+    hinglish: Doosra, sirf dark hisse par halki si parat thapthapao, poori aankh par nahin.
+  - en: Third, apply concealer in your own skin tone on top and blend it gently.
+    queries:
+    - dark circles
+    - woman mirror
+    image: close-up of a damp mini beauty sponge blending skin-tone concealer over peach corrector under an eye, side profile, face partly out of frame
+    hi: तीसरा, ऊपर अपनी स्किन टोन का कंसीलर लगाओ और हल्के हाथ से ब्लेंड करो।
+    hinglish: Teesra, upar apni skin tone ka concealer lagao aur halke haath se blend karo.
+  - en: Fourth, budget tip, a peach lipstick can also work as a color corrector.
+    queries:
+    - lipstick
+    - dark circles
+    image: close-up of a plain unlabeled peach lipstick bullet lying next to a small brush on a rose gold tray, cream background
+    hi: 'चौथा, बजट टिप: पीच कलर की लिपस्टिक भी करेक्टर का काम करती है।'
+    hinglish: 'Chautha, budget tip: peach color ki lipstick bhi corrector ka kaam karti hai.'
+  - en: Dark circles are gone now! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - glowing skin
+    image: extreme close-up side profile of a bright even under-eye with soft lashes and a small rose gold earring, face partly out of frame
+    hi: डार्क सर्कल्स गायब! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Dark circles gayab! Save karo aur follow karo @dhruviverse.official
+  caption: 'Dark circles concealer se nahin chhupte? 🍑 Color correct karo 👇
+
+    1. Peach/orange corrector
+
+    2. Sirf dark area pe thin layer
+
+    3. Upar skin tone concealer
+
+    4. Budget: peach lipstick bhi chalegi
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Dark circles wont hide with concealer? 😩 Try color correcting 👇
+
+    1. Orange or peach corrector
+
+    2. Only on the dark part
+
+    3. Blend your own skin tone on top
+
+    4. Peach lipstick also works
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#darkcircles'
+  - '#colorcorrecting'
+  - '#concealer'
+  - '#undereye'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeuphacks'
+  - '#dhruviverse'
+- id: 9
+  title: Make small eyes look bigger
+  hook: Chhoti aankhein badi dikhani hain?
+  hook_en: Want eyes to look bigger?
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Do you want your small eyes to look bigger? These four tricks work wonders.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an Indian woman's eye with natural lashes, looking slightly up, face partly out of frame, soft window light
+    hi: छोटी आँखें बड़ी दिखानी हैं? ये चार ट्रिक्स कमाल करती हैं।
+    hinglish: Chhoti aankhein badi dikhaani hain? Ye chaar tricks kamaal karti hain.
+  - en: First, use white or nude kajal on your lower waterline, never black.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up of an eye with a nude beige liner on the lower waterline, side profile, face partly out of frame
+    hi: स्टेप एक, निचली वॉटरलाइन पर व्हाइट या न्यूड काजल लगाओ, ब्लैक नहीं।
+    hinglish: Step ek, nichli waterline par white ya nude kajal lagao, black nahin.
+  - en: Second, curl your lashes and apply mascara only on the upper lashes.
+    queries:
+    - eyelashes
+    - eye makeup
+    image: extreme close-up of upper lashes being coated with black mascara from a plain unlabeled wand, side profile, face partly out of frame
+    hi: स्टेप दो, पलकें कर्ल करो और सिर्फ़ ऊपर की पलकों पर मस्कारा लगाओ।
+    hinglish: Step do, palkein curl karo aur sirf upar ki palkon par mascara lagao.
+  - en: Third, add a little shimmery highlighter in the inner corner of your eye.
+    queries:
+    - eye makeup
+    - glowing skin
+    image: extreme close-up of the inner corner of an eye with a touch of soft gold shimmer highlighter, face partly out of frame, warm light
+    hi: स्टेप तीन, आँख के अंदर वाले कोने पर थोड़ा शिमरी हाइलाइटर लगाओ।
+    hinglish: Step teen, aankh ke andar wale kone par thoda shimmery highlighter lagao.
+  - en: Fourth, keep your liner thin and flick it slightly upward at the outer corner.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an eye with a thin black liner gently lifted upward at the outer corner, face partly out of frame
+    hi: स्टेप चार, लाइनर पतला रखो और बाहर की तरफ़ हल्का ऊपर उठाओ।
+    hinglish: Step chaar, liner patla rakho aur bahar ki taraf halka upar uthao.
+  - en: Your eyes will look bigger and fresh! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - eye makeup
+    image: extreme close-up side profile of a bright open eye with curled lashes, nude waterline and a gold jhumka, blush pink background, face partly out of frame
+    hi: आँखें दिखेंगी बड़ी और फ़्रेश! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Aankhein dikhengi badi aur fresh! Save karo aur follow karo @dhruviverse.official
+  caption: 'Chhoti aankhein? Badi dikhao 👀✨
+
+    1. Waterline pe nude/white kajal
+
+    2. Lashes curl + upar mascara
+
+    3. Inner corner pe shimmer
+
+    4. Thin liner, thoda upar uthao
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Want your small eyes to look bigger? 👀 Try these 4 tricks 👇
+
+    1. White or nude lower waterline
+
+    2. Curl lashes, mascara on top only
+
+    3. Shimmer in inner corner
+
+    4. Keep liner thin
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#eyemakeup'
+  - '#smalleyes'
+  - '#eyemakeuptips'
+  - '#makeuphacks'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 10
+  title: 5-minute skin prep before makeup
+  hook: Makeup tikta nahin?
+  hook_en: Makeup not staying put?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Does your makeup never stay put? The real secret is five minutes of skincare before it.
+    queries:
+    - skincare
+    - glowing skin
+    image: back view of a young Indian woman with a hair towel sitting at a vanity with a round mirror and fairy lights, face not visible, soft morning light
+    hi: मेकअप टिकता नहीं? असली राज़ है मेकअप से पहले की पाँच मिनट स्किनकेयर।
+    hinglish: Makeup tikta nahin? Asli raaz hai makeup se pehle ki paanch minute skincare.
+  - en: First, wash your face with a mild cleanser and pat it dry with a towel.
+    queries:
+    - skincare
+    - face cream
+    image: close-up of a hand holding a plain unlabeled facewash tube with a little white foam, splash of water, cream bathroom counter
+    hi: पहला, माइल्ड फ़ेसवॉश से चेहरा धो लो और तौलिये से थपथपाकर सुखाओ।
+    hinglish: Pehla, mild facewash se chehra dho lo aur tauliye se thapthapakar sukhao.
+  - en: Second, sweep a cotton pad with toner or rose water over your whole face.
+    queries:
+    - rose water
+    - skincare
+    image: close-up of a plain glass bottle of rose water and a soft cotton pad with rose petals on a peach tray
+    hi: दूसरा, कॉटन पैड से हल्का टोनर या गुलाबजल पूरे चेहरे पर लगाओ।
+    hinglish: Doosra, cotton pad se halka toner ya gulabjal poore chehre par lagao.
+  - en: Third, apply a light gel moisturizer and let it sit for a couple of minutes.
+    queries:
+    - moisturizer
+    - face cream
+    image: close-up of an open plain unlabeled jar of clear gel moisturiser with a fingertip scoop, cream marble surface, soft light
+    hi: तीसरा, हल्का जेल मॉइस्चराइज़र लगाओ और उसे दो मिनट सोखने दो।
+    hinglish: Teesra, halka gel moisturiser lagao aur use do minute sokhne do.
+  - en: Fourth, apply sunscreen, then primer only on your nose and forehead.
+    queries:
+    - skincare
+    - makeup
+    image: flat-lay of a plain unlabeled sunscreen tube and a small primer tube on cream linen with rose gold accents
+    hi: चौथा, सनस्क्रीन लगाओ, फिर प्राइमर सिर्फ़ नाक और माथे पर।
+    hinglish: Chautha, sunscreen lagao, phir primer sirf naak aur maathe par.
+  - en: Now your makeup will go on smooth! Save this and follow @dhruviverse.official for more.
+    queries:
+    - glowing skin
+    - makeup
+    image: extreme close-up side profile of fresh glowing hydrated skin on a cheek, a rose gold earring, face partly out of frame, morning light
+    hi: अब मेकअप होगा स्मूद! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab makeup hoga smooth! Save karo aur follow karo @dhruviverse.official
+  caption: 'Makeup tikta nahin? 5-min skin prep karo 🧴✨
+
+    1. Mild facewash
+
+    2. Toner ya gulabjal
+
+    3. Gel moisturiser, 2 min wait
+
+    4. Sunscreen + primer T-zone pe
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Makeup not staying put? 😩 The secret is 5 minute skin prep 👇
+
+    1. Mild cleanser first
+
+    2. Toner or rose water
+
+    3. Light gel moisturizer
+
+    4. Sunscreen then primer
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#skincare'
+  - '#skinprep'
+  - '#makeupprep'
+  - '#skincareroutine'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#glowingskin'
+  - '#dhruviverse'
+- id: 11
+  title: Sunscreen under makeup without pilling
+  hook: Sunscreen se makeup pilling?
+  hook_en: Sunscreen pilling under makeup?
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Does your sunscreen pill up under makeup? Then your method is wrong.
+    queries:
+    - skincare
+    - makeup
+    image: close-up of a cheek with small flakes of pilled foundation, side profile, face partly out of frame, bright daylight
+    hi: सनस्क्रीन से मेकअप पिलिंग करता है? तो तरीका गलत है।
+    hinglish: Sunscreen se makeup pilling karta hai? To tareeka galat hai.
+  - en: First, choose a gel or matte finish sunscreen with a high SPF.
+    queries:
+    - skincare
+    - face cream
+    image: close-up of a hand holding a plain unlabeled gel sunscreen tube on a pink marble surface in warm sunlight
+    hi: स्टेप वन, जेल या मैट फ़िनिश वाला सनस्क्रीन चुनो, एसपीएफ़ तीस या ज़्यादा।
+    hinglish: Step one, gel ya matte finish wala sunscreen chuno, SPF tees ya zyada.
+  - en: Second, use two finger lengths of sunscreen for your face and neck.
+    queries:
+    - skincare
+    - moisturizer
+    image: close-up of two finger-length lines of white sunscreen on the index and middle fingers, simple pose, blush pink background
+    hi: स्टेप टू, दो उंगलियों की लंबाई जितना लो, चेहरे और गर्दन पर।
+    hinglish: Step two, do ungliyon ki lambai jitna lo, chehre aur gardan par.
+  - en: Third, wait five minutes, then pat on your foundation, never rub it.
+    queries:
+    - applying foundation
+    - makeup
+    image: close-up of a beauty sponge pressing foundation onto a cheek over sunscreen, side profile, face partly out of frame
+    hi: स्टेप थ्री, पाँच मिनट रुको, फिर फ़ाउंडेशन थपथपाकर लगाओ, रगड़ो मत।
+    hinglish: Step three, paanch minute ruko, phir foundation thapthapakar lagao, ragdo mat.
+  - en: Fourth, in the afternoon, touch up with a compact powder that has sunscreen.
+    queries:
+    - makeup products
+    - cosmetics
+    image: close-up of a plain round compact powder with a puff and small mirror, held in one hand, outdoor sunlight and marigolds in background
+    hi: स्टेप फ़ोर, दोपहर में सनस्क्रीन वाला कॉम्पैक्ट पाउडर ऊपर से टच अप करो।
+    hinglish: Step four, dopahar mein sunscreen wala compact powder upar se touch up karo.
+  - en: Sun protection and perfect makeup together! Save this and follow @dhruviverse.official for more.
+    queries:
+    - glowing skin
+    - makeup
+    image: back view of a young Indian woman in a sun hat walking in sunlight with gold earrings visible, face not visible, warm golden light
+    hi: धूप से बचाव और मेकअप भी परफ़ेक्ट! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Dhoop se bachaav aur makeup bhi perfect! Save karo aur follow karo @dhruviverse.official
+  caption: 'Sunscreen se makeup pilling? ☀️ Sahi tareeka 👇
+
+    1. Gel/matte sunscreen, SPF 30+
+
+    2. Do ungli jitna lo
+
+    3. 5 min wait, phir foundation pat karo
+
+    4. Dopahar mein SPF compact touch up
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Sunscreen pilling under your makeup? 😩 Fix it with these 4 steps 👇
+
+    1. Gel or matte sunscreen
+
+    2. Two finger lengths
+
+    3. Wait before foundation
+
+    4. Touch up with sunscreen powder
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#sunscreen'
+  - '#spf'
+  - '#sunscreenundermakeup'
+  - '#skincare'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 12
+  title: Oily skin makeup that stays matte
+  hook: Oily skin pe makeup chamakta hai?
+  hook_en: Oily skin makeup melts fast?
+  palette: warm terracotta, nude and gold color palette
+  scenes:
+  - en: Does your makeup turn shiny within an hour on oily skin? Try this routine.
+    queries:
+    - glowing skin
+    - makeup
+    image: extreme close-up side profile of a nose and cheek with a shiny oily T-zone, face partly out of frame, warm afternoon light
+    hi: ऑयली स्किन पर एक घंटे में मेकअप चमकने लगता है? ये करो।
+    hinglish: Oily skin par ek ghante mein makeup chamakne lagta hai? Ye karo.
+  - en: First, use an oil free gel moisturizer, never skip this step.
+    queries:
+    - moisturizer
+    - face cream
+    image: close-up of a plain unlabeled clear gel moisturiser jar with a fingertip of gel, terracotta background, soft light
+    hi: पहला, ऑयल फ़्री जेल मॉइस्चराइज़र लगाओ, मॉइस्चराइज़र स्किप मत करो।
+    hinglish: Pehla, oil free gel moisturiser lagao, moisturiser skip mat karo.
+  - en: Second, apply a mattifying primer on your nose and forehead, the oily zone.
+    queries:
+    - applying foundation
+    - makeup
+    image: close-up of a fingertip pressing a small amount of matte primer onto the side of the nose, side profile, face partly out of frame
+    hi: दूसरा, टी ज़ोन पर मैटिफ़ाइंग प्राइमर लगाओ, नाक और माथे पर।
+    hinglish: Doosra, T zone par mattifying primer lagao, naak aur maathe par.
+  - en: Third, apply a thin layer of matte foundation and set it with loose powder.
+    queries:
+    - applying foundation
+    - makeup brush
+    image: close-up of a fluffy brush with loose translucent powder above an open plain unlabeled powder jar on nude marble
+    hi: तीसरा, मैट फ़ाउंडेशन पतली परत में और ऊपर लूज़ पाउडर से सेट करो।
+    hinglish: Teesra, matte foundation patli parat mein aur upar loose powder se set karo.
+  - en: Fourth, carry blotting paper in your bag, and avoid piling on powder again and again.
+    queries:
+    - makeup products
+    - cosmetics
+    image: close-up of a hand pressing a plain blotting paper sheet onto a cheek, side profile, face partly out of frame, warm light
+    hi: चौथा, बैग में ब्लॉटिंग पेपर रखो, पाउडर बार बार मत थोपो।
+    hinglish: Chautha, bag mein blotting paper rakho, powder baar baar mat thopo.
+  - en: Matte and fresh all evening! Save this and follow @dhruviverse.official for more.
+    queries:
+    - glowing skin
+    - makeup
+    image: extreme close-up side profile of smooth matte skin with a soft natural finish and a gold hoop earring, face partly out of frame, evening light
+    hi: अब शाम तक मैट और फ़्रेश! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab shaam tak matte aur fresh! Save karo aur follow karo @dhruviverse.official
+  caption: 'Oily skin pe makeup chamakta hai? 💦 Ye karo 👇
+
+    1. Oil-free gel moisturiser (skip mat karo)
+
+    2. T-zone pe mattifying primer
+
+    3. Thin matte foundation + loose powder
+
+    4. Blotting paper saath rakho
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Oily skin makeup melting fast? 😩 Try these 4 steps 👇
+
+    1. Oil free moisturizer
+
+    2. Mattifying primer on oily zone
+
+    3. Thin matte foundation, set with powder
+
+    4. Carry blotting paper
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#oilyskin'
+  - '#oilyskinmakeup'
+  - '#mattemakeup'
+  - '#makeuptips'
+  - '#makeuphacks'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 13
+  title: Dry skin makeup without patches
+  hook: Dry skin pe foundation phat-ta hai?
+  hook_en: Foundation patchy on dry skin?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Does foundation look dry and patchy on your skin? Listen to these four tips.
+    queries:
+    - applying foundation
+    - glowing skin
+    image: extreme close-up of a cheek with flaky dry patches showing through foundation, side profile, face partly out of frame, soft daylight
+    hi: ड्राई स्किन पर फ़ाउंडेशन फटा फटा दिखता है? ये चार टिप्स सुनो।
+    hinglish: Dry skin par foundation phata phata dikhta hai? Ye chaar tips suno.
+  - en: First, apply a good cream at night and a lip balm in the morning.
+    queries:
+    - face cream
+    - moisturizer
+    image: close-up of a plain unlabeled jar of rich night cream and a small lip balm tin on a bedside table with a warm lamp
+    hi: टिप एक, रात को अच्छी क्रीम लगाओ और सुबह होंठों पर बाम।
+    hinglish: Tip ek, raat ko achhi cream lagao aur subah honthon par balm.
+  - en: Second, apply two thin layers of moisturizer before you start your makeup.
+    queries:
+    - moisturizer
+    - face cream
+    image: close-up of fingertips gently pressing a creamy moisturiser onto a cheek, side profile, face partly out of frame
+    hi: टिप दो, मेकअप से पहले मॉइस्चराइज़र की दो पतली परतें लगाओ।
+    hinglish: Tip do, makeup se pehle moisturiser ki do patli partein lagao.
+  - en: Third, choose a dewy foundation or a BB cream instead of a matte one.
+    queries:
+    - applying foundation
+    - glowing skin
+    image: close-up of a plain unlabeled glass bottle of dewy liquid foundation with a glossy drop on its glass dropper, peach background
+    hi: टिप तीन, मैट नहीं, ड्यूई फ़ाउंडेशन या बीबी क्रीम चुनो।
+    hinglish: Tip teen, matte nahin, dewy foundation ya BB cream chuno.
+  - en: Fourth, keep powder to a minimum, only where it is truly needed.
+    queries:
+    - applying foundation
+    - makeup
+    image: close-up of a small fluffy brush lightly dusting powder only on the side of the nose, side profile, face partly out of frame
+    hi: टिप चार, पाउडर कम से कम, सिर्फ़ जहाँ ज़रूरत हो वहीं लगाओ।
+    hinglish: Tip chaar, powder kam se kam, sirf jahan zaroorat ho wahin lagao.
+  - en: Your skin will look soft and glowing! Save this and follow @dhruviverse.official for more.
+    queries:
+    - glowing skin
+    - makeup
+    image: extreme close-up side profile of soft dewy glowing skin with a rose gold earring, face partly out of frame, warm light
+    hi: अब स्किन दिखेगी सॉफ़्ट और ग्लोइंग! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab skin dikhegi soft aur glowing! Save karo aur follow karo @dhruviverse.official
+  caption: 'Dry skin pe foundation patchy? 🥲 Ye tips 👇
+
+    1. Raat ko rich cream, subah lip balm
+
+    2. Moisturiser ki 2 thin layers
+
+    3. Dewy foundation ya BB cream
+
+    4. Powder sirf jahan zaroorat ho
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Foundation looking patchy on dry skin? 😩 Try these 4 tips 👇
+
+    1. Night cream and lip balm
+
+    2. Two thin layers of moisturizer
+
+    3. Dewy foundation or BB cream
+
+    4. Keep powder minimal
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#dryskin'
+  - '#dryskinmakeup'
+  - '#dewyskin'
+  - '#makeuptips'
+  - '#skincare'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 14
+  title: Budget makeup under ₹200
+  hook: Mehnga makeup zaroori nahin!
+  hook_en: Expensive makeup is not needed!
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Expensive makeup is not necessary! These things under a small budget are more than enough.
+    queries:
+    - makeup products
+    - cosmetics
+    image: flat-lay from above of a few small plain unlabeled affordable makeup products, compact, tint, eyeshadow and a tiny jar, on blush pink silk with gold coins
+    hi: महंगा मेकअप ज़रूरी नहीं! दो सौ रुपये के अंदर ये चीज़ें काफ़ी हैं।
+    hinglish: Mehnga makeup zaroori nahin! Do sau rupaye ke andar ye cheezein kaafi hain.
+  - en: First, plain petroleum jelly works as both a lip balm and a dewy highlight.
+    queries:
+    - skincare
+    - face cream
+    image: close-up of a small plain unlabeled tin of clear petroleum jelly with a fingertip dab, pink background, soft light
+    hi: पहला, सादा पेट्रोलियम जेली, लिप बाम और ड्यूई हाइलाइट दोनों का काम करेगा।
+    hinglish: Pehla, saada petroleum jelly, lip balm aur dewy highlight dono ka kaam karega.
+  - en: Second, a cheap compact powder is great for controlling oil all day.
+    queries:
+    - makeup products
+    - cosmetics
+    image: close-up of an open plain round compact powder with a puff and mirror held in one hand, marble vanity, soft light
+    hi: दूसरा, दो सौ से कम का कॉम्पैक्ट पाउडर, ऑयल कंट्रोल के लिए बढ़िया।
+    hinglish: Doosra, do sau se kam ka compact powder, oil control ke liye badhiya.
+  - en: Third, one lip and cheek tint works beautifully on both your lips and cheeks.
+    queries:
+    - lipstick
+    - blush
+    image: close-up of a small plain unlabeled pink lip and cheek tint bottle with a dot of tint on the back of a hand
+    hi: तीसरा, एक लिप और चीक टिंट, होंठों और गालों दोनों पर लगाओ।
+    hinglish: Teesra, ek lip aur cheek tint, honthon aur gaalon dono par lagao.
+  - en: Fourth, a budget brown eyeshadow also works as brow filler and contour.
+    queries:
+    - eyeshadow
+    - makeup brush
+    image: close-up of a small angled brush in a single plain brown matte eyeshadow pan on nude beige fabric
+    hi: चौथा, बजट ब्राउन आईशैडो, यही ब्रो फ़िलर और कंटूर भी बनेगा।
+    hinglish: Chautha, budget brown eyeshadow, yahi brow filler aur contour bhi banega.
+  - en: Less money, full glam look! Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup
+    - beauty products
+    image: 'flat-lay from above: compact, tint, brown eyeshadow and petroleum jelly tin, all plain unlabeled, with gold earrings and pink roses on blush silk'
+    hi: कम पैसे, पूरा ग्लैम! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Kam paise, poora glam! Save karo aur follow karo @dhruviverse.official
+  caption: 'Budget mein glam 💸✨ Sab ₹200 ke andar 👇
+
+    1. Petroleum jelly: lip balm + highlight
+
+    2. Compact powder
+
+    3. Lip & cheek tint
+
+    4. Brown eyeshadow: brows + contour
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Expensive makeup is not necessary! 💸 Do it on a tiny budget 👇
+
+    1. Petroleum jelly as balm and highlight
+
+    2. Cheap compact powder
+
+    3. One lip and cheek tint
+
+    4. Budget brown eyeshadow
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#budgetmakeup'
+  - '#affordablemakeup'
+  - '#makeupunder200'
+  - '#makeupdupes'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeuphacks'
+  - '#dhruviverse'
+- id: 15
+  title: 5-minute college GRWM
+  hook: College ke liye late?
+  hook_en: Running late for college?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Running late for college? Get ready in just five minutes with this routine.
+    queries:
+    - makeup
+    - smiling woman
+    image: back view of a young Indian college girl with a tote bag sitting at a small vanity with fairy lights, face not visible, morning light
+    hi: कॉलेज के लिए लेट हो रही हो? पाँच मिनट में तैयार हो जाओ।
+    hinglish: College ke liye late ho rahi ho? Paanch minute mein taiyaar ho jaao.
+  - en: First minute, apply sunscreen and spread a little BB cream over your face.
+    queries:
+    - applying foundation
+    - makeup
+    image: close-up of a plain unlabeled BB cream tube and sunscreen tube on a peach vanity tray beside a small mirror
+    hi: पहला मिनट, सनस्क्रीन लगाओ और चेहरे पर बीबी क्रीम हल्के से फैलाओ।
+    hinglish: Pehla minute, sunscreen lagao aur chehre par BB cream halke se phailao.
+  - en: Second minute, pat a little concealer under your eyes with your finger.
+    queries:
+    - dark circles
+    - eye makeup
+    image: close-up of a ring finger tapping concealer under an eye, side profile, face partly out of frame, soft light
+    hi: दूसरा मिनट, आँखों के नीचे थोड़ा कंसीलर, उंगली से थपथपाओ।
+    hinglish: Doosra minute, aankhon ke neeche thoda concealer, ungli se thapthapao.
+  - en: Third minute, add a thin kajal line and mascara on your upper lashes.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an eye with thin black kajal and mascara on upper lashes, face partly out of frame
+    hi: तीसरा मिनट, पतला काजल और ऊपर की पलकों पर मस्कारा।
+    hinglish: Teesra minute, patla kajal aur upar ki palkon par mascara.
+  - en: Fourth minute, dab lip tint on your lips and cheeks, then clip up your hair.
+    queries:
+    - lipstick
+    - blush
+    image: back view of a young Indian woman putting her hair up with a plain peach claw clip, gold earring visible, face not visible
+    hi: चौथा मिनट, लिप टिंट होंठों और गालों पर, फिर बालों में क्लॉ क्लिप।
+    hinglish: Chautha minute, lip tint honthon aur gaalon par, phir baalon mein claw clip.
+  - en: Last minute, take a selfie and go! Save this and follow @dhruviverse.official for more.
+    queries:
+    - selfie
+    - smiling woman
+    image: back view of a young Indian college girl walking out of a door with a tote bag and books, face not visible, bright morning light
+    hi: आखिरी मिनट, सेल्फ़ी लो और निकलो! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Aakhri minute, selfie lo aur niklo! Save karo aur follow karo @dhruviverse.official
+  caption: 'Late ho rahi ho? 5-min college GRWM ⏰💕
+
+    1. Sunscreen + BB cream
+
+    2. Concealer under eyes
+
+    3. Thin kajal + mascara
+
+    4. Lip tint on lips & cheeks, claw clip
+
+    Save karo for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Running late for college? ⏰ Ready in 5 minutes 👇
+
+    1. Sunscreen and BB cream
+
+    2. Concealer under eyes
+
+    3. Kajal and mascara
+
+    4. Lip tint and claw clip
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#grwm'
+  - '#collegemakeup'
+  - '#5minutemakeup'
+  - '#everydaymakeup'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 16
+  title: 5-minute office GRWM
+  hook: Office ke liye sirf 5 minute?
+  hook_en: Only five minutes for office?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Only five minutes for office? Try this quick routine before you leave.
+    queries:
+    - vanity
+    - makeup
+    image: back view of a young Indian woman in a pastel peach kurta sitting at a white vanity with a round mirror, morning sunlight through a window, a cup of chai on the table, her face not visible
+    hi: ऑफ़िस के लिए सिर्फ़ पाँच मिनट हैं? ये क्विक रूटीन फ़ॉलो करो।
+    hinglish: Office ke liye sirf paanch minute hain? Ye quick routine follow karo.
+  - en: First, apply moisturizer and sunscreen, this base matters the most.
+    queries:
+    - moisturizer
+    - skincare
+    image: a woman's hand holding a plain unlabeled cream tube squeezing a small dot of white sunscreen onto her fingertip, peach background, soft morning light, close-up
+    hi: स्टेप वन, मॉइस्चराइज़र और सनस्क्रीन लगाओ, ये बेस सबसे ज़रूरी है।
+    hinglish: Step one, moisturizer aur sunscreen lagao, ye base sabse zaroori hai.
+  - en: Second, skip foundation, just hide dark circles with a good concealer.
+    queries:
+    - dark circles
+    - makeup products
+    image: close-up side profile of an Indian woman's under-eye area with a small doe-foot concealer applicator dabbing beige concealer, face partly out of frame, soft window light
+    hi: स्टेप टू, फ़ाउंडेशन छोड़ो, बस अच्छे कंसीलर से डार्क सर्कल्स छुपाओ।
+    hinglish: Step two, foundation chhodo, bas achhe concealer se dark circles chhupao.
+  - en: Third, dab that same nude lipstick on your cheeks like blush.
+    queries:
+    - lipstick
+    - blush
+    image: an open plain unlabeled nude peach lipstick bullet standing on a cream marble vanity next to rose gold earrings and a small round mirror, soft focus background
+    hi: स्टेप थ्री, वही न्यूड लिपस्टिक गालों पर ब्लश की तरह लगाओ।
+    hinglish: Step three, wahi nude lipstick gaalon par blush ki tarah lagao.
+  - en: Fourth, a thin line of kajal and a little lip balm.
+    queries:
+    - eye makeup
+    - lips
+    image: extreme close-up side profile of an Indian woman's eye with a thin neat black kajal line and long lashes, glossy nude lips just visible at the bottom, face partly out of frame
+    hi: स्टेप फ़ोर, काजल की पतली लाइन और होंठों पर थोड़ा सा लिप बाम।
+    hinglish: Step four, kajal ki patli line aur honthon par thoda sa lip balm.
+  - en: A fresh office look ready in five minutes. Save this and follow @dhruviverse.official for more.
+    queries:
+    - smiling woman
+    - makeup
+    image: 'aesthetic flat-lay from above: plain unlabeled lipstick, black kajal pencil, small sunscreen tube, office ID lanyard, rose gold watch and a cup of chai on a cream linen cloth, soft morning light'
+    hi: पाँच मिनट में फ़्रेश ऑफ़िस लुक तैयार! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Paanch minute mein fresh office look taiyaar! Save karo aur follow karo @dhruviverse.official
+  caption: 'Office ke liye late ho rahe ho? ⏰ Ye 5-min GRWM try karo 👇
+
+    1. Moisturizer + sunscreen
+
+    2. Foundation skip, sirf concealer
+
+    3. Nude lipstick as blush
+
+    4. Thin kajal + lip balm
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Only five minutes for office? ⏰ Try this quick routine 👇
+
+    1. Moisturizer and sunscreen
+
+    2. Concealer instead of foundation
+
+    3. Nude lipstick as blush
+
+    4. Light kajal and lip balm
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#grwm'
+  - '#officemakeup'
+  - '#5minutemakeup'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#affordablemakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 17
+  title: Diwali glow festive look
+  hook: Diwali par glow chahiye?
+  hook_en: Want a glow this Diwali?
+  palette: deep maroon, marigold and gold color palette
+  scenes:
+  - en: Want a glow this Diwali without the parlour budget? Try this look.
+    queries:
+    - diwali
+    - festival lights
+    image: side profile of a young Indian woman in a deep maroon silk saree with gold border holding a lit clay diya, warm glowing light on her cheek, face partly out of frame, marigold garlands in the
+      background
+    hi: दिवाली पर ग्लो चाहिए पर पार्लर का बजट नहीं? ये लुक ट्राई करो।
+    hinglish: Diwali par glow chahiye par parlour ka budget nahin? Ye look try karo.
+  - en: First, apply a light foundation after primer and blend it in well.
+    queries:
+    - applying foundation
+    - vanity
+    image: a woman's hand holding a flat foundation brush with a little beige liquid foundation, a plain unlabeled glass bottle beside marigold flowers on a gold tray, close-up
+    hi: पहला, प्राइमर के बाद हल्का फ़ाउंडेशन लगाओ और अच्छे से ब्लेंड करो।
+    hinglish: Pehla, primer ke baad halka foundation lagao aur achhe se blend karo.
+  - en: Second, add golden eyeshadow on your lids, it will shine under the lights.
+    queries:
+    - eyeshadow
+    - eye makeup
+    image: extreme close-up of an Indian woman's closed eyelid with shimmering golden eyeshadow, long lashes, warm diya light reflecting, face partly out of frame
+    hi: दूसरा, पलकों पर गोल्डन आईशैडो लगाओ, दीयों की रोशनी में चमकेगा।
+    hinglish: Doosra, palkon par golden eyeshadow lagao, diyon ki roshni mein chamkega.
+  - en: Third, bold kajal with winged liner makes your eyes look big and dramatic.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an Indian woman's eye with bold black kajal and a sharp winged eyeliner, gold jhumka earring visible, face partly out of frame, warm festive lights bokeh
+    hi: तीसरा, मोटा काजल और विंग्ड लाइनर, आँखें बड़ी और ड्रामैटिक दिखेंगी।
+    hinglish: Teesra, mota kajal aur winged liner, aankhen badi aur dramatic dikhengi.
+  - en: Fourth, finish with maroon lipstick and a small bindi for the full look.
+    queries:
+    - lipstick
+    - lips
+    image: close-up of an Indian woman's lips with rich matte maroon lipstick and her chin, a small red bindi card and gold bangles on a tray beside, face mostly out of frame
+    hi: चौथा, मैरून लिपस्टिक और छोटी सी बिंदी से लुक पूरा करो।
+    hinglish: Chautha, maroon lipstick aur chhoti si bindi se look poora karo.
+  - en: Now your photos will glow too. Save this and follow @dhruviverse.official for more.
+    queries:
+    - diwali
+    - smiling woman
+    image: 'festive flat-lay from above: plain unlabeled maroon lipstick, gold eyeshadow pan, black kajal pencil, lit clay diyas, marigold petals and gold bangles on a maroon silk cloth'
+    hi: अब फ़ोटो में भी ग्लो दिखेगा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab photo mein bhi glow dikhega! Save karo aur follow karo @dhruviverse.official
+  caption: 'Diwali glow bina parlour ke? 🪔✨ Ye festive look try karo 👇
+
+    1. Primer + light foundation
+
+    2. Golden eyeshadow
+
+    3. Bold kajal + winged liner
+
+    4. Maroon lips + chhoti bindi
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Want a glow this Diwali? ✨ Try this festive look 👇
+
+    1. Light foundation, well blended
+
+    2. Golden eyeshadow
+
+    3. Bold kajal and winged liner
+
+    4. Maroon lipstick and a bindi
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#diwalimakeup'
+  - '#festivemakeup'
+  - '#diwalilook'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#goldeneyes'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 18
+  title: Elegant wedding-guest look
+  hook: Shaadi mein guest bankar jaana hai?
+  hook_en: Going to a wedding as guest?
+  palette: dusty rose, mauve and champagne gold color palette
+  scenes:
+  - en: Going to a wedding as a guest? Here is how to look elegant, not over the top.
+    queries:
+    - indian bride
+    - saree
+    image: back view of a young Indian woman in a dusty rose lehenga with a sheer dupatta walking toward a wedding venue decorated with fairy lights and flowers, face not visible
+    hi: शादी में गेस्ट बनकर जाना है? ऐसे दिखो एलिगेंट, ओवर नहीं।
+    hinglish: Shaadi mein guest bankar jaana hai? Aise dikho elegant, over nahin.
+  - en: First, always apply primer for a long function, your makeup will last.
+    queries:
+    - vanity
+    - skincare
+    image: a woman's hand holding a plain unlabeled small primer tube above an open mauve velvet jewellery box with champagne gold earrings, soft warm light, close-up
+    hi: स्टेप वन, लंबे फ़ंक्शन के लिए प्राइमर ज़रूर लगाओ, मेकअप टिकेगा।
+    hinglish: Step one, lambe function ke liye primer zaroor lagao, makeup tikega.
+  - en: Second, shimmery champagne eyeshadow on the lids, with a little kajal above.
+    queries:
+    - eyeshadow
+    - eye makeup
+    image: extreme close-up of an Indian woman's eye with shimmery champagne eyeshadow and a soft thin kajal line, long lashes, face partly out of frame
+    hi: स्टेप टू, आँखों पर शिमरी शैम्पेन आईशैडो, और ऊपर हल्का सा काजल।
+    hinglish: Step two, aankhon par shimmery champagne eyeshadow, aur upar halka sa kajal.
+  - en: Third, rosy blush on your cheekbones, blended upward toward the temples.
+    queries:
+    - blush
+    - makeup brush
+    image: close-up side profile of an Indian woman's cheek with a fluffy brush sweeping rosy pink blush upward on the cheekbone, champagne gold jhumka visible, face partly out of frame
+    hi: स्टेप थ्री, गालों की हड्डी पर रोज़ी ब्लश, ऊपर की तरफ़ ब्लेंड करो।
+    hinglish: Step three, gaalon ki haddi par rosy blush, upar ki taraf blend karo.
+  - en: Fourth, dusty rose lipstick suits every saree and lehenga beautifully.
+    queries:
+    - lipstick
+    - lips
+    image: close-up of an Indian woman's lips with dusty rose lipstick, a sheer embroidered dupatta edge near her chin, face mostly out of frame, warm soft light
+    hi: स्टेप फ़ोर, डस्टी रोज़ लिपस्टिक, ये हर साड़ी और लहंगे पर जँचेगी।
+    hinglish: Step four, dusty rose lipstick, ye har saree aur lehenge par jachegi.
+  - en: Lock it all with setting spray and go. Save this and follow @dhruviverse.official for more.
+    queries:
+    - indian bride
+    - makeup
+    image: 'flat-lay from above: plain unlabeled setting spray bottle, dusty rose lipstick, champagne eyeshadow palette, gold bangles and rose petals on a mauve silk dupatta'
+    hi: सेटिंग स्प्रे से लॉक करो और जाओ! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Setting spray se lock karo aur jaao! Save karo aur follow karo @dhruviverse.official
+  caption: 'Wedding guest ho, dulhan nahin 😉💍 Elegant look in 4 steps 👇
+
+    1. Primer for long hours
+
+    2. Champagne shimmer eyes
+
+    3. Rosy blush on cheekbones
+
+    4. Dusty rose lips
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Going to a wedding as a guest? 👰 Keep it elegant, not over the top 👇
+
+    1. Primer for long wear
+
+    2. Shimmery champagne eyeshadow
+
+    3. Rosy blush on cheekbones
+
+    4. Dusty rose lipstick
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#weddingguestmakeup'
+  - '#weddingseason'
+  - '#indianwedding'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeuplook'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 19
+  title: Fresh haldi and mehendi look
+  hook: Haldi ya mehendi function hai?
+  hook_en: Got a haldi or mehendi function?
+  palette: sunny marigold, peach and gold color palette
+  scenes:
+  - en: Got a haldi or mehendi function? Keep the look light, fresh and glowing.
+    queries:
+    - mehendi
+    - henna
+    image: side profile of a young Indian woman in a bright yellow kurta with marigold flowers in her braided hair, laughing, face partly out of frame, sunny outdoor haldi decor
+    hi: हल्दी या मेहंदी फ़ंक्शन है? हल्का, फ़्रेश और खिला हुआ लुक बनाओ।
+    hinglish: Haldi ya mehendi function hai? Halka, fresh aur khila hua look banao.
+  - en: First, choose waterproof makeup, it survives the haldi and water easily.
+    queries:
+    - skincare
+    - glowing skin
+    image: plain unlabeled waterproof kajal pencil and mascara tube on a brass plate next to a small bowl of turmeric paste and marigold flowers, close-up
+    hi: पहला, वॉटरप्रूफ़ मेकअप ही चुनो, हल्दी और पानी से भी बचा रहेगा।
+    hinglish: Pehla, waterproof makeup hi chuno, haldi aur paani se bhi bacha rahega.
+  - en: Second, no heavy foundation, just tinted moisturizer with a little concealer.
+    queries:
+    - moisturizer
+    - face cream
+    image: a woman's hand with a mehendi design holding a plain unlabeled tinted moisturizer tube, yellow fabric background, soft sunlight, close-up
+    hi: दूसरा, हैवी फ़ाउंडेशन नहीं, बस टिंटेड मॉइस्चराइज़र और थोड़ा कंसीलर।
+    hinglish: Doosra, heavy foundation nahin, bas tinted moisturizer aur thoda concealer.
+  - en: Third, peach blush with a light yellow or orange eyeshadow on the eyes.
+    queries:
+    - blush
+    - eyeshadow
+    image: extreme close-up of an Indian woman's eye with soft yellow and orange eyeshadow and peach flushed cheek, face partly out of frame, sunny light
+    hi: तीसरा, पीच ब्लश और आँखों पर हल्का पीला या ऑरेंज आईशैडो।
+    hinglish: Teesra, peach blush aur aankhon par halka peela ya orange eyeshadow.
+  - en: Fourth, a coral lip tint and fresh marigold flowers in your hair.
+    queries:
+    - lips
+    - flowers pink
+    image: close-up of an Indian woman's lips with glossy coral lip tint and a marigold flower tucked near her ear, face mostly out of frame
+    hi: चौथा, कोरल लिप टिंट लगाओ, और बालों में ताज़े गेंदे के फूल।
+    hinglish: Chautha, coral lip tint lagao, aur baalon mein taaze gende ke phool.
+  - en: Such a natural glow in photos. Save this and follow @dhruviverse.official for more.
+    queries:
+    - mehendi
+    - smiling woman
+    image: 'flat-lay from above: plain unlabeled coral lip tint, peach blush compact, marigold flowers, green bangles, mehendi cone and a brass bowl of turmeric on yellow cloth'
+    hi: फ़ोटो में एकदम नैचुरल ग्लो! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Photo mein ekdam natural glow! Save karo aur follow karo @dhruviverse.official
+  caption: 'Haldi/Mehendi ke liye fresh look 🌼💛 👇
+
+    1. Sirf waterproof makeup
+
+    2. Tinted moisturizer, no heavy base
+
+    3. Peach blush + yellow/orange eyes
+
+    4. Coral lips + gende ke phool
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Got a haldi or mehendi function? 🌼 Keep it light and fresh 👇
+
+    1. Waterproof makeup
+
+    2. Tinted moisturizer, not heavy foundation
+
+    3. Peach blush and orange eyeshadow
+
+    4. Coral lip tint and fresh flowers
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#haldimakeup'
+  - '#mehendilook'
+  - '#haldilook'
+  - '#indianwedding'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 20
+  title: Monsoon-proof makeup
+  hook: Baarish mein makeup beh jaata hai?
+  hook_en: Does makeup melt in rain?
+  palette: misty blue, nude beige and rose gold color palette
+  scenes:
+  - en: Does your makeup melt in the rain? Remember these four monsoon tips.
+    queries:
+    - rain window
+    - skincare
+    image: back view of a young Indian woman holding a transparent umbrella looking at rain from a balcony, raindrops, soft grey light, face not visible
+    hi: बारिश में मेकअप बह जाता है? ये चार मॉनसून टिप्स याद रखो।
+    hinglish: Baarish mein makeup beh jaata hai? Ye chaar monsoon tips yaad rakho.
+  - en: First, a gel moisturizer and matte primer, your face will not feel sticky.
+    queries:
+    - moisturizer
+    - face cream
+    image: a woman's fingertip with a dollop of clear gel moisturizer above a plain unlabeled glass jar, raindrops on a window behind, close-up
+    hi: पहला, जेल मॉइस्चराइज़र और मैट प्राइमर, चेहरे पर चिपचिपाहट नहीं होगी।
+    hinglish: Pehla, gel moisturizer aur matte primer, chehre par chipchipahat nahin hogi.
+  - en: Second, use a light compact powder instead of liquid foundation.
+    queries:
+    - applying foundation
+    - makeup products
+    image: an open plain unlabeled round compact powder with a beige puff on a windowsill wet with raindrops, soft diffused light, close-up
+    hi: दूसरा, लिक्विड फ़ाउंडेशन की जगह हल्का कॉम्पैक्ट पाउडर इस्तेमाल करो।
+    hinglish: Doosra, liquid foundation ki jagah halka compact powder istemaal karo.
+  - en: Third, pick waterproof kajal and mascara, it will not run in the rain.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up side profile of an Indian woman's eye with crisp black kajal and mascara, tiny raindrops on her cheek, face partly out of frame
+    hi: तीसरा, वॉटरप्रूफ़ काजल और मस्कारा लो, बारिश में भी नहीं फैलेगा।
+    hinglish: Teesra, waterproof kajal aur mascara lo, baarish mein bhi nahin phailega.
+  - en: Fourth, skip creamy lipstick, a matte lip tint stays on much longer.
+    queries:
+    - lipstick
+    - lips
+    image: close-up of an Indian woman's lips with a matte rose lip tint, a transparent umbrella edge with raindrops in the background, face mostly out of frame
+    hi: चौथा, क्रीमी लिपस्टिक नहीं, मैट लिप टिंट लगाओ, ज़्यादा टिकेगा।
+    hinglish: Chautha, creamy lipstick nahin, matte lip tint lagao, zyada tikega.
+  - en: Now your makeup stays safe even in the rain. Save this and follow @dhruviverse.official for more.
+    queries:
+    - rain window
+    - makeup
+    image: 'flat-lay from above: plain unlabeled compact powder, black kajal pencil, mascara, matte lip tint, a small folded umbrella and a cup of chai on a beige cloth with raindrops'
+    hi: अब बारिश में भी मेकअप सेफ़ रहेगा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Ab baarish mein bhi makeup safe rahega! Save karo aur follow karo @dhruviverse.official
+  caption: 'Monsoon mein makeup beh jaata hai? 🌧️☔ Ye 4 tips 👇
+
+    1. Gel moisturizer + matte primer
+
+    2. Liquid foundation nahin, compact
+
+    3. Waterproof kajal + mascara
+
+    4. Matte lip tint
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Does your makeup melt in the rain? ☔ Remember these monsoon tips 👇
+
+    1. Gel moisturizer, matte primer
+
+    2. Compact powder over liquid foundation
+
+    3. Waterproof kajal and mascara
+
+    4. Matte lip tint, not creamy lipstick
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#monsoonmakeup'
+  - '#waterproofmakeup'
+  - '#makeuptips'
+  - '#makeuphacks'
+  - '#indianmakeup'
+  - '#affordablemakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 21
+  title: 4 common makeup mistakes
+  hook: Ye galtiyan look kharab kar rahi hain!
+  hook_en: These mistakes ruin your look!
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: These four makeup mistakes are ruining your whole look!
+    queries:
+    - makeup
+    - makeup brush
+    image: back view of a young Indian woman at a vanity with a mirror framed by fairy lights, makeup products scattered, her face not visible
+    hi: ये चार मेकअप गलतियाँ आपका पूरा लुक खराब कर रही हैं!
+    hinglish: Ye chaar makeup galtiyan aapka poora look kharab kar rahi hain!
+  - en: Mistake one, foundation that does not match your neck, always test on the jawline.
+    queries:
+    - applying foundation
+    - contour
+    image: close-up of an Indian woman's jawline with three small swatches of beige liquid foundation in different shades, face partly out of frame, natural window light
+    hi: गलती नंबर एक, गर्दन से अलग शेड का फ़ाउंडेशन, हमेशा जॉलाइन पर टेस्ट करो।
+    hinglish: Galti number ek, gardan se alag shade ka foundation, hamesha jawline par test karo.
+  - en: Mistake two, dirty brushes, wash them once every week without fail.
+    queries:
+    - makeup brush
+    - cosmetics
+    image: several clean makeup brushes drying on a white towel next to a bowl of soapy water, blush pink background, close-up
+    hi: गलती नंबर दो, गंदे ब्रश, हफ़्ते में एक बार ज़रूर धो लो।
+    hinglish: Galti number do, gande brush, hafte mein ek baar zaroor dho lo.
+  - en: Mistake three, too much powder, it makes your face look cakey and dry.
+    queries:
+    - makeup products
+    - face cream
+    image: a big fluffy powder brush loaded with too much loose powder, a cloud of powder in the air, plain unlabeled powder jar below, close-up
+    hi: गलती नंबर तीन, बहुत ज़्यादा पाउडर, इससे चेहरा केकी और सूखा दिखता है।
+    hinglish: Galti number teen, bahut zyada powder, isse chehra cakey aur sukha dikhta hai.
+  - en: Mistake four, not removing makeup before sleeping, it harms your skin.
+    queries:
+    - skincare
+    - moisturizer
+    image: a woman's hand holding a white cotton pad soaked in plain unlabeled micellar water next to a bedside lamp at night, soft warm light
+    hi: गलती नंबर चार, सोने से पहले मेकअप नहीं उतारना, स्किन खराब होती है।
+    hinglish: Galti number chaar, sone se pehle makeup nahin utaarna, skin kharab hoti hai.
+  - en: Avoid these and your look improves right away. Save this and follow @dhruviverse.official for more.
+    queries:
+    - glowing skin
+    - smiling woman
+    image: 'neat aesthetic vanity flat-lay from above: clean makeup brushes, plain unlabeled foundation bottle, cotton pads, pink roses and gold earrings on a white marble top'
+    hi: इनसे बचो, लुक तुरंत बेहतर! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Inse bacho, look turant behtar! Save karo aur follow karo @dhruviverse.official
+  caption: 'Ye 4 makeup mistakes aap bhi karte ho? 🙈 👇
+
+    1. Galat foundation shade
+
+    2. Gande brushes
+
+    3. Zyada powder = cakey
+
+    4. Makeup utaare bina sona
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'These mistakes ruin your look! 😩 Fix these four things 👇
+
+    1. Wrong foundation shade
+
+    2. Dirty brushes
+
+    3. Too much powder
+
+    4. Sleeping with makeup on
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#makeupmistakes'
+  - '#makeuptips'
+  - '#makeuphacks'
+  - '#beautytips'
+  - '#indianmakeup'
+  - '#makeupforbeginners'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 22
+  title: Perfect brows at home
+  hook: Bina parlour perfect eyebrow?
+  hook_en: Perfect brows without a parlour?
+  palette: warm terracotta, nude and gold color palette
+  scenes:
+  - en: Want perfect eyebrows without going to a parlour? Here is how.
+    queries:
+    - eyebrows
+    - makeup
+    image: extreme close-up side profile of an Indian woman's eyebrow and eye, natural full brow, face partly out of frame, warm golden light
+    hi: पार्लर गए बिना घर पर परफ़ेक्ट आइब्रो चाहिए? ऐसे करो।
+    hinglish: Parlour gaye bina ghar par perfect eyebrow chahiye? Aise karo.
+  - en: First, brush your eyebrow hair upward with a spoolie brush.
+    queries:
+    - eyebrow
+    - makeup brush
+    image: close-up of a spoolie brush brushing brow hairs upward on an Indian woman's eyebrow, face partly out of frame, soft warm light
+    hi: स्टेप वन, स्पूली ब्रश से आइब्रो के बाल ऊपर की तरफ़ ब्रश करो।
+    hinglish: Step one, spoolie brush se eyebrow ke baal upar ki taraf brush karo.
+  - en: Second, mark the shape with a pencil, starting from the line of your nose.
+    queries:
+    - eyebrows
+    - vanity
+    image: close-up of a brown brow pencil lightly outlining the shape of an Indian woman's eyebrow, face partly out of frame, terracotta background
+    hi: स्टेप टू, पेंसिल से शेप मार्क करो, नाक की सीध से शुरू करके।
+    hinglish: Step two, pencil se shape mark karo, naak ki seedh se shuru karke.
+  - en: Third, pluck only the small hairs outside the shape, one at a time.
+    queries:
+    - eyebrow
+    - beauty products
+    image: a slanted gold tweezer and a small round mirror on a terracotta cloth with a few cotton pads, flat-lay, soft light
+    hi: स्टेप थ्री, शेप के बाहर वाले छोटे बाल ही ट्वीज़र से हटाओ, एक एक करके।
+    hinglish: Step three, shape ke bahar waale chhote baal hi tweezer se hatao, ek ek karke.
+  - en: Fourth, fill the gaps with a light brown eyeshadow and set with clear gel.
+    queries:
+    - eyeshadow
+    - eyebrows
+    image: close-up of an angled brush with soft brown eyeshadow filling in an Indian woman's eyebrow, face partly out of frame, warm light
+    hi: स्टेप फ़ोर, खाली जगह हल्के ब्राउन आईशैडो से भरो, और क्लियर जेल से सेट करो।
+    hinglish: Step four, khaali jagah halke brown eyeshadow se bharo, aur clear gel se set karo.
+  - en: Do not over pluck, natural shape is always best. Save this and follow @dhruviverse.official for more.
+    queries:
+    - eyebrow
+    - smiling woman
+    image: 'flat-lay from above: spoolie brush, brown brow pencil, gold tweezer, plain unlabeled clear brow gel, small round mirror and gold earrings on terracotta linen'
+    hi: ज़्यादा मत उखाड़ो, नैचुरल शेप ही बेस्ट है! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Zyada mat ukhaado, natural shape hi best hai! Save karo aur follow karo @dhruviverse.official
+  caption: 'Ghar pe perfect brows 🤎 Parlour ki zaroorat nahin 👇
+
+    1. Spoolie se brush up
+
+    2. Pencil se shape mark
+
+    3. Sirf bahar ke baal tweeze
+
+    4. Brown eyeshadow fill + clear gel
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Perfect brows without a parlour? 👀 Try this at home 👇
+
+    1. Brush hair upward
+
+    2. Mark the shape with pencil
+
+    3. Pluck only the stray hairs
+
+    4. Fill gaps and set with gel
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#eyebrows'
+  - '#browshaping'
+  - '#browtutorial'
+  - '#makeuptips'
+  - '#diybeauty'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 23
+  title: Makeup expiry facts
+  hook: Aapka makeup expire ho chuka hai?
+  hook_en: Your makeup can expire too!
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Did you know your makeup can expire too? Here are four facts.
+    queries:
+    - makeup products
+    - cosmetics
+    image: a messy makeup pouch spilling old plain unlabeled lipsticks, mascara tubes and compacts onto a cream bedsheet, soft light, close-up
+    hi: क्या आपका मेकअप एक्सपायर हो चुका है? ये जानना ज़रूरी है।
+    hinglish: Kya aapka makeup expire ho chuka hai? Ye jaanna zaroori hai.
+  - en: First, mascara expires fastest, throw it away after a few months of use.
+    queries:
+    - eyelashes
+    - eye makeup
+    image: a woman's hand holding a plain unlabeled mascara tube and a liquid eyeliner pen above a small desk calendar, peach background, close-up
+    hi: पहला, मस्कारा और लिक्विड लाइनर, खोलने के तीन महीने बाद बदल दो।
+    hinglish: Pehla, mascara aur liquid liner, kholne ke teen mahine baad badal do.
+  - en: Second, lipstick usually lasts about a year once it is opened.
+    queries:
+    - lipstick
+    - lips
+    image: plain unlabeled foundation bottle and concealer tube standing on a cream marble vanity with rose gold accessories, soft focus, close-up
+    hi: दूसरा, फ़ाउंडेशन और कंसीलर लगभग एक साल तक ही चलते हैं।
+    hinglish: Doosra, foundation aur concealer lagbhag ek saal tak hi chalte hain.
+  - en: Third, liquid foundation also lasts about a year, check for a change in smell.
+    queries:
+    - applying foundation
+    - makeup products
+    image: an open plain unlabeled peach lipstick and a pressed powder compact on a cream silk cloth with rose petals, flat-lay
+    hi: तीसरा, लिपस्टिक और पाउडर दो साल तक, अगर अजीब महक न आए।
+    hinglish: Teesra, lipstick aur powder do saal tak, agar ajeeb mehak na aaye.
+  - en: Fourth, if the texture changes or it smells odd, it is time to replace it.
+    queries:
+    - cosmetics
+    - beauty products
+    image: a woman's hand holding a plain unlabeled cosmetic jar turned to show its blank back side, cream background, soft light, close-up
+    hi: चौथा, पैक के पीछे खुले डिब्बे वाला निशान देखो, उसमें महीने लिखे होते हैं।
+    hinglish: Chautha, pack ke peeche khule dibbe waala nishaan dekho, usmein mahine likhe hote hain.
+  - en: Old makeup can harm your skin, so check often. Save this and follow @dhruviverse.official for more.
+    queries:
+    - skincare
+    - glowing skin
+    image: 'tidy aesthetic vanity flat-lay from above: a few fresh plain unlabeled makeup products neatly arranged with rose gold brushes and peach roses'
+    hi: पुराना मेकअप मतलब पिंपल्स! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Purana makeup matlab pimples! Save karo aur follow karo @dhruviverse.official
+  caption: 'Makeup ki bhi expiry hoti hai! ⏳😱 👇
+
+    1. Mascara/liner: 3 months
+
+    2. Foundation/concealer: ~1 saal
+
+    3. Lipstick/powder: ~2 saal
+
+    4. Pack pe open-jar symbol check karo
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Your makeup can expire too! 😮 Check these expiry facts 👇
+
+    1. Mascara lasts a few months
+
+    2. Lipstick lasts about a year
+
+    3. Foundation lasts about a year
+
+    4. Smell and texture tell you more
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#makeupexpiry'
+  - '#makeupfacts'
+  - '#beautytips'
+  - '#makeuptips'
+  - '#skincare'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 24
+  title: Cheap eyeshadow, expensive look
+  hook: Sasta eyeshadow mehnga dikhe?
+  hook_en: Make cheap eyeshadow look expensive!
+  palette: dusty rose, mauve and champagne gold color palette
+  scenes:
+  - en: Want your cheap eyeshadow to look expensive? Try this easy trick.
+    queries:
+    - eyeshadow
+    - makeup products
+    image: an open budget eyeshadow palette of mauve, rose and champagne shades with no branding on a velvet cloth, soft glamorous light, close-up
+    hi: सस्ता आईशैडो भी महँगा दिख सकता है, बस ये ट्रिक्स जानो।
+    hinglish: Sasta eyeshadow bhi mehnga dikh sakta hai, bas ye tricks jaano.
+  - en: First, apply a little primer or concealer on your lids before the eyeshadow.
+    queries:
+    - vanity
+    - makeup brush
+    image: close-up of a small flat brush patting beige concealer on an Indian woman's eyelid as a base, face partly out of frame, soft light
+    hi: पहला, पलकों पर प्राइमर या कंसीलर का बेस लगाओ, रंग खिलकर आएगा।
+    hinglish: Pehla, palkon par primer ya concealer ka base lagao, rang khilkar aayega.
+  - en: Second, pat the color on with your finger, do not swipe it across.
+    queries:
+    - eyeshadow
+    - eye makeup
+    image: extreme close-up of a damp flat brush picking up sparkly champagne shimmer eyeshadow from a palette pan, glitter catching light
+    hi: दूसरा, शिमर को उंगली या गीले ब्रश से थपथपाओ, दुगनी चमक मिलेगी।
+    hinglish: Doosra, shimmer ko ungli ya geele brush se thapthapao, dugni chamak milegi.
+  - en: Third, blend the edges well with a fluffy brush so there are no harsh lines.
+    queries:
+    - makeup brush
+    - eye makeup
+    image: extreme close-up of an Indian woman's eye with softly blended mauve eyeshadow in the crease, a fluffy brush near the outer corner, face partly out of frame
+    hi: तीसरा, किनारों को फ़्लफ़ी ब्रश से अच्छे से ब्लेंड करो, कोई सख्त लाइन नहीं।
+    hinglish: Teesra, kinaron ko fluffy brush se achhe se blend karo, koi sakht line nahin.
+  - en: Fourth, add a shimmer shade only in the center of the lid for depth.
+    queries:
+    - eyeshadow
+    - cosmetics
+    image: three neat swatches of dusty rose, mauve and champagne eyeshadow on the inside of a woman's forearm, soft light, close-up
+    hi: चौथा, बस दो या तीन मिलते जुलते शेड्स ही इस्तेमाल करो।
+    hinglish: Chautha, bas do ya teen milte julte shades hi istemaal karo.
+  - en: Now it looks like a costly palette. Save this and follow @dhruviverse.official for more.
+    queries:
+    - eye makeup
+    - smiling woman
+    image: extreme close-up side profile of an Indian woman's eye with glamorous mauve and champagne shimmer eye look, long lashes, champagne gold earring, face partly out of frame
+    hi: कोई नहीं बोलेगा कि ये सस्ता है! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Koi nahin bolega ki ye sasta hai! Save karo aur follow karo @dhruviverse.official
+  caption: 'Budget eyeshadow ko luxury look do ✨💜 👇
+
+    1. Primer/concealer base
+
+    2. Shimmer ungli ya geele brush se
+
+    3. Edges blend karo
+
+    4. Sirf 2-3 matching shades
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Make cheap eyeshadow look expensive! 💅 Try this trick 👇
+
+    1. Primer or concealer base
+
+    2. Pat, do not swipe
+
+    3. Blend the edges well
+
+    4. Add shimmer on the center of the lid
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#eyeshadow'
+  - '#eyemakeup'
+  - '#budgetmakeup'
+  - '#makeuphacks'
+  - '#affordablemakeup'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 25
+  title: Lip liner trick for fuller lips
+  hook: Patle honth? Ye trick try karo
+  hook_en: Want fuller looking lips?
+  palette: warm terracotta, nude and gold color palette
+  scenes:
+  - en: Want your lips to look fuller? This lip liner trick works every time.
+    queries:
+    - lips
+    - lipstick
+    image: extreme close-up of an Indian woman's natural thin lips and chin, face out of frame, warm soft light, terracotta background
+    hi: पतले होंठ हैं? लिप लाइनर की ये ट्रिक उन्हें भरा भरा दिखाएगी।
+    hinglish: Patle honth hain? Lip liner ki ye trick unhein bhara bhara dikhayegi.
+  - en: First, line just a touch outside your natural lip edge, not too far.
+    queries:
+    - lips
+    - applying lipstick
+    image: a plain unlabeled nude-brown lip liner pencil next to an open nude lipstick on terracotta silk fabric, flat-lay
+    hi: पहला, होंठों से एक शेड गहरा न्यूड लिप लाइनर चुनो।
+    hinglish: Pehla, honthon se ek shade gehra nude lip liner chuno.
+  - en: Second, keep the center point of your upper lip sharp and defined.
+    queries:
+    - lips
+    - makeup
+    image: extreme close-up of a nude lip liner pencil tracing just outside the cupid's bow of an Indian woman's upper lip, face out of frame
+    hi: दूसरा, ऊपर के बीच वाले हिस्से में हल्का सा बाहर की ओर लाइन करो।
+    hinglish: Doosra, upar ke beech waale hisse mein halka sa bahar ki or line karo.
+  - en: Third, fill your whole lip with the liner first, then add lipstick on top.
+    queries:
+    - lipstick
+    - applying lipstick
+    image: extreme close-up of an Indian woman's lips being filled with warm nude lipstick over blended liner, face out of frame, soft light
+    hi: तीसरा, लाइनर को अंदर की तरफ़ ब्लेंड करो, फिर लिपस्टिक लगाओ।
+    hinglish: Teesra, liner ko andar ki taraf blend karo, phir lipstick lagao.
+  - en: Fourth, dab a little gloss only in the center of your lower lip.
+    queries:
+    - lips
+    - cosmetics
+    image: extreme close-up of full nude lips with a drop of clear gloss in the center of the lower lip, glossy highlight, face out of frame
+    hi: चौथा, होंठों के बीच में थोड़ा सा ग्लॉस, तुरंत फ़ुलर लगेंगे।
+    hinglish: Chautha, honthon ke beech mein thoda sa gloss, turant fuller lagenge.
+  - en: Instant fuller looking lips, no filler needed. Save this and follow @dhruviverse.official for more.
+    queries:
+    - lips
+    - smiling woman
+    image: close-up side profile of an Indian woman's full glossy nude lips and chin with a small gold hoop earring, face mostly out of frame, warm golden light
+    hi: बिना फ़िलर के फ़ुल लिप्स! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Bina filler ke full lips! Save karo aur follow karo @dhruviverse.official
+  caption: 'Fuller lips bina filler ke 💋 👇
+
+    1. Ek shade dark nude liner
+
+    2. Cupid''s bow pe thoda sa overline
+
+    3. Andar blend + lipstick
+
+    4. Beech mein gloss
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Want fuller looking lips? 💋 Try this lip liner trick 👇
+
+    1. Line just outside your natural lip
+
+    2. Keep the cupid''s bow sharp
+
+    3. Fill fully with liner first
+
+    4. Add gloss in the center
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#lipliner'
+  - '#fullerlips'
+  - '#liphacks'
+  - '#makeuptips'
+  - '#lipstick'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 26
+  title: Glass skin on a budget
+  hook: Glass skin bina mehnge products?
+  hook_en: Want Korean glass skin cheaply?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: Want that glowing Korean glass skin without spending a lot of money?
+    queries:
+    - glowing skin
+    - skincare
+    image: extreme close-up side profile of an Indian woman's dewy glowing cheek with water droplets, face partly out of frame, soft morning light
+    hi: महँगे प्रोडक्ट्स के बिना ग्लास स्किन? हाँ, बजट में मुमकिन है।
+    hinglish: Mehnge products ke bina glass skin? Haan, budget mein mumkin hai.
+  - en: First, double cleanse at night, an oil cleanser and then a gentle face wash.
+    queries:
+    - skincare
+    - face cream
+    image: a woman's hands cupping water with foam above a white sink, a plain unlabeled face wash tube beside, soft light, close-up
+    hi: स्टेप वन, जेंटल फ़ेस वॉश से चेहरा साफ़ करो, रगड़ना नहीं।
+    hinglish: Step one, gentle face wash se chehra saaf karo, ragadna nahin.
+  - en: Second, use a hydrating toner and a simple serum every single day.
+    queries:
+    - face cream
+    - moisturizer
+    image: a fresh cut aloe vera leaf with clear gel next to a plain unlabeled glass dropper bottle on a peach tile, close-up
+    hi: स्टेप टू, गीली स्किन पर एलो वेरा जेल या हल्का सीरम लगाओ।
+    hinglish: Step two, geeli skin par aloe vera gel ya halka serum lagao.
+  - en: Third, seal it all in with a light moisturizer and drink enough water.
+    queries:
+    - moisturizer
+    - rose water
+    image: a woman's hand holding a plain unlabeled white sunscreen tube near a sunny window with a cream curtain, soft light, close-up
+    hi: स्टेप थ्री, अच्छा मॉइस्चराइज़र लगाओ और दिन में सनस्क्रीन कभी मत भूलो।
+    hinglish: Step three, achha moisturizer lagao aur din mein sunscreen kabhi mat bhoolo.
+  - en: Fourth, dab a dewy highlighter on your cheekbones and nose for that glow.
+    queries:
+    - glowing skin
+    - cosmetics
+    image: a glass of water with fresh mint leaves and a bowl of fresh fruit on a cream bedside table next to a pillow, morning light
+    hi: स्टेप फ़ोर, रोज़ भरपूर पानी पियो और पूरी नींद लो, ग्लो अंदर से आता है।
+    hinglish: Step four, roz bharpoor paani piyo aur poori neend lo, glow andar se aata hai.
+  - en: Consistent care beats costly products. Save this and follow @dhruviverse.official for more.
+    queries:
+    - skincare
+    - glowing skin
+    image: 'flat-lay from above: plain unlabeled face wash, dropper bottle, moisturizer jar, sunscreen tube, aloe vera leaf and peach roses on a cream towel'
+    hi: रोज़ करो, फ़र्क दिखेगा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Roz karo, fark dikhega! Save karo aur follow karo @dhruviverse.official
+  caption: 'Glass skin on a budget ✨💧 👇
+
+    1. Gentle face wash, no scrubbing
+
+    2. Aloe vera gel ya light serum
+
+    3. Moisturizer + daily sunscreen
+
+    4. Paani + neend
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Want Korean glass skin cheaply? ✨ Here is the budget routine 👇
+
+    1. Double cleanse first
+
+    2. Hydrating toner and serum
+
+    3. Light moisturizer, lots of water
+
+    4. Dewy highlighter on high points
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#glassskin'
+  - '#skincare'
+  - '#budgetskincare'
+  - '#glowingskin'
+  - '#skincaretips'
+  - '#indianskincare'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 27
+  title: DIY rose water setting mist
+  hook: Setting spray ghar pe banao
+  hook_en: Make your own setting spray!
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Why buy setting spray when you can make it at home for so little?
+    queries:
+    - rose water
+    - vanity
+    image: a small glass bowl of rose water with fresh pink rose petals floating, a plain unlabeled spray bottle beside, soft morning light, close-up
+    hi: सेटिंग स्प्रे पर पैसे क्यों खर्च करना? घर पर बनाओ, सिर्फ़ गुलाब जल से।
+    hinglish: Setting spray par paise kyon kharch karna? Ghar par banao, sirf gulab jal se.
+  - en: First, pour pure rose water into a small clean spray bottle.
+    queries:
+    - rose water
+    - flowers pink
+    image: a clean empty clear glass spray bottle drying upside down on a white towel, blush pink background, close-up
+    hi: पहला, एक साफ़ छोटी स्प्रे बोतल को धोकर अच्छे से सुखा लो।
+    hinglish: Pehla, ek saaf chhoti spray bottle ko dhokar achhe se sukha lo.
+  - en: Second, keep the bottle chilled in the fridge for a cooling effect.
+    queries:
+    - rose water
+    - skincare
+    image: rose water being poured from a small glass jug into a clear spray bottle with a small plain dropper of glycerin beside, rose petals, close-up
+    hi: दूसरा, उसमें शुद्ध गुलाब जल और ग्लिसरीन की बस दो बूँदें डालो।
+    hinglish: Doosra, usmein shuddh gulab jal aur glycerin ki bas do boonden daalo.
+  - en: Third, spray it on your face right after finishing your makeup.
+    queries:
+    - rose water
+    - makeup
+    image: side profile of an Indian woman with eyes closed as a fine mist sprays from a clear bottle held at arm's length, face partly out of frame, soft light
+    hi: तीसरा, मेकअप के बाद चेहरे से थोड़ा दूर रखकर हल्का स्प्रे करो।
+    hinglish: Teesra, makeup ke baad chehre se thoda door rakhkar halka spray karo.
+  - en: Fourth, spray again anytime during the day to refresh your look instantly.
+    queries:
+    - rose water
+    - glowing skin
+    image: a clear spray bottle of pink-tinted rose water inside a refrigerator door shelf next to fresh roses, soft cool light, close-up
+    hi: चौथा, फ़्रिज में रखो और एक हफ़्ते में खत्म करो, पहले पैच टेस्ट करना।
+    hinglish: Chautha, fridge mein rakho aur ek hafte mein khatam karo, pehle patch test karna.
+  - en: Such an easy budget friendly hack! Save this and follow @dhruviverse.official for more.
+    queries:
+    - rose petals
+    - rose water
+    image: 'flat-lay from above: clear spray bottle of rose water, pink rose petals, small gold mirror, gold earrings and a cotton towel on blush pink silk'
+    hi: सस्ता, फ़्रेश और खुशबूदार! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Sasta, fresh aur khushboodaar! Save karo aur follow karo @dhruviverse.official
+  caption: 'DIY rose water setting mist 🌹💦 👇
+
+    1. Saaf spray bottle
+
+    2. Pure gulab jal + 2 boond glycerin
+
+    3. Door se halka spray
+
+    4. Fridge mein rakho, 1 hafte mein use karo (patch test pehle!)
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Make your own setting spray! 🌹 Only one ingredient needed 👇
+
+    1. Pour rose water in a spray bottle
+
+    2. Chill it in the fridge
+
+    3. Spray after your makeup
+
+    4. Spray again during the day to refresh
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#diybeauty'
+  - '#rosewater'
+  - '#settingspray'
+  - '#makeuphacks'
+  - '#budgetbeauty'
+  - '#indianmakeup'
+  - '#beautytips'
+  - '#dhruviverse'
+- id: 28
+  title: Highlighter placement guide
+  hook: Highlighter sahi jagah lagao
+  hook_en: Where does highlighter really go?
+  palette: dusty rose, mauve and champagne gold color palette
+  scenes:
+  - en: Not sure where highlighter actually goes on your face? Here is the guide.
+    queries:
+    - cosmetics
+    - makeup brush
+    image: extreme close-up side profile of an Indian woman's cheekbone glowing with champagne highlighter catching sunlight, face partly out of frame
+    hi: हाइलाइटर गलत जगह लगाओगी तो चेहरा ऑयली दिखेगा। सही जगह ये है।
+    hinglish: Highlighter galat jagah lagaogi to chehra oily dikhega. Sahi jagah ye hai.
+  - en: First, dab it on the top of your cheekbones where light naturally hits.
+    queries:
+    - blush
+    - makeup brush
+    image: close-up of a fan brush sweeping champagne highlighter on the top of an Indian woman's cheekbone toward the temple, face partly out of frame
+    hi: पहला, गालों की हड्डी के सबसे ऊँचे हिस्से पर, कनपटी की तरफ़।
+    hinglish: Pehla, gaalon ki haddi ke sabse oonche hisse par, kanpati ki taraf.
+  - en: Second, a tiny dot on the bridge and tip of your nose.
+    queries:
+    - contour
+    - makeup
+    image: extreme close-up side profile of the tip of an Indian woman's nose with a tiny dot of shimmering highlighter, face partly out of frame, soft light
+    hi: दूसरा, नाक की नोक पर बस एक छोटा सा डॉट।
+    hinglish: Doosra, naak ki nok par bas ek chhota sa dot.
+  - en: Third, just above your top lip and along your brow bone too.
+    queries:
+    - eyebrow
+    - lips
+    image: extreme close-up of an Indian woman's lips with a subtle shimmer highlight on the cupid's bow, face out of frame
+    hi: तीसरा, होंठों के ऊपर क्यूपिड बो पर, होंठ भरे हुए लगेंगे।
+    hinglish: Teesra, honthon ke upar cupid bow par, honth bhare hue lagenge.
+  - en: Fourth, a small touch in the inner corner of your eyes for brightness.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: extreme close-up of an Indian woman's eye with a small dot of champagne shimmer in the inner corner, long lashes, face partly out of frame
+    hi: चौथा, आँखों के अंदर वाले कोने में, आँखें फ़्रेश और जागी दिखेंगी।
+    hinglish: Chautha, aankhon ke andar waale kone mein, aankhen fresh aur jaagi dikhengi.
+  - en: Now your face has the perfect natural glow. Save this and follow @dhruviverse.official for more.
+    queries:
+    - glowing skin
+    - smiling woman
+    image: an open plain unlabeled champagne highlighter compact with a fan brush on mauve velvet with gold jhumkas, sparkly, flat-lay
+    hi: माथे के बीच में नहीं, वरना पसीना लगेगा! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Maathe ke beech mein nahin, warna paseena lagega! Save karo aur follow karo @dhruviverse.official
+  caption: 'Highlighter kahan lagayein? ✨ 👇
+
+    1. Cheekbones ke top pe
+
+    2. Naak ki nok pe chhota dot
+
+    3. Cupid''s bow
+
+    4. Aankhon ke inner corner
+
+    Maathe ke beech mein NO 🙅‍♀️
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Where does highlighter really go? ✨ Follow this placement guide 👇
+
+    1. Top of cheekbones
+
+    2. Bridge and tip of nose
+
+    3. Cupid''s bow and brow bone
+
+    4. Inner corner of your eyes
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#highlighter'
+  - '#glowmakeup'
+  - '#makeuptips'
+  - '#makeuphacks'
+  - '#indianmakeup'
+  - '#makeupforbeginners'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 29
+  title: No-makeup makeup look
+  hook: Makeup lage par dikhe nahin?
+  hook_en: Want the no makeup look?
+  palette: blush pink, nude beige and soft gold color palette
+  scenes:
+  - en: Want to look naturally pretty with the no makeup makeup look?
+    queries:
+    - glowing skin
+    - smiling woman
+    image: back view of a young Indian college girl with a tote bag looking into a small mirror near a sunny window, face not visible, soft morning light
+    hi: मेकअप लगे पर दिखे नहीं? ये नो मेकअप लुक कॉलेज के लिए परफ़ेक्ट है।
+    hinglish: Makeup lage par dikhe nahin? Ye no makeup look college ke liye perfect hai.
+  - en: First, use a tinted moisturizer for light coverage instead of foundation.
+    queries:
+    - moisturizer
+    - applying foundation
+    image: a dab of moisturizer and a drop of beige foundation being mixed on the back of a woman's hand, plain unlabeled jar beside, close-up
+    hi: पहला, फ़ाउंडेशन की जगह मॉइस्चराइज़र में दो बूँद फ़ाउंडेशन मिलाकर लगाओ।
+    hinglish: Pehla, foundation ki jagah moisturizer mein do boond foundation milakar lagao.
+  - en: Second, a cream blush on your cheeks, and dab a little on your lips too.
+    queries:
+    - blush
+    - lips
+    image: close-up side profile of an Indian woman's under-eye with a small dot of concealer only near the inner corner, face partly out of frame
+    hi: दूसरा, सिर्फ़ जहाँ ज़रूरत हो वहीं कंसीलर, पूरे चेहरे पर नहीं।
+    hinglish: Doosra, sirf jahan zaroorat ho wahin concealer, poore chehre par nahin.
+  - en: Third, one coat of brown mascara looks soft and natural, not harsh.
+    queries:
+    - eyelashes
+    - eye makeup
+    image: close-up side profile of an Indian woman's cheek with a soft natural pink cream blush flush and a groomed natural eyebrow, face partly out of frame
+    hi: तीसरा, क्रीम ब्लश उंगली से थपथपाओ, और आइब्रो को बस ब्रश कर लो।
+    hinglish: Teesra, cream blush ungli se thapthapao, aur eyebrow ko bas brush kar lo.
+  - en: Fourth, brush your brows with a clear gel, skip the heavy pencil.
+    queries:
+    - eyebrow
+    - eyebrows
+    image: plain unlabeled tinted lip balm and a mascara tube on a blush pink notebook next to small gold stud earrings, flat-lay, soft light
+    hi: चौथा, टिंटेड लिप बाम और मस्कारा का एक कोट, बस इतना ही।
+    hinglish: Chautha, tinted lip balm aur mascara ka ek coat, bas itna hi.
+  - en: Effortless and fresh, perfect for everyday. Save this and follow @dhruviverse.official for more.
+    queries:
+    - smiling woman
+    - glowing skin
+    image: close-up side profile of an Indian woman with fresh dewy natural skin, rosy cheek and soft pink lips, small gold stud earring, face partly out of frame, sunlight
+    hi: लोग पूछेंगे, आज इतनी फ़्रेश कैसे? सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Log poochhenge, aaj itni fresh kaise? Save karo aur follow karo @dhruviverse.official
+  caption: 'No-makeup makeup look for college 🌸 👇
+
+    1. Moisturizer + 2 drop foundation
+
+    2. Concealer sirf zaroorat pe
+
+    3. Cream blush + brushed brows
+
+    4. Tinted lip balm + mascara
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Want the no makeup look? 🌸 Here is how 👇
+
+    1. Tinted moisturizer, light coverage
+
+    2. Cream blush on cheeks and lips
+
+    3. One coat of brown mascara
+
+    4. Clear brow gel only
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#nomakeupmakeup'
+  - '#naturalmakeup'
+  - '#collegemakeup'
+  - '#makeuptips'
+  - '#indianmakeup'
+  - '#minimalmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'
+- id: 30
+  title: Makeup kit under ₹500
+  hook: Poora makeup kit sirf ₹500 mein?
+  hook_en: Build a full makeup kit cheaply?
+  palette: peach, cream and rose gold color palette
+  scenes:
+  - en: You can build a full makeup kit without spending a lot of money.
+    queries:
+    - cosmetics
+    - makeup products
+    image: a small peach makeup pouch open on a cream bed with a few plain unlabeled products peeking out, soft morning light, close-up
+    hi: सिर्फ़ पाँच सौ रुपये में पूरा मेकअप किट? हाँ, ये लिस्ट देखो।
+    hinglish: Sirf paanch sau rupaye mein poora makeup kit? Haan, ye list dekho.
+  - en: First, get a good concealer and a compact powder, these cover most needs.
+    queries:
+    - makeup products
+    - beauty products
+    image: an open plain unlabeled round compact powder with a puff on a cream marble surface, rose gold accents, close-up
+    hi: पहला, एक कॉम्पैक्ट पाउडर, लगभग सौ से डेढ़ सौ रुपये में।
+    hinglish: Pehla, ek compact powder, lagbhag sau se dedh sau rupaye mein.
+  - en: Second, one black kajal pencil can line your eyes and double as liner.
+    queries:
+    - eye makeup
+    - eyelashes
+    image: a plain unlabeled black kajal pencil lying on peach silk with small rose gold earrings, close-up
+    hi: दूसरा, वॉटरप्रूफ़ काजल, सौ रुपये के आसपास, रोज़ काम आएगा।
+    hinglish: Doosra, waterproof kajal, sau rupaye ke aaspaas, roz kaam aayega.
+  - en: Third, pick one blush that also works as a lip tint, saving money.
+    queries:
+    - blush
+    - lips
+    image: an open plain unlabeled pink nude lipstick with a soft swatch on the back of a woman's hand, peach background, close-up
+    hi: तीसरा, एक न्यूड या पिंक लिपस्टिक, जो ब्लश का भी काम करे।
+    hinglish: Teesra, ek nude ya pink lipstick, jo blush ka bhi kaam kare.
+  - en: Fourth, a single nude lipstick that suits daily wear and festive looks too.
+    queries:
+    - lipstick
+    - cosmetics
+    image: a small plain unlabeled concealer tube and a lip balm on a cream tray with a peach rose, close-up
+    hi: चौथा, एक छोटा कंसीलर और लिप बाम, बाकी बचे पैसों में।
+    hinglish: Chautha, ek chhota concealer aur lip balm, baaki bache paison mein.
+  - en: That is your whole kit sorted affordably. Save this and follow @dhruviverse.official for more.
+    queries:
+    - makeup products
+    - smiling woman
+    image: 'flat-lay from above: peach makeup pouch with plain unlabeled compact, kajal, lipstick, concealer and lip balm neatly arranged, rose gold mirror and peach roses'
+    hi: बजट में पूरा लुक तैयार! सेव करो और फ़ॉलो करो ध्रुवीवर्स।
+    hinglish: Budget mein poora look taiyaar! Save karo aur follow karo @dhruviverse.official
+  caption: 'Makeup kit under ₹500 💄💰 👇
+
+    1. Compact powder (₹100–150)
+
+    2. Waterproof kajal (~₹100)
+
+    3. Nude/pink lipstick (blush bhi!)
+
+    4. Concealer + lip balm
+
+    Save karo 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  caption_en: 'Build a full makeup kit cheaply? 💄 Just these essentials 👇
+
+    1. Concealer and compact powder
+
+    2. One kajal pencil
+
+    3. One blush that doubles as lip color
+
+    4. One nude lipstick
+
+    Save this for later 💾 Follow @dhruviverse.official for daily affordable beauty tips 💕'
+  hashtags:
+  - '#makeupkit'
+  - '#budgetmakeup'
+  - '#makeupunder500'
+  - '#affordablemakeup'
+  - '#makeupforbeginners'
+  - '#indianmakeup'
+  - '#makeupreels'
+  - '#dhruviverse'

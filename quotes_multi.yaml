@@ -1,0 +1,923 @@
+# quotes_multi.yaml - lines for ILLUSTRATED mode (content_mode: illustrated).
+# 80 original lines, 20 per language: en (English), hinglish (Hindi in English letters), hi (Hindi), gu (Gujarati).
+# The language rotates every day (en -> hinglish -> hi -> gu). Free Gemini writes a fresh line most days;
+# this list is the backup and is used in order (a line that was posted is never used again).
+# *word*  = shown in orange/yellow. A new line in "text" (\n) = a line break on screen.
+# category: emotional | attitude | funny | friendship | relationship | self_love | confidence
+# mood picks the music: playful/sassy -> lofi-blush, warm/dreamy/emotional -> soft-glow, confident -> morning-light
+# scene = what the illustration shows (the art style is added automatically).
+# Add your own lines at the bottom: copy one block, give it a new id.
+
+- id: 1
+  lang: en
+  category: attitude
+  mood: sassy
+  text: 'Sweet like *chai*,
+
+    but don''t make me *boil*.'
+  meaning_en: ''
+  scene: back view of a young Indian girl with long wavy dark hair in an oversized soft pink sweater on a quiet tree-lined street at golden hour, beige and blush tones
+  hook: Comment 🔥 if this is you
+  hashtags:
+  - '#chailover'
+- id: 2
+  lang: en
+  category: attitude
+  mood: sassy
+  text: 'I''m not *rude*.
+
+    I just stopped *explaining* myself.'
+  meaning_en: ''
+  scene: a young Indian girl in a black kurti and dark sunglasses leaning on a pastel wall, arms crossed, slight smirk, soft afternoon light, dusty pink and grey tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 3
+  lang: en
+  category: funny
+  mood: playful
+  text: 'Me: I''ll sleep early tonight.
+
+    Also me at *3 AM*: watching *reels*.'
+  meaning_en: ''
+  scene: a young Indian girl in pajamas lying in bed under a blanket glowing phone light on her face, cozy dark bedroom with fairy lights, lavender and navy tones
+  hook: Comment 😂 if it's you
+  hashtags: []
+- id: 4
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'Some people *leave*
+
+    and still teach you the *most*.'
+  meaning_en: ''
+  scene: back view of a young Indian girl standing alone on an empty railway platform watching a train leave, misty evening, muted blue and sepia tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 5
+  lang: en
+  category: friendship
+  mood: playful
+  text: 'Best friends don''t need *plans*.
+
+    They need *chai* and gossip.'
+  meaning_en: ''
+  scene: two young Indian girl best friends sitting on a terrace wall laughing with cups of chai, evening sky, sepia and peach tones
+  hook: Tag your partner in crime 👯‍♀️
+  hashtags:
+  - '#chailover'
+- id: 6
+  lang: en
+  category: relationship
+  mood: dreamy
+  text: 'Choose someone who *texts back*
+
+    like you''re their *favorite* notification.'
+  meaning_en: ''
+  scene: a young Indian girl smiling at her phone on a balcony with string lights at dusk, lavender and rose tones
+  hook: Send this to your person 💌
+  hashtags: []
+- id: 7
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'Growing up is realizing
+
+    *mom* was right about *everything*.'
+  meaning_en: ''
+  scene: a young Indian girl hugging her mother from behind in a warm Indian kitchen, soft window light, warm beige and terracotta tones
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#maa'
+- id: 8
+  lang: en
+  category: self_love
+  mood: warm
+  text: 'I''m my own *glow-up*
+
+    project, and it''s *working*.'
+  meaning_en: ''
+  scene: a young Indian girl in a cream kurti smiling at her reflection in a round mirror with flowers, soft morning light, ivory and blush tones
+  hook: Save this for the days you forget 💗
+  hashtags: []
+- id: 9
+  lang: en
+  category: confidence
+  mood: confident
+  text: 'She stopped waiting for *chances*
+
+    and started *creating* them.'
+  meaning_en: ''
+  scene: back view of a young Indian girl in a mustard blazer walking toward a city skyline at sunrise, peach and soft gold tones
+  hook: Save this, queen ✨
+  hashtags: []
+- id: 10
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'Strong girls cry too,
+
+    just *quietly*, and then *rise*.'
+  meaning_en: ''
+  scene: a young Indian girl sitting by a rainy window hugging her knees, then light breaking through clouds, soft blue and peach tones
+  hook: Comment ❤️ if you felt this
+  hashtags: []
+- id: 11
+  lang: en
+  category: attitude
+  mood: confident
+  text: 'Not everyone deserves
+
+    the *soft* version of me.'
+  meaning_en: ''
+  scene: side view of a young Indian girl in a maroon saree with sunglasses, wind in her hair, rooftop at sunset, maroon and gold tones
+  hook: Comment 🔥 if this is you
+  hashtags: []
+- id: 12
+  lang: en
+  category: funny
+  mood: playful
+  text: 'My bank balance and my *patience*
+
+    are both *low* this month.'
+  meaning_en: ''
+  scene: a young Indian girl sitting at a cafe table looking at an empty wallet with a funny shocked face, pastel cafe, peach and mint tones
+  hook: Tag that friend 😂👀
+  hashtags: []
+- id: 13
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'Home is not a place.
+
+    It''s *Papa''s* voice asking *“reached?”*'
+  meaning_en: ''
+  scene: a young Indian girl with a suitcase at a bus stand talking on the phone with a gentle smile, dusk, warm amber and muted teal tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags:
+  - '#papa'
+- id: 14
+  lang: en
+  category: friendship
+  mood: warm
+  text: 'Tag the friend who knows
+
+    *all* my secrets and still *stays*.'
+  meaning_en: ''
+  scene: two young Indian girl friends sitting back to back on a grassy field sharing earphones, soft sunset, beige and blush tones
+  hook: Send this to your bestie 💗
+  hashtags:
+  - '#bestie'
+- id: 15
+  lang: en
+  category: relationship
+  mood: dreamy
+  text: 'Love me *loudly*,
+
+    or don''t love me at *all*.'
+  meaning_en: ''
+  scene: a young Indian couple walking under one umbrella in soft rain, back view, misty street, blue grey and blush tones
+  hook: Comment 💗 if you agree
+  hashtags: []
+- id: 16
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'I miss the days when my biggest *problem*
+
+    was a broken *pencil*.'
+  meaning_en: ''
+  scene: a little Indian school girl in braids and uniform sitting on a classroom bench looking at a broken pencil, nostalgic sunlight, sepia and soft yellow tones
+  hook: Send this to someone who needs it 🥺
+  hashtags: []
+- id: 17
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'Be with someone who notices
+
+    your *silence*, not just your *smile*.'
+  meaning_en: ''
+  scene: a young Indian couple sitting quietly on a seaside wall at sunset, his hand on her shoulder, back view, coral and dusky blue tones
+  hook: Comment ❤️ if you felt this
+  hashtags: []
+- id: 18
+  lang: en
+  category: attitude
+  mood: confident
+  text: 'My silence is not *weakness*.
+
+    It''s *peace* I worked hard for.'
+  meaning_en: ''
+  scene: back view of a young Indian girl sitting alone on a hill bench looking at a calm valley at dawn, sage green and peach tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 19
+  lang: en
+  category: funny
+  mood: playful
+  text: 'Mom''s *“5 minutes”* and my
+
+    *“on the way”* are the same lie.'
+  meaning_en: ''
+  scene: a young Indian girl rushing out of a colorful Indian home doorway holding her sandals, mother waving from inside, morning light, warm pastel tones
+  hook: Comment 😂 if it's you
+  hashtags:
+  - '#maa'
+- id: 20
+  lang: en
+  category: emotional
+  mood: emotional
+  text: 'Some friends become *family*,
+
+    and some family become *strangers*.'
+  meaning_en: ''
+  scene: a young Indian girl walking alone on a long road with her friends waving from far away, golden evening, sepia and dusty rose tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags:
+  - '#bestie'
+- id: 21
+  lang: hinglish
+  category: friendship
+  mood: playful
+  text: 'Asli *best friend* wahi hai
+
+    jo ugly pics delete nahi karti,
+
+    *blackmail* karti hai'
+  meaning_en: A real best friend is the one who doesn't delete your ugly pics, she blackmails you with them.
+  scene: two young Indian girl best friends in casual kurtas laughing loudly at a roadside chai stall holding small glass cups of chai, warm evening light, sepia and peach tones
+  hook: Send this to your bestie 💗
+  hashtags:
+  - '#bestie'
+- id: 22
+  lang: hinglish
+  category: attitude
+  mood: sassy
+  text: 'Attitude toh *born* se hai,
+
+    bas *sabko* dikhati nahi.'
+  meaning_en: The attitude is from birth, I just don't show it to everyone.
+  scene: a young Indian girl in a white shirt and sunglasses flipping her hair, pastel pink wall, soft sunlight, blush and white tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 23
+  lang: hinglish
+  category: funny
+  mood: playful
+  text: 'Diet kal se pakka...
+
+    waise aaj *pani puri* toh banti hai.'
+  meaning_en: Diet from tomorrow for sure... but today pani puri is a must.
+  scene: a young Indian girl happily eating pani puri at a street stall, evening lights, warm orange and pastel tones
+  hook: Tag that friend 😂👀
+  hashtags:
+  - '#foodie'
+- id: 24
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Papa kabhi *‘I love you’* nahi bolte,
+
+    bas pooch lete hain *‘khana khaya?’*'
+  meaning_en: Papa never says 'I love you', he just asks 'did you eat?'
+  scene: a young Indian girl and her father sitting on a home doorstep sharing tea, evening light, warm sepia and maroon tones, back view
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#papa'
+- id: 25
+  lang: hinglish
+  category: friendship
+  mood: warm
+  text: 'Dost wo jo *‘main hoon na’*
+
+    bol ke sach mein *aa jaaye*.'
+  meaning_en: A friend is the one who says 'I'm here' and actually shows up.
+  scene: a young Indian girl hugging her friend at a doorway on a rainy night, umbrella dripping, warm indoor light, blue and amber tones
+  hook: Send this to your bestie 💗
+  hashtags:
+  - '#bestie'
+- id: 26
+  lang: hinglish
+  category: relationship
+  mood: dreamy
+  text: 'Mujhe *gift* nahi chahiye,
+
+    bas *time* pe reply chahiye.'
+  meaning_en: I don't want gifts, just replies on time.
+  scene: a young Indian girl sitting on a window sill with her phone and a cup of coffee, soft evening glow, rose and cream tones
+  hook: Send this to your person 💌
+  hashtags: []
+- id: 27
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Bachpan mein jaldi *bada* hona tha,
+
+    ab wapas *bachpan* chahiye.'
+  meaning_en: As a kid I wanted to grow up fast, now I want my childhood back.
+  scene: a young Indian girl watching little kids play in a lane from her balcony, nostalgic golden light, sepia and soft yellow tones
+  hook: Comment ❤️ if you felt this
+  hashtags: []
+- id: 28
+  lang: hinglish
+  category: self_love
+  mood: warm
+  text: 'Khud se *pyaar* karna seekho,
+
+    baaki sab *bonus* hai.'
+  meaning_en: Learn to love yourself, everything else is a bonus.
+  scene: a young Indian girl in a lilac dress holding a bouquet of wildflowers in a sunny field, back view, lilac and soft yellow tones
+  hook: Save this for the days you forget 💗
+  hashtags: []
+- id: 29
+  lang: hinglish
+  category: confidence
+  mood: confident
+  text: 'Log *judge* karenge hi,
+
+    tum bas *shine* karti raho.'
+  meaning_en: People will judge anyway, you just keep shining.
+  scene: a young Indian girl in a sparkly saree walking confidently down a staircase, golden light, champagne and blush tones
+  hook: Save this, queen ✨
+  hashtags: []
+- id: 30
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Kuch log *yaad* nahi aate,
+
+    *mehsoos* hote hain.'
+  meaning_en: Some people aren't remembered, they are felt.
+  scene: back view of a young Indian girl standing by the sea at dusk with her dupatta flying, muted blue and peach tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 31
+  lang: hinglish
+  category: attitude
+  mood: sassy
+  text: 'Main *badal* gayi hoon?
+
+    Nahi, bas ab *bardaasht* kam hai.'
+  meaning_en: Have I changed? No, my tolerance is just lower now.
+  scene: side view of a young Indian girl in a maroon kurti looking away with a calm confident face, old haveli window, maroon and beige tones
+  hook: Comment 🔥 if this is you
+  hashtags: []
+- id: 32
+  lang: hinglish
+  category: funny
+  mood: playful
+  text: 'Paise bachane ka *plan*,
+
+    *sale* dekhte hi cancel.'
+  meaning_en: My plan to save money gets cancelled the moment I see a sale.
+  scene: a young Indian girl carrying many shopping bags with a guilty happy smile, pastel market street, pink and mint tones
+  hook: Comment 😂 if it's you
+  hashtags:
+  - '#shopaholic'
+- id: 33
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Maa ke haath ka *khana*
+
+    aur uski *daant*, dono miss karti hoon.'
+  meaning_en: I miss both, mom's cooking and her scolding.
+  scene: a young Indian girl alone in a hostel room eating from a tiffin, looking at a photo of her mother, warm lamp light, beige and amber tones
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#maa'
+- id: 34
+  lang: hinglish
+  category: relationship
+  mood: dreamy
+  text: 'Gussa bhi *tumse*,
+
+    aur pyaar bhi *tumse* hi.'
+  meaning_en: The anger is with you, and the love is with you too.
+  scene: a young Indian couple sitting back to back on a bench pretending to be upset, smiling, autumn park, rust and beige tones
+  hook: Comment 💗 if you agree
+  hashtags: []
+- id: 35
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Sabke liye *strong* bani rehti hoon,
+
+    kabhi koi mujhse bhi *pooch* le.'
+  meaning_en: I stay strong for everyone, wish someone would ask me too.
+  scene: a young Indian girl sitting alone on a terrace at night looking at the city lights, navy and soft gold tones, back view
+  hook: Comment ❤️ if you felt this
+  hashtags: []
+- id: 36
+  lang: hinglish
+  category: self_love
+  mood: warm
+  text: 'Thoda *ruk* jaana bhi theek hai,
+
+    *haar* maan lena nahi.'
+  meaning_en: It's okay to pause a little, just don't give up.
+  scene: a young Indian girl resting under a big tree on a mountain trail, sunlight through leaves, sage green and cream tones
+  hook: Save this for the days you forget 💗
+  hashtags:
+  - '#maa'
+- id: 37
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Jo *samjhe*, unhe explain nahi karna padta,
+
+    jo na samjhe, unhe *kabhi* nahi.'
+  meaning_en: Those who understand need no explanation, those who don't never will.
+  scene: two young Indian girl friends sitting quietly on a riverside ghat steps at sunset, back view, peach and dusky blue tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 38
+  lang: hinglish
+  category: attitude
+  mood: sassy
+  text: 'Meri *vibe* samajhne ke liye
+
+    *level* chahiye, sorry.'
+  meaning_en: You need a certain level to understand my vibe, sorry.
+  scene: a young Indian girl in a denim jacket and sunglasses sitting on a scooter, city street at sunset, coral and teal tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 39
+  lang: hinglish
+  category: funny
+  mood: playful
+  text: 'Maine kaha *‘bas ek episode’*...
+
+    aur *subah* ho gayi.'
+  meaning_en: I said 'just one episode'... and it was morning.
+  scene: a young Indian girl under a blanket with a laptop as the sky turns to dawn outside the window, lavender and peach tones
+  hook: Tag that friend 😂👀
+  hashtags: []
+- id: 40
+  lang: hinglish
+  category: emotional
+  mood: emotional
+  text: 'Ghar se door rehke samjha,
+
+    *maa* ki ek awaaz *dawai* hai.'
+  meaning_en: Living away from home I learned, one call from mom is medicine.
+  scene: a young Indian girl smiling with tears while talking on the phone in a small rented room, rain outside, soft blue and warm amber tones
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#maa'
+- id: 41
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: '*पापा* की डाँट से ज़्यादा
+
+    उनकी *चुप्पी* चुभती है।'
+  meaning_en: More than Papa's scolding, it's his silence that hurts.
+  scene: back view of a young Indian girl in a maroon kurti walking hand in hand with her father in a white kurta on a quiet village road at warm sunset, maroon dusty gold and peach tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags:
+  - '#papa'
+- id: 42
+  lang: hi
+  category: attitude
+  mood: sassy
+  text: 'मैं *बदली* नहीं हूँ,
+
+    बस अब *हर किसी* के लिए नहीं हूँ।'
+  meaning_en: I haven't changed, I'm just not there for everyone anymore.
+  scene: a young Indian girl in a black saree and sunglasses walking away down an old city lane, back view, charcoal and rose gold tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 43
+  lang: hi
+  category: funny
+  mood: playful
+  text: 'रात को *मोटिवेशन*,
+
+    सुबह *अलार्म* बंद।'
+  meaning_en: Motivation at night, alarm switched off in the morning.
+  scene: a sleepy young Indian girl turning off a ringing alarm clock from under a blanket, morning light, lavender and peach tones
+  hook: Comment 😂 if it's you
+  hashtags: []
+- id: 44
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: '*माँ* कहती थी बड़ी होकर समझोगी,
+
+    आज *समझ* आया।'
+  meaning_en: Mom used to say I'd understand when I grow up, today I do.
+  scene: a young Indian girl braiding her little sister's hair the way her mother used to, warm courtyard light, beige and terracotta tones
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#maa'
+- id: 45
+  lang: hi
+  category: friendship
+  mood: playful
+  text: 'सच्ची *सहेली* वो है
+
+    जो *पागलपन* में भी साथ दे।'
+  meaning_en: A true girl-friend joins you even in your craziness.
+  scene: two young Indian girl friends dancing in the rain on a rooftop, laughing, soft blue and pink tones
+  hook: Tag your partner in crime 👯‍♀️
+  hashtags:
+  - '#bestie'
+- id: 46
+  lang: hi
+  category: relationship
+  mood: dreamy
+  text: 'जो *वक़्त* दे,
+
+    वही असली *प्यार* है।'
+  meaning_en: The one who gives you time is true love.
+  scene: a young Indian couple sitting on the steps of a ghat watching diyas float, back view, warm amber and indigo tones
+  hook: Send this to your person 💌
+  hashtags: []
+- id: 47
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: 'घर से दूर रहकर पता चला,
+
+    *माँ* के हाथ का *खाना* क्या होता है।'
+  meaning_en: Living away from home I learned what mom's cooking really means.
+  scene: a young Indian girl alone at a small hostel table with a plate of food, looking out the window, evening light, muted amber and blue tones
+  hook: Comment ❤️ if you felt this
+  hashtags:
+  - '#maa'
+- id: 48
+  lang: hi
+  category: self_love
+  mood: warm
+  text: 'ख़ुद से *प्यार* करो,
+
+    बाक़ी दुनिया *बाद* में।'
+  meaning_en: Love yourself first, the rest of the world later.
+  scene: a young Indian girl wrapped in a shawl smiling with eyes closed in a sunlit garden, marigolds, saffron and cream tones
+  hook: Save this for the days you forget 💗
+  hashtags: []
+- id: 49
+  lang: hi
+  category: confidence
+  mood: confident
+  text: 'लड़की हूँ, *कमज़ोर* नहीं,
+
+    ख़्वाब बड़े हैं और *हौसला* भी।'
+  meaning_en: I'm a girl, not weak; my dreams are big and so is my courage.
+  scene: back view of a young Indian girl standing on a mountain top with arms open at sunrise, dupatta flying, peach and lilac tones
+  hook: Save this, queen ✨
+  hashtags: []
+- id: 50
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: 'कुछ *रिश्ते* ख़ून के नहीं,
+
+    *दिल* के होते हैं।'
+  meaning_en: Some relationships are not of blood, but of the heart.
+  scene: two young Indian girl friends hugging tightly at a railway station, back view, misty morning, sepia and dusty rose tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 51
+  lang: hi
+  category: attitude
+  mood: confident
+  text: 'मेरी *ख़ामोशी* को कमज़ोरी मत समझना,
+
+    मैं बस *बहस* नहीं करती।'
+  meaning_en: Don't mistake my silence for weakness, I just don't argue.
+  scene: side view of a young Indian girl in a deep green kurti sitting by a window with a cup of tea, calm face, soft rain light, emerald and beige tones
+  hook: Comment 🔥 if this is you
+  hashtags: []
+- id: 52
+  lang: hi
+  category: funny
+  mood: playful
+  text: 'डाइट *सोमवार* से पक्का...
+
+    पर कौन-सा सोमवार, ये *मत* पूछो।'
+  meaning_en: Diet from Monday for sure... just don't ask which Monday.
+  scene: a young Indian girl hiding a plate of jalebi behind her back with a cheeky smile, festive kitchen, orange and cream tones
+  hook: Tag that friend 😂👀
+  hashtags:
+  - '#foodie'
+- id: 53
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: 'सबको *हँसाने* वाली लड़की
+
+    अक्सर *अकेले* रोती है।'
+  meaning_en: The girl who makes everyone laugh often cries alone.
+  scene: a young Indian girl sitting alone on her bed by a rainy window hugging a pillow, soft blue and grey tones
+  hook: Send this to someone who needs it 🥺
+  hashtags: []
+- id: 54
+  lang: hi
+  category: friendship
+  mood: warm
+  text: 'दोस्ती में *हिसाब* नहीं होता,
+
+    बस *चाय* और बातें होती हैं।'
+  meaning_en: Friendship keeps no accounts, just tea and talks.
+  scene: two young Indian girl friends sitting on a charpai on a terrace with chai and biscuits at sunset, sepia and peach tones
+  hook: Send this to your bestie 💗
+  hashtags:
+  - '#chailover'
+- id: 55
+  lang: hi
+  category: relationship
+  mood: dreamy
+  text: 'रूठना भी *तुमसे*,
+
+    मनाना भी *तुम्हें* ही है।'
+  meaning_en: I sulk with you, and it's you who has to win me back.
+  scene: a young Indian girl with folded arms pretending to sulk while a young man offers her a rose, park at dusk, rose and lavender tones
+  hook: Comment 💗 if you agree
+  hashtags: []
+- id: 56
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: 'बेटी *विदा* होती है,
+
+    पर *पापा* का दिल वहीं रह जाता है।'
+  meaning_en: The daughter leaves after her wedding, but Papa's heart stays with her.
+  scene: a bride in a red lehenga hugging her father goodbye at a decorated doorway, back view, soft red and gold tones
+  hook: Comment ❤️ if you felt this
+  hashtags:
+  - '#papa'
+- id: 57
+  lang: hi
+  category: confidence
+  mood: confident
+  text: 'टूटकर भी जो *मुस्कुराए*,
+
+    वो लड़की *कमाल* है।'
+  meaning_en: A girl who smiles even after breaking is amazing.
+  scene: a young Indian girl smiling softly with sunlight on her face, flowers growing through a cracked wall behind her, blush and cream tones
+  hook: Comment 👑 if this is your energy
+  hashtags: []
+- id: 58
+  lang: hi
+  category: emotional
+  mood: emotional
+  text: 'जो बिना कहे *समझ* जाए,
+
+    वही *अपना* होता है।'
+  meaning_en: The one who understands without words is truly yours.
+  scene: a young Indian girl and her mother sitting quietly together on a swing on a veranda, evening light, warm peach and sage tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 59
+  lang: hi
+  category: attitude
+  mood: sassy
+  text: 'जलने वाले *जलते* रहेंगे,
+
+    हम तो *चमकते* रहेंगे।'
+  meaning_en: The jealous will keep burning, I'll keep shining.
+  scene: a young Indian girl in a golden lehenga holding a diya on a terrace at dusk, sparkling lights, gold and plum tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 60
+  lang: hi
+  category: funny
+  mood: playful
+  text: 'घर में सबसे *समझदार* मैं,
+
+    पर कोई *मानता* ही नहीं।'
+  meaning_en: I'm the smartest one at home, but nobody agrees.
+  scene: a young Indian girl giving a serious speech to her family at the dinner table while everyone ignores her, funny warm scene, terracotta and beige tones
+  hook: Comment 😂 if it's you
+  hashtags: []
+- id: 61
+  lang: gu
+  category: attitude
+  mood: confident
+  text: 'લેટ ભલે આવું, પણ મારી
+
+    *એન્ટ્રી* તો *ધમાકેદાર* જ હોય'
+  meaning_en: I may come late, but my entry is always a blast.
+  scene: a stylish young Indian girl in a mustard kurti with a flowing teal dupatta and sunglasses walking confidently on an old Ahmedabad street with carved wooden balconies, mustard and teal pastel tones
+  hook: Comment 🔥 if this is you
+  hashtags: []
+- id: 62
+  lang: gu
+  category: attitude
+  mood: sassy
+  text: 'સ્વભાવ *મીઠો* છે,
+
+    પણ *ભોળી* નથી હોં!'
+  meaning_en: My nature is sweet, but I'm not naive, okay!
+  scene: a young Indian girl in a pink chaniya choli with a cheeky smile holding a glass of lemonade, pastel courtyard, pink and mint tones
+  hook: Tag the friend who has this attitude 😎
+  hashtags: []
+- id: 63
+  lang: gu
+  category: funny
+  mood: playful
+  text: '*ડાયેટ* કાલથી પાક્કું...
+
+    આજે તો *ખમણ* ખાઈ લઉં.'
+  meaning_en: Diet from tomorrow for sure... today let me eat khaman.
+  scene: a young Indian girl happily eating yellow khaman dhokla from a plate at a farsan shop, warm light, yellow and cream tones
+  hook: Tag that friend 😂👀
+  hashtags:
+  - '#foodie'
+- id: 64
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: '*પપ્પા* ‘I love you’ નથી કહેતા,
+
+    બસ પૂછે છે *‘જમી લીધું?’*'
+  meaning_en: Papa never says 'I love you', he just asks 'have you eaten?'
+  scene: a young Indian girl and her father sitting on a jhula in a home courtyard sharing tea, evening light, back view, warm sepia and maroon tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags:
+  - '#papa'
+- id: 65
+  lang: gu
+  category: friendship
+  mood: playful
+  text: 'સાચી *બહેનપણી* એ જે
+
+    મારી *બકવાસ* પણ ધ્યાનથી સાંભળે.'
+  meaning_en: A true best friend is the one who listens carefully even to my nonsense.
+  scene: two young Indian girl friends lying on a terrace mattress at night giggling and talking, string lights, navy and warm gold tones
+  hook: Tag your partner in crime 👯‍♀️
+  hashtags:
+  - '#bestie'
+- id: 66
+  lang: gu
+  category: relationship
+  mood: dreamy
+  text: 'મને *gift* નહીં,
+
+    બસ તારો *time* જોઈએ.'
+  meaning_en: I don't want gifts, I just want your time.
+  scene: a young Indian couple sitting on a garba ground step at night sharing a laugh, back view, festive lights, magenta and gold tones
+  hook: Send this to your person 💌
+  hashtags: []
+- id: 67
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: 'ઘરથી દૂર ગઈ ત્યારે સમજાયું,
+
+    *મમ્મી*ના હાથનું *જમવાનું* શું છે.'
+  meaning_en: When I moved away from home, I understood what mummy's cooking means.
+  scene: a young Indian girl opening a steel tiffin in a hostel room and smiling sadly, warm lamp light, beige and amber tones
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#maa'
+- id: 68
+  lang: gu
+  category: self_love
+  mood: warm
+  text: 'પોતાની જાતને *પ્રેમ* કરો,
+
+    બાકી બધું *બોનસ* છે.'
+  meaning_en: Love yourself, everything else is a bonus.
+  scene: a young Indian girl in a white chikankari kurti holding a cup of tea on a balcony full of plants, morning light, ivory and sage tones
+  hook: Save this for the days you forget 💗
+  hashtags: []
+- id: 69
+  lang: gu
+  category: confidence
+  mood: confident
+  text: 'લોકો તો *બોલશે* જ,
+
+    તું બસ *ચમકતી* રહે.'
+  meaning_en: People will talk anyway, you just keep shining.
+  scene: a young Indian girl in a mirror-work chaniya choli twirling during garba, golden lights, maroon and gold tones
+  hook: Save this, queen ✨
+  hashtags: []
+- id: 70
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: 'બધાને *હસાવતી* છોકરી
+
+    ઘણીવાર *એકલી* રડે છે.'
+  meaning_en: The girl who makes everyone laugh often cries alone.
+  scene: a young Indian girl sitting alone on a terrace at night hugging her knees, city lights far away, navy and soft gold tones
+  hook: Comment ❤️ if you felt this
+  hashtags: []
+- id: 71
+  lang: gu
+  category: attitude
+  mood: sassy
+  text: 'જેને *જવું* હોય એ જાય,
+
+    હું કોઈને *રોકતી* નથી.'
+  meaning_en: Whoever wants to leave can leave, I don't stop anyone.
+  scene: back view of a young Indian girl in a black kurti walking away on a quiet riverfront at dusk, charcoal and rose tones
+  hook: Comment 🔥 if this is you
+  hashtags: []
+- id: 72
+  lang: gu
+  category: funny
+  mood: playful
+  text: 'મમ્મીનું *‘હમણાં આવું’*
+
+    એટલે ઓછામાં ઓછા *બે કલાક*.'
+  meaning_en: When mummy says 'coming in a minute', it means at least two hours.
+  scene: a young Indian girl waiting impatiently at a door with her bag while her mother chats with a neighbour, funny scene, warm pastel tones
+  hook: Comment 😂 if it's you
+  hashtags:
+  - '#maa'
+- id: 73
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: 'કેટલાક સંબંધ *લોહીના* નહીં,
+
+    *દિલના* હોય છે.'
+  meaning_en: Some relationships are not of blood, but of the heart.
+  scene: two young Indian girl friends walking arm in arm on a quiet lane at sunset, back view, sepia and dusty rose tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 74
+  lang: gu
+  category: friendship
+  mood: warm
+  text: 'દોસ્તીમાં *હિસાબ* ના હોય,
+
+    બસ *ચા* અને વાતો હોય.'
+  meaning_en: Friendship keeps no accounts, just tea and talks.
+  scene: two young Indian girl friends sharing cutting chai at a tea stall near an old pol gate, evening light, sepia and peach tones
+  hook: Send this to your bestie 💗
+  hashtags:
+  - '#chailover'
+- id: 75
+  lang: gu
+  category: relationship
+  mood: dreamy
+  text: 'રિસાવું પણ *તારાથી*,
+
+    ને મનાવું પણ *તને* જ.'
+  meaning_en: I sulk with you, and only you can make it right.
+  scene: a young Indian girl with crossed arms on a swing while a young man offers her ice cream, park at sunset, peach and lavender tones
+  hook: Comment 💗 if you agree
+  hashtags: []
+- id: 76
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: 'દીકરી *વિદાય* થાય છે,
+
+    પણ *પપ્પા*નું દિલ ત્યાં જ રહી જાય છે.'
+  meaning_en: The daughter leaves after her wedding, but Papa's heart stays right there.
+  scene: a bride in a red and white panetar saree hugging her father goodbye at a decorated doorway, back view, soft red and gold tones
+  hook: Send this to someone who needs it 🥺
+  hashtags:
+  - '#papa'
+- id: 77
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: 'બાળપણમાં *મોટા* થવાની ઉતાવળ હતી,
+
+    હવે પાછું *બાળપણ* જોઈએ છે.'
+  meaning_en: As a child I was in a hurry to grow up, now I want my childhood back.
+  scene: a young Indian girl looking at kids flying kites on terraces during Uttarayan from her balcony, nostalgic golden light, sky blue and saffron tones
+  hook: Comment ❤️ if you felt this
+  hashtags: []
+- id: 78
+  lang: gu
+  category: funny
+  mood: playful
+  text: 'પૈસા *બચાવવા* છે,
+
+    પણ *સેલ* જોઈને દિલ નથી માનતું.'
+  meaning_en: I want to save money, but my heart won't listen when I see a sale.
+  scene: a young Indian girl looking dreamily at a shop window full of colorful dupattas, pastel market lane, pink and turquoise tones
+  hook: Tag that friend 😂👀
+  hashtags:
+  - '#chailover'
+- id: 79
+  lang: gu
+  category: emotional
+  mood: emotional
+  text: 'જે કહ્યા વગર *સમજી* જાય,
+
+    એ જ સાચું *પોતાનું*.'
+  meaning_en: The one who understands without words is truly your own.
+  scene: a young Indian girl resting her head on her mother's shoulder on a veranda swing at dusk, warm peach and sage tones
+  hook: Tag the one this reminds you of 🫶
+  hashtags: []
+- id: 80
+  lang: gu
+  category: funny
+  mood: playful
+  text: 'ગુજરાતી છું, *ફાફડા* વગર
+
+    *રવિવાર* અધૂરો લાગે.'
+  meaning_en: I'm Gujarati, Sunday feels incomplete without fafda.
+  scene: a young Indian girl and her family enjoying fafda jalebi breakfast on a Sunday morning balcony, warm yellow and orange tones
+  hook: Comment 😂 if it's you
+  hashtags:
+  - '#gujju'

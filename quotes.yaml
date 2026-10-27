@@ -1,0 +1,1283 @@
+# QUOTE LINES (used when content_mode: quotes and there is no GEMINI_API_KEY, or Gemini is busy)
+# One reel per day, in order. Fields:
+#   category = self_love / confidence / humor / motivation
+#   text     = the line on screen ("\n" = new line on screen)
+#   mood     = the feeling of the background clip
+#   queries  = words to find ONE calm, pretty background video ("pixabay:123456" = one exact clip)
+#   caption  = 2 short lines for the Instagram caption (the line itself + follow line + hashtags are added automatically)
+# To add your own: copy one block, give it a new id.
+- id: 1
+  category: self_love
+  text: 'You don''t have to bloom
+
+    for anyone today.
+
+    Resting is growing too.'
+  mood: calm, soft, dreamy
+  queries:
+  - pixabay:117934
+  - pink sky
+  - cherry blossom
+  caption: 'Save this for the days you forget 💗
+
+    Tag someone who needs to hear this.'
+  hashtags:
+  - '#selflove'
+  - '#selfcare'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+- id: 2
+  category: confidence
+  text: 'Walk in like you already belong there.
+
+    Because you do.'
+  mood: bold, golden, free
+  queries:
+  - pixabay:148597
+  - sea sunset
+  - sunset
+  caption: 'Read this before your next big day ✨
+
+    Who needs this reminder?'
+  hashtags:
+  - '#confidence'
+  - '#selfbelief'
+  - '#girlboss'
+  - '#motivation'
+  - '#dhruviverse'
+- id: 3
+  category: humor
+  text: 'My skincare routine: 12 steps.
+
+    My sleep routine: 3 hours.'
+  mood: cosy, funny, morning
+  queries:
+  - coffee
+  - tea
+  caption: 'Be honest, is this you? 😂
+
+    Tag your sleep deprived bestie.'
+  hashtags:
+  - '#relatable'
+  - '#girlhumor'
+  - '#skincare'
+  - '#funnyquotes'
+  - '#dhruviverse'
+- id: 4
+  category: self_love
+  text: 'You are allowed to rest
+
+    without earning it.'
+  mood: calm, soft, dreamy
+  queries:
+  - pink sky
+  - clouds
+  caption: 'Save this for the days you forget 💗
+
+    Tag someone who needs to hear this.'
+  hashtags:
+  - '#selflove'
+  - '#selfcare'
+  - '#aestheticquotes'
+  - '#softlife'
+  - '#healing'
+  - '#quotesdaily'
+  - '#dhruviverse'
+  - '#womensupportingwomen'
+- id: 5
+  category: motivation
+  text: 'Small steps still count
+
+    as moving forward.'
+  mood: soft, encouraging, calm
+  queries:
+  - sky
+  - clouds
+  caption: 'Every small step counts today 🌤️
+
+    Save this for your slow days.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 6
+  category: self_love
+  text: 'Your softness is not a weakness,
+
+    it is your superpower.'
+  mood: gentle, warm, dreamy
+  queries:
+  - flowers
+  - cherry blossom
+  caption: 'Repeat this until you believe it 🌸
+
+    Save it for your soft days.'
+  hashtags:
+  - '#selflove'
+  - '#softgirl'
+  - '#selfworth'
+  - '#aestheticquotes'
+  - '#healing'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#softlife'
+- id: 7
+  category: confidence
+  text: Confidence is quiet, insecurity is loud. Choose quiet.
+  mood: bold, calm, powerful
+  queries:
+  - sunset
+  - beach
+  caption: 'Be the calm in the room 🔥
+
+    Save this for your next big day.'
+  hashtags:
+  - '#confidence'
+  - '#mindset'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 8
+  category: humor
+  text: 'Me: I''ll save money this month.
+
+    Also me: adds 7 lipsticks to cart.'
+  mood: funny, relatable, playful
+  queries:
+  - coffee
+  - city night
+  caption: 'No judgement, we''ve all been there 💄
+
+    Tag your shopping cart twin.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#shopaholic'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 9
+  category: motivation
+  text: 'You don''t have to be ready,
+
+    you just have to begin.'
+  mood: soft, uplifting, calm
+  queries:
+  - sunflower
+  - sky
+  caption: 'Begin before you feel ready 🌻
+
+    Tag someone starting something new.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 10
+  category: self_love
+  text: 'You don''t have to earn rest,
+
+    you just have to take it.'
+  mood: calm, dreamy, cozy
+  queries:
+  - candle
+  - rain window
+  caption: 'Permission slip to rest tonight 🕯️
+
+    Save this for later.'
+  hashtags:
+  - '#selflove'
+  - '#restisproductive'
+  - '#softlife'
+  - '#aestheticquotes'
+  - '#healing'
+  - '#dhruviverse'
+  - '#selfcare'
+  - '#selflovejourney'
+- id: 11
+  category: confidence
+  text: 'You were not made to shrink
+
+    in rooms built for you.'
+  mood: bold, strong, uplifting
+  queries:
+  - city night
+  - girl walking
+  caption: 'Stop shrinking for comfort, start showing up 💫
+
+    Tag a friend who needs this.'
+  hashtags:
+  - '#confidence'
+  - '#girlpower'
+  - '#aestheticquotes'
+  - '#selfworth'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 12
+  category: humor
+  text: 'My mom: beta, drink water.
+
+    Me, chugging coffee at midnight: noted.'
+  mood: funny, relatable, warm
+  queries:
+  - coffee
+  - tea
+  caption: 'Tag the girl who hasn''t had water since Tuesday 😂
+
+    Save this for your mom''s next lecture.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#indianmoms'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 13
+  category: motivation
+  text: 'Every slow day is still
+
+    a day closer to your goal.'
+  mood: soft, calm, encouraging
+  queries:
+  - grass field
+  - stars night
+  caption: 'Slow progress is still progress 🌾
+
+    Save this for the slow weeks.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 14
+  category: self_love
+  text: 'You are worthy of love
+
+    exactly as you are today.'
+  mood: warm, gentle, calm
+  queries:
+  - tulips
+  - moon
+  caption: 'Read this again, slowly 🤍
+
+    Tag a girl who needs this today.'
+  hashtags:
+  - '#selflove'
+  - '#selfworth'
+  - '#youareenough'
+  - '#aestheticquotes'
+  - '#healing'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#womensupportingwomen'
+- id: 15
+  category: confidence
+  text: 'Stop asking for permission
+
+    to take up space.'
+  mood: bold, fierce, uplifting
+  queries:
+  - beach
+  - sunset
+  caption: 'Take the space, you earned it 🔥
+
+    Save this for your bold era.'
+  hashtags:
+  - '#confidence'
+  - '#girlpower'
+  - '#aestheticquotes'
+  - '#motivation'
+  - '#selfworth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 16
+  category: humor
+  text: 'My to-do list has 10 items.
+
+    My energy has 2.'
+  mood: funny, relatable, light
+  queries:
+  - book
+  - rain
+  caption: 'The math never mathed 📝
+
+    Tag your fellow procrastinator.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#procrastination'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 17
+  category: motivation
+  text: 'Discipline is just self-love
+
+    wearing a serious face.'
+  mood: soft, warm, calm
+  queries:
+  - candle
+  - sky
+  caption: 'Discipline is self-love in disguise 🕯️
+
+    Save this reminder.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#selflove'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 18
+  category: self_love
+  text: 'Some days just existing
+
+    is enough of an achievement.'
+  mood: soft, calm, quiet
+  queries:
+  - clouds
+  - candle
+  caption: 'Low energy days count too 🌙
+
+    Save this for the hard ones.'
+  hashtags:
+  - '#selflove'
+  - '#mentalhealth'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 19
+  category: confidence
+  text: 'The right people will never make
+
+    you feel like too much.'
+  mood: warm, bold, reassuring
+  queries:
+  - woman walking
+  - sky
+  caption: 'Too much for the wrong people, just right for yours 💗
+
+    Tag your person.'
+  hashtags:
+  - '#confidence'
+  - '#selfworth'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 20
+  category: humor
+  text: 'Told myself one episode.
+
+    Three seasons later, still here.'
+  mood: funny, cozy, relatable
+  queries:
+  - rain window
+  - tea
+  caption: 'One episode, famous last words 📺
+
+    Tag your binge-watching buddy.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#binge'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 21
+  category: motivation
+  text: 'You already survived
+
+    every hard day so far.'
+  mood: warm, reassuring, soft
+  queries:
+  - dandelion
+  - sky
+  caption: '100 percent survival rate so far 🌼
+
+    Tag someone who needed this today.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 22
+  category: self_love
+  text: 'Be gentle with yourself,
+
+    you are doing your best.'
+  mood: warm, soothing, soft
+  queries:
+  - rain window
+  - moon
+  caption: 'A gentle reminder for tonight 💗
+
+    Save this before you sleep.'
+  hashtags:
+  - '#selflove'
+  - '#bekind'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#selfcare'
+  - '#quotesdaily'
+- id: 23
+  category: confidence
+  text: 'You don''t need validation,
+
+    you need to trust yourself.'
+  mood: bold, calm, strong
+  queries:
+  - sea sunset
+  - city night
+  caption: 'Trust yourself a little louder today 🌊
+
+    Save this reminder.'
+  hashtags:
+  - '#confidence'
+  - '#selftrust'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 24
+  category: humor
+  text: 'My wallet says stop.
+
+    My group chat says Goa trip.'
+  mood: funny, playful, relatable
+  queries:
+  - beach
+  - sunset
+  caption: 'Wallet vs group chat, group chat always wins 😅
+
+    Tag your trip planning squad.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#traveldiaries'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 25
+  category: motivation
+  text: 'Progress is quiet,
+
+    keep showing up for it.'
+  mood: calm, steady, soft
+  queries:
+  - clouds
+  - butterfly
+  caption: 'Quiet progress is still progress 🦋
+
+    Save this for your next slow day.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 26
+  category: self_love
+  text: 'Your feelings are valid,
+
+    even on your messy days.'
+  mood: soft, calm, cozy
+  queries:
+  - tulips
+  - rain
+  caption: 'Your emotions are not too much 🤍
+
+    Save this for your messy days.'
+  hashtags:
+  - '#selflove'
+  - '#mentalhealthmatters'
+  - '#softlife'
+  - '#aestheticquotes'
+  - '#healing'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 27
+  category: confidence
+  text: 'Bet on yourself,
+
+    the odds are better than you think.'
+  mood: bold, uplifting, energetic
+  queries:
+  - sunset
+  - girl walking
+  caption: 'Place your bet on yourself today 🎯
+
+    Tag someone who bets big.'
+  hashtags:
+  - '#confidence'
+  - '#motivation'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#selfworth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 28
+  category: humor
+  text: 'Step 1: make a budget.
+
+    Step 2: ignore the budget completely.'
+  mood: funny, light, relatable
+  queries:
+  - coffee
+  - book
+  caption: 'Budgeting is a two step process apparently 😂
+
+    Save this for your next budget attempt.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#budgeting'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 29
+  category: motivation
+  text: 'The version of you
+
+    that you''re working towards is real.'
+  mood: soft, hopeful, calm
+  queries:
+  - sky
+  - sunflower
+  caption: 'She''s closer than you think 🌻
+
+    Tag someone becoming her.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 30
+  category: self_love
+  text: 'Loving yourself is not selfish,
+
+    it is survival.'
+  mood: calm, warm, gentle
+  queries:
+  - cherry blossom
+  - moon
+  caption: 'Say it with me today 🌸
+
+    Tag a friend who needs this.'
+  hashtags:
+  - '#selflove'
+  - '#selfworth'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#womensupportingwomen'
+  - '#selflovejourney'
+- id: 31
+  category: confidence
+  text: 'Your confidence should not depend
+
+    on anyone else''s opinion.'
+  mood: bold, calm, grounded
+  queries:
+  - beach
+  - sky
+  caption: 'Their opinion is not your business 💫
+
+    Save this for comparison days.'
+  hashtags:
+  - '#confidence'
+  - '#selfworth'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 32
+  category: humor
+  text: 'My plants are dying
+
+    but my Pinterest board is thriving.'
+  mood: funny, relatable, light
+  queries:
+  - flowers
+  - book
+  caption: 'At least something is growing 😂
+
+    Tag your plant-killing partner in crime.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#pinterest'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 33
+  category: motivation
+  text: 'One more try
+
+    is how most good things started.'
+  mood: soft, encouraging, light
+  queries:
+  - grass field
+  - dandelion
+  caption: 'One more try, that''s all it takes 🌾
+
+    Save this before you quit.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 34
+  category: self_love
+  text: 'You are not behind in life,
+
+    you are exactly on time.'
+  mood: calm, dreamy, reassuring
+  queries:
+  - pink sky
+  - lake
+  caption: 'Your timeline is yours only 🌷
+
+    Save this for comparison days.'
+  hashtags:
+  - '#selflove'
+  - '#softlife'
+  - '#selfworth'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 35
+  category: confidence
+  text: 'Speak like what you say
+
+    matters, because it does.'
+  mood: bold, powerful, warm
+  queries:
+  - city night
+  - woman walking
+  caption: 'Say it loud, say it proud 🔥
+
+    Tag someone with something to say.'
+  hashtags:
+  - '#confidence'
+  - '#girlpower'
+  - '#aestheticquotes'
+  - '#motivation'
+  - '#selfworth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 36
+  category: humor
+  text: 'I said I''d sleep early.
+
+    It is 2 AM and I am texting my best friend.'
+  mood: funny, cozy, relatable
+  queries:
+  - moon
+  - stars night
+  caption: 'Sleep is a myth after 11 PM 🌙
+
+    Tag your 2 AM texting partner.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#nightowl'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 37
+  category: motivation
+  text: 'Your effort today
+
+    is tomorrow''s comfort.'
+  mood: calm, soft, grounded
+  queries:
+  - autumn leaves
+  - sky
+  caption: 'Future you says thank you 🍂
+
+    Save this for your tired days.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 38
+  category: self_love
+  text: 'Your peace is more important
+
+    than being understood by everyone.'
+  mood: calm, quiet, soft
+  queries:
+  - clouds
+  - lake
+  caption: 'Protect your peace this week 🤍
+
+    Save this as your reminder.'
+  hashtags:
+  - '#selflove'
+  - '#peace'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 39
+  category: confidence
+  text: 'Be the main character,
+
+    not a background extra in your own life.'
+  mood: bold, fun, uplifting
+  queries:
+  - sunset
+  - girl walking
+  caption: 'Main character energy only today ✨
+
+    Tag your co-star.'
+  hashtags:
+  - '#confidence'
+  - '#mainCharacterEnergy'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 40
+  category: humor
+  text: 'My horoscope said be bold today.
+
+    I ordered dessert first.'
+  mood: funny, light, playful
+  queries:
+  - coffee
+  - moon
+  caption: 'Boldness looks different for everyone 🍰
+
+    Tag your dessert-first bestie.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#horoscope'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 41
+  category: motivation
+  text: 'Nothing changes
+
+    if you keep waiting for the perfect moment.'
+  mood: soft, firm, encouraging
+  queries:
+  - clouds
+  - stars night
+  caption: 'The perfect moment is a myth, start now ⭐
+
+    Tag someone who needs this nudge.'
+  hashtags:
+  - '#motivation'
+  - '#softmotivation'
+  - '#aestheticquotes'
+  - '#growth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#inspiration'
+  - '#selfgrowth'
+- id: 42
+  category: self_love
+  text: 'It''s okay to outgrow people,
+
+    even the ones you loved.'
+  mood: soft, bittersweet, gentle
+  queries:
+  - rain window
+  - moon
+  caption: 'Growth is allowed to be quiet 🌙
+
+    Save this for the hard goodbyes.'
+  hashtags:
+  - '#selflove'
+  - '#growth'
+  - '#healing'
+  - '#softlife'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 43
+  category: confidence
+  text: 'You are not too much,
+
+    the room was just too small.'
+  mood: bold, reassuring, fierce
+  queries:
+  - city night
+  - sea sunset
+  caption: 'Find bigger rooms, not smaller selves 🌊
+
+    Save this for later.'
+  hashtags:
+  - '#confidence'
+  - '#selfworth'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 44
+  category: humor
+  text: 'Diet starts Monday.
+
+    It is now Wednesday, we don''t talk about it.'
+  mood: funny, relatable, light
+  queries:
+  - coffee
+  - book
+  caption: 'Monday is just a suggestion at this point 😂
+
+    Tag your diet-starting partner.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#mondaymotivation'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 45
+  category: self_love
+  text: 'You are allowed to say no
+
+    without a long explanation.'
+  mood: calm, grounded, soft
+  queries:
+  - tulips
+  - candle
+  caption: 'No is a full sentence 🤍
+
+    Save this before your next yes.'
+  hashtags:
+  - '#selflove'
+  - '#boundaries'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 46
+  category: confidence
+  text: 'Act like the person
+
+    you are becoming, starting now.'
+  mood: bold, calm, aspirational
+  queries:
+  - woman walking
+  - sky
+  caption: 'Become her, starting today 💫
+
+    Tag someone leveling up.'
+  hashtags:
+  - '#confidence'
+  - '#growth'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 47
+  category: humor
+  text: 'My notes app has 47 ideas.
+
+    I have finished exactly zero.'
+  mood: funny, relatable, light
+  queries:
+  - book
+  - city night
+  caption: 'The idea graveyard is real 📱
+
+    Tag your fellow dreamer-not-doer.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#ideas'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 48
+  category: self_love
+  text: 'The way you talk to yourself
+
+    matters more than you think.'
+  mood: calm, soft, reflective
+  queries:
+  - pink sky
+  - candle
+  caption: 'Speak to yourself like someone you love 💗
+
+    Save this reminder.'
+  hashtags:
+  - '#selflove'
+  - '#selftalk'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 49
+  category: confidence
+  text: 'Nobody is you,
+
+    and that is your advantage.'
+  mood: bold, warm, uplifting
+  queries:
+  - beach
+  - sunset
+  caption: 'Your only competition is yesterday''s you 🔥
+
+    Save this for self-doubt days.'
+  hashtags:
+  - '#confidence'
+  - '#selfworth'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 50
+  category: humor
+  text: 'I don''t have a type.
+
+    I have a pattern and it is concerning.'
+  mood: funny, relatable, playful
+  queries:
+  - city night
+  - sunset
+  caption: 'We don''t talk about the pattern 😂
+
+    Tag the friend who gets it.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#datinglife'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 51
+  category: self_love
+  text: 'You don''t need to be perfect
+
+    to be worthy of good things.'
+  mood: warm, gentle, calm
+  queries:
+  - flowers
+  - moon
+  caption: 'Good things don''t need perfect people 🌸
+
+    Tag someone who deserves this.'
+  hashtags:
+  - '#selflove'
+  - '#selfworth'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#womensupportingwomen'
+  - '#selflovejourney'
+- id: 52
+  category: confidence
+  text: 'Stand tall even on days
+
+    you feel like sitting it out.'
+  mood: bold, calm, steady
+  queries:
+  - girl walking
+  - city night
+  caption: 'Stand tall, even on the quiet days 💪
+
+    Tag your strongest friend.'
+  hashtags:
+  - '#confidence'
+  - '#girlpower'
+  - '#aestheticquotes'
+  - '#motivation'
+  - '#selfworth'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 53
+  category: humor
+  text: 'My bank account cried today.
+
+    So did my card at the mall.'
+  mood: funny, relatable, playful
+  queries:
+  - city night
+  - coffee
+  caption: 'The mall saw me coming 🛍️
+
+    Tag your shopping partner in crime.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#shopaholic'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 54
+  category: self_love
+  text: 'Give yourself the same kindness
+
+    you give your best friend.'
+  mood: soft, warm, gentle
+  queries:
+  - cherry blossom
+  - rain window
+  caption: 'Be your own best friend today 🤍
+
+    Save this as a gentle nudge.'
+  hashtags:
+  - '#selflove'
+  - '#bekind'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 55
+  category: confidence
+  text: 'Your energy introduces you
+
+    before you even speak.'
+  mood: bold, magnetic, calm
+  queries:
+  - sunset
+  - sea sunset
+  caption: 'Let your energy do the talking ✨
+
+    Save this before your next room.'
+  hashtags:
+  - '#confidence'
+  - '#energy'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 56
+  category: humor
+  text: 'I plan my outfits
+
+    better than I plan my future.'
+  mood: funny, relatable, light
+  queries:
+  - book
+  - coffee
+  caption: 'Priorities, we have them 👗
+
+    Tag your fellow outfit planner.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#ootd'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 57
+  category: self_love
+  text: 'You are a whole person,
+
+    not a work in progress to fix.'
+  mood: calm, affirming, soft
+  queries:
+  - tulips
+  - lake
+  caption: 'You are not a project 💗
+
+    Save this for the self-doubt days.'
+  hashtags:
+  - '#selflove'
+  - '#selfworth'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 58
+  category: confidence
+  text: 'Choose yourself today,
+
+    nobody else is going to do it first.'
+  mood: bold, warm, empowering
+  queries:
+  - beach
+  - woman walking
+  caption: 'Choose yourself, no permission needed 💗
+
+    Tag a girl choosing herself too.'
+  hashtags:
+  - '#confidence'
+  - '#selfworth'
+  - '#aestheticquotes'
+  - '#girlpower'
+  - '#motivation'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#empoweredwomen'
+- id: 59
+  category: humor
+  text: 'My phone battery lasts longer
+
+    than my patience in traffic.'
+  mood: funny, relatable, playful
+  queries:
+  - city night
+  - sunset
+  caption: 'Traffic really tests something in me 🚗
+
+    Tag your road rage buddy.'
+  hashtags:
+  - '#girlhumor'
+  - '#relatable'
+  - '#funny'
+  - '#traffic'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#indiangirlhumor'
+- id: 60
+  category: self_love
+  text: 'Your worth was never up
+
+    for anyone else''s debate.'
+  mood: calm, strong, gentle
+  queries:
+  - pink sky
+  - clouds
+  caption: 'This one''s non-negotiable 🤍
+
+    Save this for the doubting days.'
+  hashtags:
+  - '#selflove'
+  - '#selfworth'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
+- id: 61
+  category: self_love
+  text: 'You can be a work in progress
+
+    and still be proud today.'
+  mood: warm, calm, dreamy
+  queries:
+  - flowers
+  - moon
+  caption: 'Progress over perfection, always 🌙
+
+    Tag someone growing quietly.'
+  hashtags:
+  - '#selflove'
+  - '#growth'
+  - '#softlife'
+  - '#healing'
+  - '#aestheticquotes'
+  - '#dhruviverse'
+  - '#quotesdaily'
+  - '#selflovejourney'
