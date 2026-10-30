@@ -50,6 +50,19 @@
         "youtube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261030",
+      "type": "illustrated",
+      "lang": "gu",
+      "hook": "100 ફોટા પાડ્યા પછી પણ કહેવાનું: એકપણ સારો નથી આવ્યો!",
+      "date": "2026-10-30T21:47+05:30",
+      "instagram": "18124242802980512",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
+      ],
+      "success": true
     }
   ]
 }
