@@ -102,6 +102,19 @@
         "youtube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261103",
+      "type": "illustrated",
+      "lang": "gu",
+      "hook": "નાની નાની વાતે રડી પડતી છોકરી, મોટા દુઃખ સાવ એકલી જ સહન કરી લે છે.",
+      "date": "2026-11-03T21:54+05:30",
+      "instagram": "18127545626297770",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
+      ],
+      "success": true
     }
   ]
 }
