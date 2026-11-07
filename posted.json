@@ -154,6 +154,19 @@
         "youtube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261107",
+      "type": "illustrated",
+      "lang": "gu",
+      "hook": "તારી સાથે હોઉં ત્યારે, filter ચહેરા પર પણ નથી જોઈતું અને વાતોમાં પણ નહીં.",
+      "date": "2026-11-07T21:37+05:30",
+      "instagram": "18122049389081718",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
+      ],
+      "success": true
     }
   ]
 }
