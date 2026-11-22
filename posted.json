@@ -336,6 +336,19 @@
         "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261122",
+      "type": "illustrated",
+      "lang": "hi",
+      "hook": "अब किसी की मंज़ूरी की ज़रूरत नहीं, मुझे पता है मैं क्या चीज़ हूँ।",
+      "date": "2026-11-22T21:44+05:30",
+      "instagram": "18102591857556994",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
+      ],
+      "success": true
     }
   ]
 }
