@@ -349,6 +349,19 @@
         "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261123",
+      "type": "illustrated",
+      "lang": "gu",
+      "hook": "મારો રસ્તો અલગ છે, એટલે હું ખાસ છું.",
+      "date": "2026-11-23T21:58+05:30",
+      "instagram": "18139330618734059",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
+      ],
+      "success": true
     }
   ]
 }
