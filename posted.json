@@ -362,6 +362,19 @@
         "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261124",
+      "type": "illustrated",
+      "lang": "en",
+      "hook": "Sometimes I just need silence, and the warmth of home.",
+      "date": "2026-11-24T22:07+05:30",
+      "instagram": "18129222232910123",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
+      ],
+      "success": true
     }
   ]
 }
