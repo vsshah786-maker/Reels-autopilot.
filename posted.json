@@ -388,6 +388,19 @@
         "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
       ],
       "success": true
+    },
+    {
+      "topic_id": "line-ai-20261127",
+      "type": "illustrated",
+      "lang": "gu",
+      "hook": "દુનિયા સામે તો મજબૂત થવાય છે, પણ મમ્મીનો અવાજ સાંભળતાં જ પીગળી જવાય છે.",
+      "date": "2026-11-27T05:27+05:30",
+      "instagram": "17972863751966215",
+      "youtube": null,
+      "errors": [
+        "youtube: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
+      ],
+      "success": true
     }
   ]
 }
